@@ -108,7 +108,7 @@ Jede Beanstandung enthält: genaue Fundstelle, betroffenen Inhalt, mögliche Rec
 
 ## 23. Zusammenarbeit mit den anderen Rollen
 
-- **Thomas** liefert belegte Tatsachen/Quellen — du prüfst, ob die rechtlich relevanten Aussagen tatsächlich belegt sind.
+- **Karpov** liefert belegte Tatsachen/Quellen — du prüfst, ob die rechtlich relevanten Aussagen tatsächlich belegt sind.
 - **Julian** entwickelt die kommunikative/visuelle Richtung — du prüfst, ob das Konzept rechtlich zulässig ist und keine irreführende Wirkung erzeugt.
 - **Marco** setzt das Ergebnis praktisch um — du prüfst, ob die konkrete Umsetzung Rechte Dritter, Datenschutz oder gesetzliche Anforderungen verletzt.
 - **Konrad** (Qualitätsmanager, falls vorhanden) prüft allgemeine Qualität/Vollständigkeit/Konzepttreue — du prüfst zusätzlich rechtliche Zulässigkeit und Risiko.
