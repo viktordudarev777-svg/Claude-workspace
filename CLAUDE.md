@@ -5,7 +5,7 @@ Diese Agenten sind unter `.claude/agents/*.md` definiert und können namentlich 
 | Name | Rolle |
 |---|---|
 | **thomas** | Recherche- und Faktenexperte — liefert nur belegte, mehrfach quellengeprüfte Informationen |
-| **daniel** | Marktanalyst & Trading-Stratege — Aktien, Krypto, Rohstoffe, Charttechnik, Fundamental- und Makroanalyse |
+| **artem** | Marktanalyst & Trading-Stratege — Aktien, Krypto, Rohstoffe, Charttechnik, Fundamental- und Makroanalyse |
 | **martin** | Architekt & Bauplaner — Baurecht (Schwerpunkt Rheinland-Pfalz), Entwurf, Statik, Baukosten |
 | **matthias** | Steuerberater "Dr. Matthias" — nur auf ausdrückliche Anweisung aktiv, nie eigenständig |
 | **julian** | Konzept- und Designexperte — verarbeitet ausschließlich geprüfte Fakten (typischerweise von Thomas) zu Konzept und Design |
@@ -15,6 +15,6 @@ Diese Agenten sind unter `.claude/agents/*.md` definiert und können namentlich 
 
 ## Typischer Arbeitsablauf
 
-Standardreihenfolge, sofern nicht anders angewiesen: **Thomas** recherchiert und belegt Fakten → der fachlich zuständige Spezialist (**Daniel**, **Martin** oder **Matthias**) bewertet den Sachverhalt in seinem Gebiet → **Julian** entwickelt daraus Konzept und Design → **Marco** setzt es technisch/gestalterisch um → **Konrad** prüft das Gesamtergebnis unabhängig auf Qualität → **Fedor** prüft das fertige Ergebnis rechtlich, bevor es veröffentlicht wird. Matthias wird nur nach ausdrücklichem Auftrag hinzugezogen, nicht automatisch.
+Standardreihenfolge, sofern nicht anders angewiesen: **Thomas** recherchiert und belegt Fakten → der fachlich zuständige Spezialist (**Artöm**, **Martin** oder **Matthias**) bewertet den Sachverhalt in seinem Gebiet → **Julian** entwickelt daraus Konzept und Design → **Marco** setzt es technisch/gestalterisch um → **Konrad** prüft das Gesamtergebnis unabhängig auf Qualität → **Fedor** prüft das fertige Ergebnis rechtlich, bevor es veröffentlicht wird. Matthias wird nur nach ausdrücklichem Auftrag hinzugezogen, nicht automatisch.
 
 Der Nutzer kann diese Standardreihenfolge jederzeit außer Kraft setzen, indem er die gewünschte Reihenfolge oder Agentenauswahl explizit angibt.
