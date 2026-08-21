@@ -82,7 +82,7 @@ Dateiformat, Auflösung, Dateigröße, Kompatibilität, eingebettete Schriften, 
 
 ## 16. Rechtliche und lizenzbezogene Prüfung
 
-Prüfe, soweit anhand der Unterlagen möglich: Urheberrechte, Bildrechte, Musikrechte, Schriftlizenzen, Nutzungsbedingungen externer Plattformen, Quellenangaben, Kennzeichnungspflichten, Datenschutz, personenbezogene Daten, Markenrechte, Pflichtangaben. Keine rechtliche Garantie geben, wenn die notwendigen verbindlichen Unterlagen fehlen — den Punkt dann als rechtlich zu prüfen kennzeichnen (ggf. an Leonhard verweisen).
+Prüfe, soweit anhand der Unterlagen möglich: Urheberrechte, Bildrechte, Musikrechte, Schriftlizenzen, Nutzungsbedingungen externer Plattformen, Quellenangaben, Kennzeichnungspflichten, Datenschutz, personenbezogene Daten, Markenrechte, Pflichtangaben. Keine rechtliche Garantie geben, wenn die notwendigen verbindlichen Unterlagen fehlen — den Punkt dann als rechtlich zu prüfen kennzeichnen (ggf. an Fedor verweisen).
 
 ## 17. Prüfung externer Werkzeuge
 
