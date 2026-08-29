@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Учёт клиентов страхового агента</title>
+<style>
+  :root {
+    --bg: #f4f6f8;
+    --card-bg: #ffffff;
+    --border: #dde3ea;
+    --text: #1f2937;
+    --text-muted: #6b7280;
+    --primary: #2563eb;
+    --primary-dark: #1d4ed8;
+    --danger: #dc2626;
+    --danger-dark: #b91c1c;
+    --warn-bg: #fff3cd;
+    --warn-border: #ffe08a;
+    --expired-bg: #fde2e1;
+    --expired-border: #f5a9a6;
+    --radius: 8px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 24px;
+  }
+  h1 {
+    font-size: 22px;
+    margin: 0 0 16px;
+  }
+  h2 {
+    font-size: 16px;
+    margin: 0 0 12px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px 20px;
+    margin-bottom: 20px;
+  }
+  .reminders {
+    display: none;
+  }
+  .reminders.has-items {
+    display: block;
+  }
+  .reminder-group {
+    margin-bottom: 10px;
+  }
+  .reminder-group:last-child { margin-bottom: 0; }
+  .reminder-title {
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  .reminder-title.d30 { color: #92720c; }
+  .reminder-title.d14 { color: #b45309; }
+  .reminder-title.d7 { color: var(--danger-dark); }
+  .reminder-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .reminder-chip {
+    font-size: 12.5px;
+    padding: 5px 10px;
+    border-radius: 999px;
+    border: 1px solid;
+    white-space: nowrap;
+  }
+  .reminder-chip.d30 { background: var(--warn-bg); border-color: var(--warn-border); color: #6b5300; }
+  .reminder-chip.d14 { background: #ffe6c7; border-color: #ffcd94; color: #8a4b00; }
+  .reminder-chip.d7 { background: var(--expired-bg); border-color: var(--expired-border); color: var(--danger-dark); }
+  .empty-reminders {
+    color: var(--text-muted);
+    font-size: 13.5px;
+  }
+
+  form#clientForm {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px 14px;
+  }
+  form#clientForm .field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  form#clientForm .field.wide {
+    grid-column: span 2;
+  }
+  form#clientForm .field.full {
+    grid-column: 1 / -1;
+  }
+  label {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+  input, select, textarea {
+    font-family: inherit;
+    font-size: 14px;
+    padding: 8px 10px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: #fff;
+    color: var(--text);
+    outline: none;
+  }
+  input:focus, select:focus, textarea:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.12);
+  }
+  textarea {
+    resize: vertical;
+    min-height: 40px;
+  }
+  .form-actions {
+    grid-column: 1 / -1;
+    display: flex;
+    gap: 10px;
+    margin-top: 4px;
+  }
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 9px 18px;
+    font-family: inherit;
+  }
+  .btn-primary {
+    background: var(--primary);
+    color: #fff;
+  }
+  .btn-primary:hover { background: var(--primary-dark); }
+  .btn-secondary {
+    background: #e5e7eb;
+    color: var(--text);
+  }
+  .btn-secondary:hover { background: #d1d5db; }
+  .btn-danger {
+    background: transparent;
+    color: var(--danger);
+    border: 1px solid var(--danger);
+    padding: 5px 10px;
+    font-size: 12.5px;
+  }
+  .btn-danger:hover { background: var(--danger); color: #fff; }
+  .btn-edit {
+    background: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    padding: 5px 10px;
+    font-size: 12.5px;
+  }
+  .btn-edit:hover { background: var(--primary); color: #fff; }
+
+  .toolbar {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+  .toolbar input[type="text"] {
+    flex: 1;
+    min-width: 220px;
+  }
+  .toolbar select {
+    min-width: 160px;
+  }
+  .count-badge {
+    font-size: 12.5px;
+    color: var(--text-muted);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+  }
+  thead th {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 2px solid var(--border);
+    color: var(--text-muted);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+  thead th.sortable {
+    cursor: pointer;
+    user-select: none;
+  }
+  thead th.sortable:hover { color: var(--text); }
+  tbody td {
+    padding: 9px 10px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tbody tr.row-expiring-soon { background: var(--warn-bg); }
+  tbody tr.row-expired { background: var(--expired-bg); }
+  tbody tr:hover { filter: brightness(0.97); }
+  .notes-cell {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .status-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11.5px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .status-активен { background: #d1fae5; color: #065f46; }
+  .status-истёк { background: #fee2e2; color: #991b1b; }
+  .status-продлён { background: #dbeafe; color: #1e40af; }
+  .status-отменён { background: #e5e7eb; color: #374151; }
+  .actions-cell {
+    display: flex;
+    gap: 6px;
+    white-space: nowrap;
+  }
+  .empty-state {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 30px 10px;
+    font-size: 14px;
+  }
+  .table-wrap {
+    overflow-x: auto;
+  }
+  @media (max-width: 900px) {
+    form#clientForm { grid-template-columns: repeat(2, 1fr); }
+    form#clientForm .field.wide { grid-column: span 2; }
+  }
+  @media (max-width: 560px) {
+    form#clientForm { grid-template-columns: 1fr; }
+    form#clientForm .field.wide { grid-column: span 1; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Учёт клиентов страхового агента</h1>
+
+  <div class="card reminders" id="remindersCard">
+    <h2>Напоминания об окончании страховок</h2>
+    <div id="remindersContent"></div>
+  </div>
+
+  <div class="card">
+    <h2 id="formTitle">Добавить клиента</h2>
+    <form id="clientForm">
+      <input type="hidden" id="clientId">
+
+      <div class="field">
+        <label for="firstName">Имя (Vorname) *</label>
+        <input type="text" id="firstName" required>
+      </div>
+      <div class="field">
+        <label for="lastName">Фамилия (Nachname) *</label>
+        <input type="text" id="lastName" required>
+      </div>
+      <div class="field">
+        <label for="phone">Телефон</label>
+        <input type="tel" id="phone">
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email">
+      </div>
+
+      <div class="field wide">
+        <label for="company">Страховая компания (Versicherung) *</label>
+        <input type="text" id="company" required>
+      </div>
+      <div class="field wide">
+        <label for="policyNumber">Номер страхового полиса</label>
+        <input type="text" id="policyNumber">
+      </div>
+
+      <div class="field">
+        <label for="startDate">Дата начала страховки</label>
+        <input type="date" id="startDate">
+      </div>
+      <div class="field">
+        <label for="endDate">Дата окончания страховки *</label>
+        <input type="date" id="endDate" required>
+      </div>
+      <div class="field wide">
+        <label for="status">Статус</label>
+        <select id="status">
+          <option value="активен">Активен</option>
+          <option value="истёк">Истёк</option>
+          <option value="продлён">Продлён</option>
+          <option value="отменён">Отменён</option>
+        </select>
+      </div>
+
+      <div class="field full">
+        <label for="notes">Заметки</label>
+        <textarea id="notes" rows="2"></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn-primary" id="submitBtn">Добавить клиента</button>
+        <button type="button" class="btn-secondary" id="cancelEditBtn" style="display:none;">Отменить редактирование</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="card">
+    <h2>Список клиентов</h2>
+    <div class="toolbar">
+      <input type="text" id="searchInput" placeholder="Поиск по имени, фамилии, номеру полиса или страховой компании...">
+      <select id="statusFilter">
+        <option value="">Все статусы</option>
+        <option value="активен">Активен</option>
+        <option value="истёк">Истёк</option>
+        <option value="продлён">Продлён</option>
+        <option value="отменён">Отменён</option>
+      </select>
+      <span class="count-badge" id="countBadge"></span>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Имя</th>
+            <th>Фамилия</th>
+            <th>Телефон</th>
+            <th>Email</th>
+            <th>Страховая</th>
+            <th>Номер полиса</th>
+            <th>Начало</th>
+            <th class="sortable" id="sortByEndDate">Окончание ▾</th>
+            <th>Статус</th>
+            <th>Заметки</th>
+            <th>Действия</th>
+          </tr>
+        </thead>
+        <tbody id="clientsTableBody"></tbody>
+      </table>
+      <div class="empty-state" id="emptyState" style="display:none;">Клиентов пока нет. Добавьте первого клиента с помощью формы выше.</div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const STORAGE_KEY = 'insuranceClients';
+
+  /** @type {Array<Object>} */
+  let clients = loadClients();
+  let editingId = null;
+  let sortDirection = 'asc';
+
+  const form = document.getElementById('clientForm');
+  const clientIdInput = document.getElementById('clientId');
+  const firstNameInput = document.getElementById('firstName');
+  const lastNameInput = document.getElementById('lastName');
+  const phoneInput = document.getElementById('phone');
+  const emailInput = document.getElementById('email');
+  const companyInput = document.getElementById('company');
+  const policyNumberInput = document.getElementById('policyNumber');
+  const startDateInput = document.getElementById('startDate');
+  const endDateInput = document.getElementById('endDate');
+  const statusInput = document.getElementById('status');
+  const notesInput = document.getElementById('notes');
+  const submitBtn = document.getElementById('submitBtn');
+  const cancelEditBtn = document.getElementById('cancelEditBtn');
+  const formTitle = document.getElementById('formTitle');
+
+  const searchInput = document.getElementById('searchInput');
+  const statusFilter = document.getElementById('statusFilter');
+  const tableBody = document.getElementById('clientsTableBody');
+  const emptyState = document.getElementById('emptyState');
+  const countBadge = document.getElementById('countBadge');
+  const sortByEndDateHeader = document.getElementById('sortByEndDate');
+  const remindersCard = document.getElementById('remindersCard');
+  const remindersContent = document.getElementById('remindersContent');
+
+  function loadClients() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      return raw ? JSON.parse(raw) : [];
+    } catch (e) {
+      console.error('Не удалось загрузить данные из localStorage:', e);
+      return [];
+    }
+  }
+
+  function saveClients() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(clients));
+  }
+
+  function generateId() {
+    return 'c_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 8);
+  }
+
+  function todayMidnight() {
+    const d = new Date();
+    d.setHours(0, 0, 0, 0);
+    return d;
+  }
+
+  function daysUntil(dateStr) {
+    if (!dateStr) return null;
+    const end = new Date(dateStr + 'T00:00:00');
+    const diffMs = end - todayMidnight();
+    return Math.round(diffMs / 86400000);
+  }
+
+  function formatDate(dateStr) {
+    if (!dateStr) return '—';
+    const [y, m, d] = dateStr.split('-');
+    return `${d}.${m}.${y}`;
+  }
+
+  function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str == null ? '' : str;
+    return div.innerHTML;
+  }
+
+  function resetForm() {
+    form.reset();
+    clientIdInput.value = '';
+    editingId = null;
+    statusInput.value = 'активен';
+    submitBtn.textContent = 'Добавить клиента';
+    formTitle.textContent = 'Добавить клиента';
+    cancelEditBtn.style.display = 'none';
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const client = {
+      id: editingId || generateId(),
+      firstName: firstNameInput.value.trim(),
+      lastName: lastNameInput.value.trim(),
+      phone: phoneInput.value.trim(),
+      email: emailInput.value.trim(),
+      company: companyInput.value.trim(),
+      policyNumber: policyNumberInput.value.trim(),
+      startDate: startDateInput.value,
+      endDate: endDateInput.value,
+      status: statusInput.value,
+      notes: notesInput.value.trim(),
+    };
+
+    if (editingId) {
+      const idx = clients.findIndex(c => c.id === editingId);
+      if (idx !== -1) clients[idx] = client;
+    } else {
+      clients.push(client);
+    }
+
+    saveClients();
+    resetForm();
+    render();
+  });
+
+  cancelEditBtn.addEventListener('click', resetForm);
+
+  function startEdit(id) {
+    const client = clients.find(c => c.id === id);
+    if (!client) return;
+    editingId = id;
+    clientIdInput.value = id;
+    firstNameInput.value = client.firstName;
+    lastNameInput.value = client.lastName;
+    phoneInput.value = client.phone;
+    emailInput.value = client.email;
+    companyInput.value = client.company;
+    policyNumberInput.value = client.policyNumber;
+    startDateInput.value = client.startDate;
+    endDateInput.value = client.endDate;
+    statusInput.value = client.status;
+    notesInput.value = client.notes;
+
+    submitBtn.textContent = 'Сохранить изменения';
+    formTitle.textContent = 'Редактировать клиента';
+    cancelEditBtn.style.display = 'inline-block';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function deleteClient(id) {
+    const client = clients.find(c => c.id === id);
+    const name = client ? `${client.firstName} ${client.lastName}` : 'этого клиента';
+    if (!confirm(`Удалить клиента "${name}"? Это действие нельзя отменить.`)) return;
+    clients = clients.filter(c => c.id !== id);
+    saveClients();
+    if (editingId === id) resetForm();
+    render();
+  }
+
+  function getRowClass(endDate) {
+    const days = daysUntil(endDate);
+    if (days === null) return '';
+    if (days < 0) return 'row-expired';
+    if (days <= 30) return 'row-expiring-soon';
+    return '';
+  }
+
+  function getFilteredSortedClients() {
+    const query = searchInput.value.trim().toLowerCase();
+    const statusVal = statusFilter.value;
+
+    let filtered = clients.filter(c => {
+      const matchesQuery = !query || [c.firstName, c.lastName, c.policyNumber, c.company]
+        .some(field => (field || '').toLowerCase().includes(query));
+      const matchesStatus = !statusVal || c.status === statusVal;
+      return matchesQuery && matchesStatus;
+    });
+
+    filtered.sort((a, b) => {
+      const aDate = a.endDate || '';
+      const bDate = b.endDate || '';
+      if (aDate === bDate) return 0;
+      const cmp = aDate < bDate ? -1 : 1;
+      return sortDirection === 'asc' ? cmp : -cmp;
+    });
+
+    return filtered;
+  }
+
+  function renderTable() {
+    const filtered = getFilteredSortedClients();
+
+    tableBody.innerHTML = '';
+    emptyState.style.display = filtered.length === 0 ? 'block' : 'none';
+
+    filtered.forEach(client => {
+      const tr = document.createElement('tr');
+      const rowClass = getRowClass(client.endDate);
+      if (rowClass) tr.className = rowClass;
+
+      tr.innerHTML = `
+        <td>${escapeHtml(client.firstName)}</td>
+        <td>${escapeHtml(client.lastName)}</td>
+        <td>${escapeHtml(client.phone)}</td>
+        <td>${escapeHtml(client.email)}</td>
+        <td>${escapeHtml(client.company)}</td>
+        <td>${escapeHtml(client.policyNumber)}</td>
+        <td>${formatDate(client.startDate)}</td>
+        <td>${formatDate(client.endDate)}</td>
+        <td><span class="status-badge status-${escapeHtml(client.status)}">${escapeHtml(client.status)}</span></td>
+        <td class="notes-cell" title="${escapeHtml(client.notes)}">${escapeHtml(client.notes)}</td>
+        <td class="actions-cell">
+          <button class="btn-edit" data-action="edit" data-id="${client.id}">Изменить</button>
+          <button class="btn-danger" data-action="delete" data-id="${client.id}">Удалить</button>
+        </td>
+      `;
+      tableBody.appendChild(tr);
+    });
+
+    countBadge.textContent = `Показано: ${filtered.length} из ${clients.length}`;
+  }
+
+  tableBody.addEventListener('click', function (e) {
+    const btn = e.target.closest('button[data-action]');
+    if (!btn) return;
+    const id = btn.getAttribute('data-id');
+    if (btn.getAttribute('data-action') === 'edit') startEdit(id);
+    else if (btn.getAttribute('data-action') === 'delete') deleteClient(id);
+  });
+
+  sortByEndDateHeader.addEventListener('click', function () {
+    sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+    sortByEndDateHeader.textContent = 'Окончание ' + (sortDirection === 'asc' ? '▾' : '▴');
+    renderTable();
+  });
+
+  searchInput.addEventListener('input', renderTable);
+  statusFilter.addEventListener('change', renderTable);
+
+  function renderReminders() {
+    const buckets = { d7: [], d14: [], d30: [] };
+
+    clients.forEach(client => {
+      const days = daysUntil(client.endDate);
+      if (days === null || days < 0) return;
+      if (days <= 7) buckets.d7.push(client);
+      else if (days <= 14) buckets.d14.push(client);
+      else if (days <= 30) buckets.d30.push(client);
+    });
+
+    const hasAny = buckets.d7.length || buckets.d14.length || buckets.d30.length;
+    remindersCard.classList.toggle('has-items', !!hasAny);
+    if (!hasAny) {
+      remindersContent.innerHTML = '';
+      return;
+    }
+
+    function group(title, cls, list) {
+      if (!list.length) return '';
+      list.sort((a, b) => (a.endDate < b.endDate ? -1 : 1));
+      const chips = list.map(c =>
+        `<span class="reminder-chip ${cls}">${escapeHtml(c.firstName)} ${escapeHtml(c.lastName)} — ${escapeHtml(c.company)} (до ${formatDate(c.endDate)})</span>`
+      ).join('');
+      return `<div class="reminder-group">
+        <div class="reminder-title ${cls}">${title} (${list.length})</div>
+        <div class="reminder-list">${chips}</div>
+      </div>`;
+    }
+
+    remindersContent.innerHTML =
+      group('Истекает в ближайшие 7 дней', 'd7', buckets.d7) +
+      group('Истекает в ближайшие 14 дней', 'd14', buckets.d14) +
+      group('Истекает в ближайшие 30 дней', 'd30', buckets.d30);
+  }
+
+  function render() {
+    renderTable();
+    renderReminders();
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>
