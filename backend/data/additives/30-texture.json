@@ -3,27 +3,50 @@
   "additives": [
     {
       "code": "E407",
-      "names": { "ru": "Каррагинан", "en": "Carrageenan" },
+      "names": {
+        "ru": "Каррагинан",
+        "en": "Carrageenan"
+      },
       "category": "thickener",
       "risk": "moderate",
-      "summary": { "ru": "Загуститель из красных водорослей; обсуждается влияние на кишечник.", "en": "Red-seaweed thickener; its effect on the gut is debated." },
+      "summary": {
+        "ru": "Загуститель из красных водорослей; обсуждается влияние на кишечник.",
+        "en": "Red-seaweed thickener; its effect on the gut is debated."
+      },
       "detail": {
         "ru": "Разрешён, ADI 75 мг/кг веса. Спор идёт вокруг деградированного каррагинана (полигенана), который в пищу не допускается, но может образовываться в следовых количествах. В опытах на животных он вызывал воспаление кишечника; надёжных данных о таком эффекте у людей при пищевых дозах нет. Людям с воспалительными заболеваниями кишечника имеет смысл его ограничить.",
         "en": "Authorised with an ADI of 75 mg/kg bw. The debate concerns degraded carrageenan (poligeenan), which is not permitted in food but can appear in trace amounts. In animal studies it caused intestinal inflammation; there is no solid human evidence of this at dietary doses. People with inflammatory bowel disease may reasonably limit it."
       },
-      "concerns": ["gut-microbiome", "ultra-processed-marker"],
+      "concerns": [
+        "gut-microbiome",
+        "ultra-processed-marker"
+      ],
       "origin": "natural",
       "adiMgPerKgBw": 75,
       "restrictedIn": [],
-      "synonyms": ["каррагинан", "карраген", "carrageenan", "irish moss extract"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "каррагинан",
+        "карраген",
+        "carrageenan",
+        "irish moss extract"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E410",
-      "names": { "ru": "Камедь рожкового дерева", "en": "Locust bean gum" },
+      "names": {
+        "ru": "Камедь рожкового дерева",
+        "en": "Locust bean gum"
+      },
       "category": "thickener",
       "risk": "none",
-      "summary": { "ru": "Растительная камедь. Безопасна.", "en": "A plant gum. Safe." },
+      "summary": {
+        "ru": "Растительная камедь. Безопасна.",
+        "en": "A plant gum from carob seeds — ordinary soluble fibre. Safe."
+      },
       "detail": {
         "ru": "Молотые семена рожкового дерева, обычная растворимая клетчатка. ADI не установлен. В больших количествах может слегка пучить — как любая клетчатка.",
         "en": "Ground carob seeds, essentially ordinary soluble fibre. No ADI set. In quantity it can cause mild bloating, like any fibre."
@@ -32,15 +55,29 @@
       "origin": "natural",
       "adiMgPerKgBw": null,
       "restrictedIn": [],
-      "synonyms": ["камедь рожкового дерева", "камедь бобов рожкового дерева", "locust bean gum", "carob gum"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "камедь рожкового дерева",
+        "камедь бобов рожкового дерева",
+        "locust bean gum",
+        "carob gum"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E412",
-      "names": { "ru": "Гуаровая камедь", "en": "Guar gum" },
+      "names": {
+        "ru": "Гуаровая камедь",
+        "en": "Guar gum"
+      },
       "category": "thickener",
       "risk": "none",
-      "summary": { "ru": "Загуститель из бобов гуара. Безопасен.", "en": "Thickener from guar beans. Safe." },
+      "summary": {
+        "ru": "Загуститель из бобов гуара. Безопасен.",
+        "en": "Thickener from guar beans. Safe."
+      },
       "detail": {
         "ru": "Растворимая клетчатка, даже слегка полезная — замедляет всасывание сахара. ADI не установлен. Единственный эффект в больших дозах — вздутие и послабление.",
         "en": "Soluble fibre, mildly beneficial in that it slows sugar absorption. No ADI set. The only effect at high doses is bloating and loose stools."
@@ -49,15 +86,28 @@
       "origin": "natural",
       "adiMgPerKgBw": null,
       "restrictedIn": [],
-      "synonyms": ["гуаровая камедь", "гуар", "guar gum"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "гуаровая камедь",
+        "гуар",
+        "guar gum"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E415",
-      "names": { "ru": "Ксантановая камедь", "en": "Xanthan gum" },
+      "names": {
+        "ru": "Ксантановая камедь",
+        "en": "Xanthan gum"
+      },
       "category": "thickener",
       "risk": "none",
-      "summary": { "ru": "Загуститель, получаемый брожением. Безопасен.", "en": "Fermentation-derived thickener. Safe." },
+      "summary": {
+        "ru": "Загуститель, получаемый брожением. Безопасен.",
+        "en": "Fermentation-derived thickener. Safe."
+      },
       "detail": {
         "ru": "Продукт брожения бактерий Xanthomonas на сахаре. Не переваривается, ведёт себя как растворимая клетчатка. ADI не установлен.",
         "en": "Produced by Xanthomonas bacteria fermenting sugar. Indigestible and behaves like soluble fibre. No ADI set."
@@ -66,49 +116,97 @@
       "origin": "natural",
       "adiMgPerKgBw": null,
       "restrictedIn": [],
-      "synonyms": ["ксантановая камедь", "ксантан", "xanthan gum", "xanthan"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "ксантановая камедь",
+        "ксантан",
+        "xanthan gum",
+        "xanthan"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E420",
-      "names": { "ru": "Сорбит", "en": "Sorbitol" },
+      "names": {
+        "ru": "Сорбит",
+        "en": "Sorbitol"
+      },
       "category": "sweetener",
       "risk": "low",
-      "summary": { "ru": "Сахарный спирт. В количестве даёт слабительный эффект.", "en": "A sugar alcohol. In quantity it has a laxative effect." },
+      "summary": {
+        "ru": "Сахарный спирт. В количестве даёт слабительный эффект.",
+        "en": "A sugar alcohol. In quantity it has a laxative effect."
+      },
       "detail": {
         "ru": "Даёт сладость без большого количества калорий и не разрушает зубы. Плата — газообразование и понос, если съесть больше 20-30 г; по закону ЕС продукт с более чем 10% полиолов обязан нести надпись «чрезмерное употребление может оказывать слабительное действие».",
         "en": "Provides sweetness with fewer calories and does not damage teeth. The cost is gas and diarrhoea above roughly 20-30 g; EU law requires products with over 10% polyols to state 'excessive consumption may produce laxative effects'."
       },
-      "concerns": ["laxative-effect"],
+      "concerns": [
+        "laxative-effect"
+      ],
       "origin": "synthetic",
       "adiMgPerKgBw": null,
       "restrictedIn": [],
-      "synonyms": ["сорбит", "сорбитол", "sorbitol", "sorbitol syrup", "глюцит"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "сорбит",
+        "сорбитол",
+        "sorbitol",
+        "sorbitol syrup",
+        "глюцит"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E433",
-      "names": { "ru": "Полисорбат 80", "en": "Polysorbate 80" },
+      "names": {
+        "ru": "Полисорбат 80",
+        "en": "Polysorbate 80"
+      },
       "category": "emulsifier",
       "risk": "moderate",
-      "summary": { "ru": "Синтетический эмульгатор; обсуждается влияние на микрофлору.", "en": "Synthetic emulsifier; its effect on gut flora is under discussion." },
+      "summary": {
+        "ru": "Синтетический эмульгатор; обсуждается влияние на микрофлору.",
+        "en": "Synthetic emulsifier; its effect on gut flora is under discussion."
+      },
       "detail": {
         "ru": "Групповой ADI полисорбатов 25 мг/кг веса. В работах на мышах полисорбат 80 и КМЦ меняли состав микрофлоры и усиливали воспаление кишечника; у людей есть лишь единичные небольшие исследования. Поводов для паники нет, но это типичный компонент ультрапереработанной еды.",
         "en": "Group ADI for polysorbates is 25 mg/kg bw. In mouse studies polysorbate 80 and CMC altered gut flora and increased intestinal inflammation; in humans only a few small studies exist. Not a reason to panic, but a typical marker of ultra-processed food."
       },
-      "concerns": ["gut-microbiome", "ultra-processed-marker"],
+      "concerns": [
+        "gut-microbiome",
+        "ultra-processed-marker"
+      ],
       "origin": "synthetic",
       "adiMgPerKgBw": 25,
       "restrictedIn": [],
-      "synonyms": ["полисорбат 80", "полиоксиэтиленсорбитан моноолеат", "polysorbate 80", "tween 80"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "полисорбат 80",
+        "полиоксиэтиленсорбитан моноолеат",
+        "polysorbate 80",
+        "tween 80"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E440",
-      "names": { "ru": "Пектины", "en": "Pectins" },
+      "names": {
+        "ru": "Пектины",
+        "en": "Pectins"
+      },
       "category": "thickener",
       "risk": "none",
-      "summary": { "ru": "Клетчатка из яблок и цитрусовых. Безопасен и даже полезен.", "en": "Fibre from apples and citrus. Safe and even beneficial." },
+      "summary": {
+        "ru": "Клетчатка из яблок и цитрусовых. Безопасен и даже полезен.",
+        "en": "Fibre from apples and citrus. Safe and even beneficial."
+      },
       "detail": {
         "ru": "Тот самый пектин, благодаря которому варенье густеет. Растворимая клетчатка, слегка снижает холестерин. ADI не установлен.",
         "en": "The pectin that makes jam set. Soluble fibre that modestly lowers cholesterol. No ADI set."
@@ -117,117 +215,237 @@
       "origin": "natural",
       "adiMgPerKgBw": null,
       "restrictedIn": [],
-      "synonyms": ["пектин", "пектины", "pectin", "pectins", "амидированный пектин"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "пектин",
+        "пектины",
+        "pectin",
+        "pectins",
+        "амидированный пектин"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E450",
-      "names": { "ru": "Дифосфаты", "en": "Diphosphates" },
+      "names": {
+        "ru": "Дифосфаты",
+        "en": "Diphosphates"
+      },
       "category": "stabiliser",
       "risk": "moderate",
-      "summary": { "ru": "Фосфаты: удерживают воду в мясе, дают нагрузку фосфором.", "en": "Phosphates: they hold water in meat and add a phosphorus load." },
+      "summary": {
+        "ru": "Фосфаты: удерживают воду в мясе, дают нагрузку фосфором.",
+        "en": "Phosphates: they hold water in meat and add a phosphorus load."
+      },
       "detail": {
         "ru": "В колбасах и мясных полуфабрикатах фосфаты удерживают воду — то есть вы платите за воду как за мясо. С точки зрения здоровья важен групповой уровень фосфатов 40 мг/кг веса в день (в пересчёте на фосфор), который у части людей уже превышается. Избыток фосфора — нагрузка на почки и фактор риска для сосудов и костей.",
         "en": "In sausages and meat preparations phosphates hold water, so you pay meat prices for water. Health-wise what matters is the group level for phosphates of 40 mg/kg bw per day as phosphorus, which part of the population already exceeds. Excess phosphorus loads the kidneys and is a risk factor for vessels and bone."
       },
-      "concerns": ["kidney", "ultra-processed-marker"],
+      "concerns": [
+        "kidney",
+        "ultra-processed-marker"
+      ],
       "origin": "synthetic",
       "adiMgPerKgBw": 40,
       "restrictedIn": [],
-      "synonyms": ["дифосфаты", "пирофосфаты", "diphosphates", "pyrophosphates", "e-450"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "дифосфаты",
+        "пирофосфаты",
+        "diphosphates",
+        "pyrophosphates",
+        "e-450"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E451",
-      "names": { "ru": "Трифосфаты", "en": "Triphosphates" },
+      "names": {
+        "ru": "Трифосфаты",
+        "en": "Triphosphates"
+      },
       "category": "stabiliser",
       "risk": "moderate",
-      "summary": { "ru": "Фосфаты для удержания влаги в мясе и рыбе.", "en": "Phosphates that hold water in meat and fish." },
+      "summary": {
+        "ru": "Фосфаты для удержания влаги в мясе и рыбе.",
+        "en": "Phosphates that hold water in meat and fish."
+      },
       "detail": {
         "ru": "Часто встречаются в замороженной рыбе и креветках: продукт впитывает воду и теряет её при жарке. Учитываются в общем фосфатном лимите 40 мг/кг веса в день.",
         "en": "Common in frozen fish and prawns: the product takes up water and loses it again in the pan. Counted against the overall phosphate limit of 40 mg/kg bw per day."
       },
-      "concerns": ["kidney", "ultra-processed-marker"],
+      "concerns": [
+        "kidney",
+        "ultra-processed-marker"
+      ],
       "origin": "synthetic",
       "adiMgPerKgBw": 40,
       "restrictedIn": [],
-      "synonyms": ["трифосфаты", "триполифосфат натрия", "triphosphates", "sodium tripolyphosphate", "stpp"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "трифосфаты",
+        "триполифосфат натрия",
+        "triphosphates",
+        "sodium tripolyphosphate",
+        "stpp"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E466",
-      "names": { "ru": "Карбоксиметилцеллюлоза (КМЦ)", "en": "Carboxymethyl cellulose (CMC)" },
+      "names": {
+        "ru": "Карбоксиметилцеллюлоза (КМЦ)",
+        "en": "Carboxymethyl cellulose (CMC)"
+      },
       "category": "thickener",
       "risk": "moderate",
-      "summary": { "ru": "Загуститель; в исследованиях меняет микрофлору кишечника.", "en": "Thickener; studies show effects on gut flora." },
+      "summary": {
+        "ru": "Загуститель; в исследованиях меняет микрофлору кишечника.",
+        "en": "Thickener; studies show effects on gut flora."
+      },
       "detail": {
         "ru": "Модифицированная целлюлоза, не переваривается. В опытах на мышах и в небольшом рандомизированном исследовании на людях (2021) КМЦ меняла состав микрофлоры и её метаболиты. Это не доказанный вред, но достаточная причина не есть такие продукты ежедневно.",
         "en": "A modified cellulose that is not digested. In mouse studies and in a small randomised human trial (2021) CMC altered gut flora composition and its metabolites. That is not proven harm, but it is reason enough not to eat such products daily."
       },
-      "concerns": ["gut-microbiome", "ultra-processed-marker"],
+      "concerns": [
+        "gut-microbiome",
+        "ultra-processed-marker"
+      ],
       "origin": "synthetic",
       "adiMgPerKgBw": null,
       "restrictedIn": [],
-      "synonyms": ["карбоксиметилцеллюлоза", "кмц", "натрий-карбоксиметилцеллюлоза", "carboxymethyl cellulose", "cmc", "cellulose gum"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "карбоксиметилцеллюлоза",
+        "кмц",
+        "натрий-карбоксиметилцеллюлоза",
+        "carboxymethyl cellulose",
+        "cmc",
+        "cellulose gum"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E471",
-      "names": { "ru": "Моно- и диглицериды жирных кислот", "en": "Mono- and diglycerides of fatty acids" },
+      "names": {
+        "ru": "Моно- и диглицериды жирных кислот",
+        "en": "Mono- and diglycerides of fatty acids"
+      },
       "category": "emulsifier",
       "risk": "low",
-      "summary": { "ru": "Самый массовый эмульгатор. Сам по себе безвреден, но это маркер переработки.", "en": "The most common emulsifier. Harmless in itself, but a processing marker." },
+      "summary": {
+        "ru": "Самый массовый эмульгатор. Сам по себе безвреден, но это маркер переработки.",
+        "en": "The most common emulsifier. Harmless in itself, but a processing marker."
+      },
       "detail": {
         "ru": "По сути это фрагменты обычного жира, организм их переваривает как жир. Токсикологических претензий нет, ADI не установлен. Значение другое: он почти всегда стоит там, где промышленная выпечка, спреды и мороженое, поэтому служит хорошим индикатором ультрапереработанного продукта. Если сырьё — пальмовое масло, к нему относятся и вопросы к пальмовому маслу.",
         "en": "Essentially fragments of ordinary fat, digested as fat. No toxicological concerns and no ADI. Its significance is different: it appears wherever there is industrial baking, spreads and ice cream, so it is a good indicator of an ultra-processed product. When the raw material is palm oil, the palm-oil questions apply too."
       },
-      "concerns": ["ultra-processed-marker"],
+      "concerns": [
+        "ultra-processed-marker"
+      ],
       "origin": "mixed",
       "adiMgPerKgBw": null,
       "restrictedIn": [],
-      "synonyms": ["моно- и диглицериды жирных кислот", "моноглицериды", "диглицериды", "mono- and diglycerides", "mono and diglycerides of fatty acids", "e-471"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "моно- и диглицериды жирных кислот",
+        "моноглицериды",
+        "диглицериды",
+        "mono- and diglycerides",
+        "mono and diglycerides of fatty acids",
+        "e-471"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E472e",
-      "names": { "ru": "Эфиры моно- и диглицеридов с винной кислотой (DATEM)", "en": "DATEM" },
+      "names": {
+        "ru": "Эфиры моно- и диглицеридов с винной кислотой (DATEM)",
+        "en": "DATEM"
+      },
       "category": "emulsifier",
       "risk": "low",
-      "summary": { "ru": "Улучшитель промышленного хлеба. Безопасен, но маркер переработки.", "en": "Industrial bread improver. Safe, but a processing marker." },
+      "summary": {
+        "ru": "Улучшитель промышленного хлеба. Безопасен, но маркер переработки.",
+        "en": "Industrial bread improver. Safe, but a processing marker."
+      },
       "detail": {
         "ru": "Делает тесто эластичным, а хлеб — пышным и одинаковым от батона к батону. EFSA не нашло поводов для беспокойства при пищевом применении. В домашнем хлебе его нет, поэтому в составе он говорит о промышленном производстве.",
         "en": "Makes dough elastic and bread uniformly fluffy loaf after loaf. EFSA found no concerns at food use levels. Home-made bread has none, so its presence marks industrial production."
       },
-      "concerns": ["ultra-processed-marker"],
+      "concerns": [
+        "ultra-processed-marker"
+      ],
       "origin": "synthetic",
       "adiMgPerKgBw": null,
       "restrictedIn": [],
-      "synonyms": ["датем", "datem", "эфиры винной кислоты", "diacetyl tartaric acid esters"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "датем",
+        "datem",
+        "эфиры винной кислоты",
+        "diacetyl tartaric acid esters"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E476",
-      "names": { "ru": "Полиглицерин-полирицинолеат (PGPR)", "en": "Polyglycerol polyricinoleate (PGPR)" },
+      "names": {
+        "ru": "Полиглицерин-полирицинолеат (PGPR)",
+        "en": "Polyglycerol polyricinoleate (PGPR)"
+      },
       "category": "emulsifier",
       "risk": "low",
-      "summary": { "ru": "Позволяет заменить часть какао-масла в шоколаде.", "en": "Lets manufacturers replace part of the cocoa butter in chocolate." },
+      "summary": {
+        "ru": "Позволяет заменить часть какао-масла в шоколаде.",
+        "en": "Lets manufacturers replace part of the cocoa butter in chocolate."
+      },
       "detail": {
         "ru": "Сам по себе не опасен, ADI 25 мг/кг веса. Но в шоколаде он выполняет экономическую функцию: с ним можно уменьшить долю какао-масла. Наличие E476 — практически всегда признак того, что шоколад не самого высокого класса.",
         "en": "Not hazardous in itself, ADI 25 mg/kg bw. In chocolate, though, its role is economic: it allows less cocoa butter. E476 on the label almost always means this is not top-grade chocolate."
       },
-      "concerns": ["ultra-processed-marker"],
+      "concerns": [
+        "ultra-processed-marker"
+      ],
       "origin": "synthetic",
       "adiMgPerKgBw": 25,
       "restrictedIn": [],
-      "synonyms": ["пгпр", "полиглицерин полирицинолеат", "pgpr", "polyglycerol polyricinoleate"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "пгпр",
+        "полиглицерин полирицинолеат",
+        "pgpr",
+        "polyglycerol polyricinoleate"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E500",
-      "names": { "ru": "Карбонаты натрия (сода)", "en": "Sodium carbonates" },
+      "names": {
+        "ru": "Карбонаты натрия (сода)",
+        "en": "Sodium carbonates"
+      },
       "category": "raising-agent",
       "risk": "none",
-      "summary": { "ru": "Пищевая сода. Безопасна.", "en": "Baking soda. Safe." },
+      "summary": {
+        "ru": "Пищевая сода. Безопасна.",
+        "en": "Baking soda — the ordinary raising agent. Safe."
+      },
       "detail": {
         "ru": "Обычный разрыхлитель. ADI не установлен. Единственное — это ещё и источник натрия, что учитывается в общем количестве соли, но вклад крошечный.",
         "en": "An ordinary raising agent. No ADI set. It is also a source of sodium, which counts towards total salt, but the contribution is tiny."
@@ -236,117 +454,235 @@
       "origin": "synthetic",
       "adiMgPerKgBw": null,
       "restrictedIn": [],
-      "synonyms": ["карбонат натрия", "карбонаты натрия", "сода", "гидрокарбонат натрия", "sodium carbonate", "sodium bicarbonate", "baking soda"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "карбонат натрия",
+        "карбонаты натрия",
+        "сода",
+        "гидрокарбонат натрия",
+        "sodium carbonate",
+        "sodium bicarbonate",
+        "baking soda"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E535",
-      "names": { "ru": "Ферроцианид натрия", "en": "Sodium ferrocyanide" },
+      "names": {
+        "ru": "Ферроцианид натрия",
+        "en": "Sodium ferrocyanide"
+      },
       "category": "anti-caking",
       "risk": "moderate",
-      "summary": { "ru": "Антислёживатель поваренной соли, ADI очень низкий.", "en": "Anti-caking agent in table salt, with a very low ADI." },
+      "summary": {
+        "ru": "Антислёживатель поваренной соли, ADI очень низкий.",
+        "en": "Anti-caking agent in table salt, with a very low ADI."
+      },
       "detail": {
         "ru": "Название пугает, но цианид здесь прочно связан в комплексе с железом и не высвобождается. Тем не менее EFSA установило групповой ADI всего 0.03 мг/кг веса — это самый низкий предел среди массовых добавок, и при высоком потреблении соли к нему можно приблизиться. Хороший повод покупать соль без антислёживателя — и есть меньше соли вообще.",
         "en": "The name is alarming, but the cyanide here is tightly bound in an iron complex and is not released. Even so, EFSA set a group ADI of just 0.03 mg/kg bw — the lowest of any mass-market additive — and heavy salt consumers can approach it. A good reason to buy salt without an anti-caking agent, and to eat less salt overall."
       },
-      "concerns": ["ultra-processed-marker"],
+      "concerns": [
+        "ultra-processed-marker"
+      ],
       "origin": "synthetic",
       "adiMgPerKgBw": 0.03,
       "restrictedIn": [],
-      "synonyms": ["ферроцианид натрия", "жёлтая кровяная соль", "sodium ferrocyanide", "yellow prussiate of soda"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "ферроцианид натрия",
+        "жёлтая кровяная соль",
+        "sodium ferrocyanide",
+        "yellow prussiate of soda"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E551",
-      "names": { "ru": "Диоксид кремния", "en": "Silicon dioxide" },
+      "names": {
+        "ru": "Диоксид кремния",
+        "en": "Silicon dioxide"
+      },
       "category": "anti-caking",
       "risk": "moderate",
-      "summary": { "ru": "Антислёживатель. EFSA не смогло подтвердить безопасность наноформы.", "en": "Anti-caking agent. EFSA could not confirm the safety of the nano-form." },
+      "summary": {
+        "ru": "Антислёживатель. EFSA не смогло подтвердить безопасность наноформы.",
+        "en": "Anti-caking agent. EFSA could not confirm the safety of the nano-form."
+      },
       "detail": {
         "ru": "Не даёт слипаться порошкам — от специй до сухих супов. В 2018 году EFSA не смогло установить ADI: не хватило данных о наночастицах, которые составляют заметную долю материала, и была рекомендована доработка спецификаций. Это не запрет и не доказанный вред, а честное «данных недостаточно».",
         "en": "Keeps powders free-flowing, from spices to instant soups. In 2018 EFSA could not set an ADI: data on the nanoparticle fraction, a noticeable share of the material, were insufficient and tighter specifications were recommended. That is not a ban or proven harm, but an honest 'not enough data'."
       },
-      "concerns": ["ultra-processed-marker"],
+      "concerns": [
+        "ultra-processed-marker"
+      ],
       "origin": "synthetic",
       "adiMgPerKgBw": null,
       "restrictedIn": [],
-      "synonyms": ["диоксид кремния", "двуокись кремния", "silicon dioxide", "silica", "e-551"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "диоксид кремния",
+        "двуокись кремния",
+        "silicon dioxide",
+        "silica",
+        "e-551"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E621",
-      "names": { "ru": "Глутамат натрия", "en": "Monosodium glutamate (MSG)" },
+      "names": {
+        "ru": "Глутамат натрия",
+        "en": "Monosodium glutamate (MSG)"
+      },
       "category": "flavour-enhancer",
       "risk": "moderate",
-      "summary": { "ru": "Усилитель вкуса. Не яд, но признак того, что вкус нужно «чинить».", "en": "Flavour enhancer. Not a poison, but a sign the taste needed fixing." },
+      "summary": {
+        "ru": "Усилитель вкуса. Не яд, но признак того, что вкус нужно «чинить».",
+        "en": "Flavour enhancer. Not a poison, but a sign the taste needed fixing."
+      },
       "detail": {
         "ru": "Глутамат — обычная аминокислота, её много в сыре пармезан, помидорах и соевом соусе. «Синдром китайского ресторана» в слепых испытаниях не подтвердился. Но два момента остаются: EFSA в 2017 году установило групповой ADI 30 мг/кг веса и отметило, что у части населения он превышается; и глутамат делает еду вкуснее, чем она есть, из-за чего такой еды съедается больше. Настоящая проблема продукта с E621 — обычно не сам глутамат, а соль, жир и степень переработки рядом с ним.",
         "en": "Glutamate is an ordinary amino acid, abundant in Parmesan, tomatoes and soy sauce. 'Chinese restaurant syndrome' has not held up in blinded trials. Two points remain: EFSA set a group ADI of 30 mg/kg bw in 2017 and noted that part of the population exceeds it; and glutamate makes food taste better than it is, so people eat more of it. The real problem with an E621 product is usually not the glutamate but the salt, fat and processing next to it."
       },
-      "concerns": ["ultra-processed-marker"],
+      "concerns": [
+        "ultra-processed-marker"
+      ],
       "origin": "synthetic",
       "adiMgPerKgBw": 30,
       "restrictedIn": [],
-      "synonyms": ["глутамат натрия", "глютамат натрия", "мононатрия глутамат", "monosodium glutamate", "msg", "e-621", "усилитель вкуса и аромата"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "глутамат натрия",
+        "глютамат натрия",
+        "мононатрия глутамат",
+        "monosodium glutamate",
+        "msg",
+        "e-621",
+        "усилитель вкуса и аромата"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E627",
-      "names": { "ru": "Гуанилат натрия", "en": "Disodium guanylate" },
+      "names": {
+        "ru": "Гуанилат натрия",
+        "en": "Disodium guanylate"
+      },
       "category": "flavour-enhancer",
       "risk": "low",
-      "summary": { "ru": "Усилитель вкуса, работает в паре с глутаматом. Осторожно при подагре.", "en": "Flavour enhancer used alongside MSG. Caution with gout." },
+      "summary": {
+        "ru": "Усилитель вкуса, работает в паре с глутаматом. Осторожно при подагре.",
+        "en": "Flavour enhancer used alongside MSG. Caution with gout."
+      },
       "detail": {
         "ru": "Почти всегда идёт вместе с E621 — вдвоём они усиливают эффект в разы. Это производное пурина, поэтому людям с подагрой и высокой мочевой кислотой такие продукты стоит ограничить. В остальном претензий по токсичности нет.",
         "en": "Almost always used together with E621 — the pair multiplies the effect. It is a purine derivative, so people with gout or high uric acid should limit such products. Otherwise there are no toxicity concerns."
       },
-      "concerns": ["ultra-processed-marker"],
+      "concerns": [
+        "ultra-processed-marker"
+      ],
       "origin": "synthetic",
       "adiMgPerKgBw": null,
       "restrictedIn": [],
-      "synonyms": ["гуанилат натрия", "динатрия гуанилат", "disodium guanylate", "sodium guanylate"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "гуанилат натрия",
+        "динатрия гуанилат",
+        "disodium guanylate",
+        "sodium guanylate"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E631",
-      "names": { "ru": "Инозинат натрия", "en": "Disodium inosinate" },
+      "names": {
+        "ru": "Инозинат натрия",
+        "en": "Disodium inosinate"
+      },
       "category": "flavour-enhancer",
       "risk": "low",
-      "summary": { "ru": "Усилитель вкуса-компаньон глутамата. Осторожно при подагре.", "en": "MSG's companion enhancer. Caution with gout." },
+      "summary": {
+        "ru": "Усилитель вкуса-компаньон глутамата. Осторожно при подагре.",
+        "en": "MSG's companion enhancer. Caution with gout."
+      },
       "detail": {
         "ru": "Тоже пуриновое производное, тоже почти всегда в компании E621. Ограничение то же: подагра и повышенная мочевая кислота. Присутствие связки E621+E627/E631 — надёжный признак сильно переработанного продукта: чипсов, лапши быстрого приготовления, бульонных кубиков.",
         "en": "Another purine derivative, again almost always with E621. Same caveat: gout and raised uric acid. The E621 + E627/E631 combination is a reliable sign of a heavily processed product — crisps, instant noodles, stock cubes."
       },
-      "concerns": ["ultra-processed-marker"],
+      "concerns": [
+        "ultra-processed-marker"
+      ],
       "origin": "synthetic",
       "adiMgPerKgBw": null,
       "restrictedIn": [],
-      "synonyms": ["инозинат натрия", "динатрия инозинат", "disodium inosinate", "sodium inosinate"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "инозинат натрия",
+        "динатрия инозинат",
+        "disodium inosinate",
+        "sodium inosinate"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E900",
-      "names": { "ru": "Диметилполисилоксан", "en": "Dimethylpolysiloxane" },
+      "names": {
+        "ru": "Диметилполисилоксан",
+        "en": "Dimethylpolysiloxane"
+      },
       "category": "other",
       "risk": "low",
-      "summary": { "ru": "Пеногаситель во фритюрных маслах.", "en": "Antifoaming agent in frying oils." },
+      "summary": {
+        "ru": "Пеногаситель во фритюрных маслах.",
+        "en": "Antifoaming agent in frying oils."
+      },
       "detail": {
         "ru": "Силиконовое масло, не всасывается в кишечнике. ADI 1.5 мг/кг веса. Его присутствие говорит о промышленной жарке во фритюре — вот к ней вопросов больше, чем к самой добавке.",
         "en": "A silicone oil that is not absorbed in the gut. ADI 1.5 mg/kg bw. Its presence indicates industrial deep-frying — and the frying raises more questions than the additive does."
       },
-      "concerns": ["ultra-processed-marker"],
+      "concerns": [
+        "ultra-processed-marker"
+      ],
       "origin": "synthetic",
       "adiMgPerKgBw": 1.5,
       "restrictedIn": [],
-      "synonyms": ["диметилполисилоксан", "полидиметилсилоксан", "dimethylpolysiloxane", "polydimethylsiloxane", "pdms"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "диметилполисилоксан",
+        "полидиметилсилоксан",
+        "dimethylpolysiloxane",
+        "polydimethylsiloxane",
+        "pdms"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E904",
-      "names": { "ru": "Шеллак", "en": "Shellac" },
+      "names": {
+        "ru": "Шеллак",
+        "en": "Shellac"
+      },
       "category": "glazing-agent",
       "risk": "low",
-      "summary": { "ru": "Глазирователь из смолы насекомых. Не для веганов.", "en": "Glazing agent from insect resin. Not vegan." },
+      "summary": {
+        "ru": "Глазирователь из смолы насекомых. Не для веганов.",
+        "en": "Glazing agent from insect resin. Not vegan."
+      },
       "detail": {
         "ru": "Блестящая оболочка драже и покрытие фруктов. Безопасен, не всасывается. Главное замечание — животное происхождение: выделяется лаковым червецом.",
         "en": "The shiny shell on coated sweets and the coating on fruit. Safe and not absorbed. The main caveat is its animal origin: it is secreted by the lac insect."
@@ -355,49 +691,101 @@
       "origin": "natural",
       "adiMgPerKgBw": null,
       "restrictedIn": [],
-      "synonyms": ["шеллак", "shellac", "lac resin"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "шеллак",
+        "shellac",
+        "lac resin"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E924",
-      "names": { "ru": "Бромат калия", "en": "Potassium bromate" },
+      "names": {
+        "ru": "Бромат калия",
+        "en": "Potassium bromate"
+      },
       "category": "flour-treatment",
       "risk": "high",
-      "summary": { "ru": "Улучшитель муки, запрещённый в ЕС; IARC — группа 2B.", "en": "Flour improver banned in the EU; IARC Group 2B." },
+      "summary": {
+        "ru": "Улучшитель муки, запрещённый в ЕС; IARC — группа 2B.",
+        "en": "Flour improver banned in the EU; IARC Group 2B."
+      },
       "detail": {
         "ru": "В ЕС, Великобритании, Канаде и многих других странах запрещён; IARC относит его к группе 2B — возможный канцероген для человека. В США федерально всё ещё разрешён, но Калифорния запретила его с 2027 года. Если вы видите бромат калия в составе — этот продукт лучше не покупать.",
         "en": "Banned in the EU, the UK, Canada and many other countries; IARC places it in Group 2B, possibly carcinogenic to humans. Still federally permitted in the USA, though California has banned it from 2027. If you see potassium bromate on a label, put the product back."
       },
-      "concerns": ["carcinogen-suspected", "banned-somewhere"],
+      "concerns": [
+        "carcinogen-suspected",
+        "banned-somewhere"
+      ],
       "origin": "synthetic",
       "adiMgPerKgBw": null,
-      "restrictedIn": ["EU", "UK", "CA", "US-CA"],
-      "synonyms": ["бромат калия", "potassium bromate", "bromated flour"],
-      "sources": ["iarc", "eu-1333-2008", "fda-additives"]
+      "restrictedIn": [
+        "EU",
+        "UK",
+        "CA",
+        "US-CA"
+      ],
+      "synonyms": [
+        "бромат калия",
+        "potassium bromate",
+        "bromated flour"
+      ],
+      "sources": [
+        "iarc",
+        "eu-1333-2008",
+        "fda-additives"
+      ]
     },
     {
       "code": "E1442",
-      "names": { "ru": "Гидроксипропилдикрахмалфосфат", "en": "Hydroxypropyl distarch phosphate" },
+      "names": {
+        "ru": "Гидроксипропилдикрахмалфосфат",
+        "en": "Hydroxypropyl distarch phosphate"
+      },
       "category": "thickener",
       "risk": "low",
-      "summary": { "ru": "Модифицированный крахмал. Безопасен, но это не «химия из пробирки» и не еда.", "en": "Modified starch. Safe, but neither scary chemistry nor real food." },
+      "summary": {
+        "ru": "Модифицированный крахмал. Безопасен, но это не «химия из пробирки» и не еда.",
+        "en": "Modified starch. Safe, but neither scary chemistry nor real food."
+      },
       "detail": {
         "ru": "Обычный крахмал, обработанный так, чтобы он не расслаивался при заморозке и нагреве. «Модифицированный» здесь не значит «ГМО». Токсикологических претензий нет, ADI не установлен. Значение — маркер готовых соусов, йогуртов и полуфабрикатов.",
         "en": "Ordinary starch treated so it survives freezing and heating without separating. 'Modified' here does not mean GM. No toxicological concerns and no ADI. Its significance is as a marker of ready-made sauces, yoghurts and convenience foods."
       },
-      "concerns": ["ultra-processed-marker"],
+      "concerns": [
+        "ultra-processed-marker"
+      ],
       "origin": "mixed",
       "adiMgPerKgBw": null,
       "restrictedIn": [],
-      "synonyms": ["гидроксипропилдикрахмалфосфат", "модифицированный крахмал", "hydroxypropyl distarch phosphate", "modified starch", "modified corn starch"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "гидроксипропилдикрахмалфосфат",
+        "модифицированный крахмал",
+        "hydroxypropyl distarch phosphate",
+        "modified starch",
+        "modified corn starch"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     },
     {
       "code": "E1520",
-      "names": { "ru": "Пропиленгликоль", "en": "Propylene glycol" },
+      "names": {
+        "ru": "Пропиленгликоль",
+        "en": "Propylene glycol"
+      },
       "category": "other",
       "risk": "low",
-      "summary": { "ru": "Растворитель ароматизаторов и влагоудерживатель.", "en": "Solvent for flavourings and humectant." },
+      "summary": {
+        "ru": "Растворитель ароматизаторов и влагоудерживатель.",
+        "en": "Solvent for flavourings and humectant."
+      },
       "detail": {
         "ru": "ADI 25 мг/кг веса. В пищевых количествах безопасен, хотя название вызывает у людей ассоциации с антифризом — это другое вещество (этиленгликоль ядовит, пропиленгликоль нет).",
         "en": "ADI 25 mg/kg bw. Safe at food levels, although the name makes people think of antifreeze — that is a different substance (ethylene glycol is toxic, propylene glycol is not)."
@@ -406,8 +794,15 @@
       "origin": "synthetic",
       "adiMgPerKgBw": 25,
       "restrictedIn": [],
-      "synonyms": ["пропиленгликоль", "propylene glycol", "1,2-propanediol"],
-      "sources": ["eu-1333-2008", "efsa-additives"]
+      "synonyms": [
+        "пропиленгликоль",
+        "propylene glycol",
+        "1,2-propanediol"
+      ],
+      "sources": [
+        "eu-1333-2008",
+        "efsa-additives"
+      ]
     }
   ]
 }
