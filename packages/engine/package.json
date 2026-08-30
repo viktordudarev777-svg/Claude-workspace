@@ -1,0 +1,22 @@
+{
+  "name": "@foodlens/engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pure food-label analysis engine shared by the FoodLens backend and mobile app",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@foodlens/data": "*",
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.8"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}

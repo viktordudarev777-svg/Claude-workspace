@@ -1,0 +1,413 @@
+{
+  "group": "colours",
+  "additives": [
+    {
+      "code": "E100",
+      "names": { "ru": "Куркумин", "en": "Curcumin" },
+      "category": "colour",
+      "risk": "none",
+      "summary": { "ru": "Жёлтый краситель из корня куркумы. Безопасен.", "en": "Yellow colour from turmeric root. Considered safe." },
+      "detail": {
+        "ru": "Натуральный пигмент, который выделяют из куркумы. Разрешён во всех странах, ADI 3 мг на кг веса в день — это примерно 200 мг в день для взрослого, столько из продуктов не набрать. Поводов для беспокойства нет.",
+        "en": "A natural pigment extracted from turmeric. Permitted everywhere; the ADI of 3 mg per kg of body weight is far above realistic intake from food."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": 3,
+      "restrictedIn": [],
+      "synonyms": ["куркумин", "curcumin", "turmeric colour", "cl 75300", "natural yellow 3"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E101",
+      "names": { "ru": "Рибофлавин (витамин B2)", "en": "Riboflavin (vitamin B2)" },
+      "category": "colour",
+      "risk": "none",
+      "summary": { "ru": "Это витамин B2, он же жёлтый краситель. Безопасен.", "en": "Vitamin B2 used as a yellow colour. Safe." },
+      "detail": {
+        "ru": "Тот же витамин B2, который организм получает с молоком и крупами. Излишек выводится с мочой (может окрашивать её в ярко-жёлтый — это нормально). ADI не установлен, потому что вещество не вызывает опасений.",
+        "en": "The same vitamin B2 found in milk and grains. Excess is excreted in urine, which it can turn bright yellow. No ADI was set because no risk was identified."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["рибофлавин", "riboflavin", "витамин b2", "vitamin b2", "lactoflavin"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E102",
+      "names": { "ru": "Тартразин", "en": "Tartrazine" },
+      "category": "colour",
+      "risk": "moderate",
+      "summary": { "ru": "Синтетический жёлтый краситель. В ЕС требует надписи о влиянии на внимание детей.", "en": "Synthetic yellow azo dye. In the EU it must carry a children's attention warning." },
+      "detail": {
+        "ru": "Один из шести «южгемптонских» красителей: по регламенту ЕС продукт с ним обязан нести надпись «может оказывать отрицательное влияние на активность и внимание детей». У части людей с астмой и непереносимостью аспирина вызывает крапивницу. Само по себе не яд, ADI 7.5 мг/кг веса, но в детских продуктах его лучше избегать.",
+        "en": "One of the six 'Southampton' colours: EU law requires the label 'may have an adverse effect on activity and attention in children'. It can trigger urticaria in some people with asthma or aspirin intolerance. ADI 7.5 mg/kg bw; best avoided in children's food."
+      },
+      "concerns": ["hyperactivity-children", "asthma-trigger", "allergen"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 7.5,
+      "restrictedIn": [],
+      "synonyms": ["тартразин", "tartrazine", "fd&c yellow 5", "yellow 5", "cl 19140", "acid yellow 23"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E104",
+      "names": { "ru": "Жёлтый хинолиновый", "en": "Quinoline Yellow" },
+      "category": "colour",
+      "risk": "moderate",
+      "summary": { "ru": "Синтетический краситель с предупреждением о внимании детей; ADI снижен.", "en": "Synthetic colour with the children's attention warning; ADI was lowered." },
+      "detail": {
+        "ru": "Тоже из «южгемптонской шестёрки» — обязательна надпись о влиянии на активность и внимание детей. EFSA снизило допустимую дозу до 0.5 мг/кг веса в день, то есть запас прочности здесь заметно меньше, чем у большинства добавок. В США в пищу не разрешён.",
+        "en": "Another 'Southampton six' colour requiring the children's attention warning. EFSA lowered the ADI to 0.5 mg/kg bw/day — a much smaller margin than for most additives. Not permitted in food in the USA."
+      },
+      "concerns": ["hyperactivity-children", "banned-somewhere"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.5,
+      "restrictedIn": ["US"],
+      "synonyms": ["хинолиновый жёлтый", "quinoline yellow", "cl 47005", "food yellow 13"],
+      "sources": ["eu-1333-2008", "efsa-additives", "fda-additives"]
+    },
+    {
+      "code": "E110",
+      "names": { "ru": "Жёлтый «солнечный закат» FCF", "en": "Sunset Yellow FCF" },
+      "category": "colour",
+      "risk": "moderate",
+      "summary": { "ru": "Синтетический оранжевый краситель, предупреждение о внимании детей.", "en": "Synthetic orange azo dye with the children's attention warning." },
+      "detail": {
+        "ru": "Азокраситель из «шестёрки», требующей надписи о влиянии на активность и внимание детей. Может провоцировать реакции у людей с непереносимостью салицилатов. ADI 4 мг/кг веса в день. Чаще всего встречается в газировке, леденцах и снеках.",
+        "en": "An azo dye from the six colours requiring the children's attention warning. Can provoke reactions in people intolerant to salicylates. ADI 4 mg/kg bw/day. Most common in soft drinks, sweets and snacks."
+      },
+      "concerns": ["hyperactivity-children", "allergen"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 4,
+      "restrictedIn": [],
+      "synonyms": ["жёлтый солнечный закат", "солнечный закат", "sunset yellow", "fd&c yellow 6", "yellow 6", "orange yellow s", "cl 15985"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E120",
+      "names": { "ru": "Кармин (кошениль)", "en": "Cochineal / Carmine" },
+      "category": "colour",
+      "risk": "low",
+      "summary": { "ru": "Красный краситель из насекомых. Безопасен, но это аллерген и не веган-продукт.", "en": "Red colour made from insects. Safe, but an allergen and not vegan." },
+      "detail": {
+        "ru": "Получают из самок насекомого кошенили. Токсичности нет, ADI 5 мг/кг веса. Два нюанса: у небольшого числа людей вызывает настоящую аллергию вплоть до анафилаксии, и продукт с ним не подходит вегетарианцам и веганам.",
+        "en": "Extracted from cochineal insects. Not toxic, ADI 5 mg/kg bw. Two caveats: it causes true allergy, including anaphylaxis, in a small number of people, and it is not suitable for vegetarians or vegans."
+      },
+      "concerns": ["allergen"],
+      "origin": "natural",
+      "adiMgPerKgBw": 5,
+      "restrictedIn": [],
+      "synonyms": ["кармин", "кошениль", "карминовая кислота", "carmine", "carminic acid", "cochineal", "cl 75470", "natural red 4"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E122",
+      "names": { "ru": "Азорубин (кармуазин)", "en": "Azorubine / Carmoisine" },
+      "category": "colour",
+      "risk": "moderate",
+      "summary": { "ru": "Синтетический красный, предупреждение о внимании детей; запрещён в США.", "en": "Synthetic red with the children's attention warning; not permitted in the USA." },
+      "detail": {
+        "ru": "Азокраситель из «южгемптонской шестёрки»: обязательна надпись о возможном влиянии на активность и внимание детей. В США к применению в пище не допущен. ADI 4 мг/кг веса в день.",
+        "en": "A 'Southampton six' azo dye: the children's attention warning is mandatory. Not approved for food in the USA. ADI 4 mg/kg bw/day."
+      },
+      "concerns": ["hyperactivity-children", "banned-somewhere"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 4,
+      "restrictedIn": ["US"],
+      "synonyms": ["азорубин", "кармуазин", "azorubine", "carmoisine", "cl 14720", "food red 3"],
+      "sources": ["eu-1333-2008", "efsa-additives", "fda-additives"]
+    },
+    {
+      "code": "E123",
+      "names": { "ru": "Амарант", "en": "Amaranth" },
+      "category": "colour",
+      "risk": "high",
+      "summary": { "ru": "Красный краситель, запрещённый в США; в ЕС разрешён лишь в паре продуктов.", "en": "Red dye banned in the USA; in the EU allowed only in a couple of products." },
+      "detail": {
+        "ru": "Запрещён в США с 1976 года после опытов на животных. В ЕС разрешение сохранилось только для аперитивных вин и икры, с очень низкой допустимой дозой — ADI 0.15 мг/кг веса, одна из самых низких среди красителей. Если видите его в обычном продукте — это повод отложить упаковку.",
+        "en": "Banned in the USA since 1976 after animal studies. In the EU it survives only for aperitif wines and fish roe, with an ADI of 0.15 mg/kg bw — one of the lowest of any colour. Seeing it in an everyday product is a reason to put the pack back."
+      },
+      "concerns": ["banned-somewhere", "carcinogen-suspected"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.15,
+      "restrictedIn": ["US"],
+      "synonyms": ["амарант", "amaranth", "fd&c red 2", "cl 16185", "food red 9"],
+      "sources": ["eu-1333-2008", "efsa-additives", "fda-additives"]
+    },
+    {
+      "code": "E124",
+      "names": { "ru": "Понсо 4R", "en": "Ponceau 4R" },
+      "category": "colour",
+      "risk": "moderate",
+      "summary": { "ru": "Синтетический красный, предупреждение о детях, низкая допустимая доза.", "en": "Synthetic red, children's warning, low ADI." },
+      "detail": {
+        "ru": "Ещё один краситель из «шестёрки» с обязательной надписью о влиянии на активность и внимание детей. EFSA снизило ADI до 0.7 мг/кг веса — для ребёнка это буквально пара порций ярко окрашенной газировки или желе в день. В США не разрешён.",
+        "en": "Another of the six colours carrying the children's attention warning. EFSA lowered the ADI to 0.7 mg/kg bw — for a child that is a couple of servings of brightly coloured drink or jelly a day. Not permitted in the USA."
+      },
+      "concerns": ["hyperactivity-children", "banned-somewhere"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.7,
+      "restrictedIn": ["US"],
+      "synonyms": ["понсо 4r", "понсо", "ponceau 4r", "cochineal red a", "cl 16255", "new coccine"],
+      "sources": ["eu-1333-2008", "efsa-additives", "fda-additives"]
+    },
+    {
+      "code": "E127",
+      "names": { "ru": "Эритрозин", "en": "Erythrosine" },
+      "category": "colour",
+      "risk": "high",
+      "summary": { "ru": "Красный краситель; FDA отзывает разрешение, ADI очень низкий.", "en": "Red colour; the FDA has revoked its food authorisation, ADI very low." },
+      "detail": {
+        "ru": "Йодсодержащий краситель, влияющий на щитовидную железу в высоких дозах. ADI 0.1 мг/кг веса — один из самых низких. В ЕС разрешён только для коктейльных и цукатных вишен. В январе 2025 года FDA отозвало разрешение на его использование в пище в США с переходным периодом для производителей.",
+        "en": "An iodine-containing dye that affects the thyroid at high doses. ADI 0.1 mg/kg bw — among the lowest. In the EU it is allowed only for cocktail and candied cherries. In January 2025 the FDA revoked its authorisation for food in the USA, with a transition period for manufacturers."
+      },
+      "concerns": ["thyroid", "banned-somewhere", "carcinogen-suspected"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.1,
+      "restrictedIn": ["US"],
+      "synonyms": ["эритрозин", "erythrosine", "erythrosin", "fd&c red 3", "red 3", "cl 45430"],
+      "sources": ["eu-1333-2008", "efsa-additives", "fda-additives"]
+    },
+    {
+      "code": "E129",
+      "names": { "ru": "Красный очаровательный AC", "en": "Allura Red AC" },
+      "category": "colour",
+      "risk": "moderate",
+      "summary": { "ru": "Самый ходовой синтетический красный; предупреждение о внимании детей.", "en": "The most widely used synthetic red; children's attention warning." },
+      "detail": {
+        "ru": "Массовый краситель в конфетах, напитках и десертах. Входит в «шестёрку» с обязательной надписью о влиянии на активность и внимание детей. ADI 7 мг/кг веса — запас неплохой, но у детей, которые едят много цветных сладостей, он расходуется быстро.",
+        "en": "A mass-market colour in sweets, drinks and desserts. One of the six requiring the children's attention warning. ADI 7 mg/kg bw — a reasonable margin, but children eating a lot of coloured sweets use it up quickly."
+      },
+      "concerns": ["hyperactivity-children"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 7,
+      "restrictedIn": [],
+      "synonyms": ["красный очаровательный", "аллюра", "allura red", "fd&c red 40", "red 40", "cl 16035"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E131",
+      "names": { "ru": "Синий патентованный V", "en": "Patent Blue V" },
+      "category": "colour",
+      "risk": "low",
+      "summary": { "ru": "Синтетический синий. Редкие аллергические реакции.", "en": "Synthetic blue. Rare allergic reactions." },
+      "detail": {
+        "ru": "ADI 5 мг/кг веса. Токсичности при пищевом употреблении не показано, но описаны единичные аллергические реакции — в основном при медицинском применении в виде инъекций, а не с едой.",
+        "en": "ADI 5 mg/kg bw. No toxicity has been shown from dietary use, though isolated allergic reactions are described — mostly from medical injection use, not from food."
+      },
+      "concerns": ["allergen"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 5,
+      "restrictedIn": [],
+      "synonyms": ["синий патентованный", "patent blue v", "cl 42051", "acid blue 3"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E133",
+      "names": { "ru": "Синий блестящий FCF", "en": "Brilliant Blue FCF" },
+      "category": "colour",
+      "risk": "low",
+      "summary": { "ru": "Синтетический синий, широко разрешён. Претензий немного.", "en": "Synthetic blue, broadly permitted. Few concerns." },
+      "detail": {
+        "ru": "Почти не всасывается в кишечнике и выводится в неизменном виде. ADI 6 мг/кг веса. В «шестёрку» с предупреждением о детях не входит, но это всё равно маркер сильно переработанного продукта: натуральной синей еды почти не бывает.",
+        "en": "Barely absorbed in the gut and excreted unchanged. ADI 6 mg/kg bw. It is not one of the six colours needing the children's warning, but it is still a marker of a heavily processed product — naturally blue food hardly exists."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 6,
+      "restrictedIn": [],
+      "synonyms": ["синий блестящий", "brilliant blue", "fd&c blue 1", "blue 1", "cl 42090"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E132",
+      "names": { "ru": "Индигокармин", "en": "Indigotine / Indigo Carmine" },
+      "category": "colour",
+      "risk": "low",
+      "summary": { "ru": "Синий синтетический краситель. Редкие реакции у чувствительных людей.", "en": "Synthetic blue colour. Rare reactions in sensitive people." },
+      "detail": {
+        "ru": "ADI 5 мг/кг веса. Иногда описывают крапивницу и тошноту у чувствительных людей, но в обычных пищевых количествах это редкость.",
+        "en": "ADI 5 mg/kg bw. Urticaria and nausea are occasionally reported in sensitive individuals, but this is rare at normal dietary levels."
+      },
+      "concerns": ["allergen"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 5,
+      "restrictedIn": [],
+      "synonyms": ["индигокармин", "индиготин", "indigotine", "indigo carmine", "fd&c blue 2", "cl 73015"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E140",
+      "names": { "ru": "Хлорофиллы", "en": "Chlorophylls" },
+      "category": "colour",
+      "risk": "none",
+      "summary": { "ru": "Зелёный пигмент растений. Безопасен.", "en": "The green pigment of plants. Safe." },
+      "detail": {
+        "ru": "То же вещество, что придаёт зелёный цвет шпинату и крапиве. Опасений не вызывает, ADI не установлен за ненадобностью.",
+        "en": "The same substance that makes spinach and nettles green. No concerns; no ADI was considered necessary."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["хлорофилл", "хлорофиллы", "chlorophyll", "chlorophylls", "cl 75810"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E150a",
+      "names": { "ru": "Карамельный колер I (простой)", "en": "Plain caramel (Class I)" },
+      "category": "colour",
+      "risk": "low",
+      "summary": { "ru": "Жжёный сахар без реагентов. Наименее проблемный из колеров.", "en": "Burnt sugar with no reagents. The least problematic caramel colour." },
+      "detail": {
+        "ru": "Получают простым нагреванием сахара, без аммиака и сульфитов. Именно поэтому в нём нет 4-MEI, из-за которого спорят о колерах III и IV. Групповой ADI для карамельных колеров — 300 мг/кг веса.",
+        "en": "Made by simply heating sugar, without ammonia or sulphites, so it contains none of the 4-MEI that makes classes III and IV controversial. The group ADI for caramel colours is 300 mg/kg bw."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "natural",
+      "adiMgPerKgBw": 300,
+      "restrictedIn": [],
+      "synonyms": ["карамельный колер i", "колер простой", "plain caramel", "caramel i", "карамель обыкновенная"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E150d",
+      "names": { "ru": "Карамельный колер IV (сульфитно-аммиачный)", "en": "Sulphite ammonia caramel (Class IV)" },
+      "category": "colour",
+      "risk": "moderate",
+      "summary": { "ru": "Колер тёмной газировки. Содержит примесь 4-MEI, о которой идут споры.", "en": "The colour of dark sodas. Contains 4-MEI, a debated by-product." },
+      "detail": {
+        "ru": "Производится с аммиаком и сульфитами; при этом образуется побочный продукт 4-метилимидазол (4-MEI). IARC отнесло 4-MEI к группе 2B — «возможно канцерогенен для человека» на основании опытов на грызунах. Регуляторы считают текущие уровни в напитках приемлемыми, но постоянная тёмная газировка — не лучшая привычка по многим причинам сразу.",
+        "en": "Produced with ammonia and sulphites, which forms the by-product 4-methylimidazole (4-MEI). IARC places 4-MEI in Group 2B — possibly carcinogenic to humans — based on rodent studies. Regulators consider current levels in drinks acceptable, but a steady dark-soda habit is a poor idea for several reasons at once."
+      },
+      "concerns": ["carcinogen-suspected", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 300,
+      "restrictedIn": [],
+      "synonyms": ["карамельный колер iv", "сульфитно-аммиачная карамель", "sulphite ammonia caramel", "caramel iv", "caramel color iv"],
+      "sources": ["eu-1333-2008", "efsa-additives", "iarc"]
+    },
+    {
+      "code": "E153",
+      "names": { "ru": "Уголь растительный", "en": "Vegetable carbon" },
+      "category": "colour",
+      "risk": "low",
+      "summary": { "ru": "Чёрный краситель из растительного угля.", "en": "Black colour made from plant charcoal." },
+      "detail": {
+        "ru": "Инертный порошок, не всасывается. Основной вопрос — чистота сырья (следы полициклических углеводородов), поэтому есть спецификации по чистоте. В США в пищу не разрешён. Может мешать всасыванию лекарств, если съесть много.",
+        "en": "An inert powder that is not absorbed. The main issue is raw-material purity (traces of polycyclic hydrocarbons), which purity specifications address. Not permitted in food in the USA. In quantity it can interfere with drug absorption."
+      },
+      "concerns": ["banned-somewhere"],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": ["US"],
+      "synonyms": ["уголь растительный", "растительный уголь", "vegetable carbon", "carbon black", "charcoal"],
+      "sources": ["eu-1333-2008", "efsa-additives", "fda-additives"]
+    },
+    {
+      "code": "E160a",
+      "names": { "ru": "Каротины", "en": "Carotenes" },
+      "category": "colour",
+      "risk": "none",
+      "summary": { "ru": "Оранжевый пигмент моркови, предшественник витамина A.", "en": "The orange pigment of carrots, a vitamin A precursor." },
+      "detail": {
+        "ru": "Безопасен и даже полезен: организм превращает бета-каротин в витамин A. Единственное замечание — курильщикам не стоит принимать высокие дозы бета-каротина в виде БАДов, но к красителю в еде это не относится.",
+        "en": "Safe and even useful: the body converts beta-carotene to vitamin A. The one caveat — smokers should avoid high-dose beta-carotene supplements — does not apply to the colour used in food."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["каротин", "каротины", "бета-каротин", "carotene", "carotenes", "beta-carotene", "cl 75130"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E160b",
+      "names": { "ru": "Аннато (биксин, норбиксин)", "en": "Annatto (bixin, norbixin)" },
+      "category": "colour",
+      "risk": "low",
+      "summary": { "ru": "Жёлто-оранжевый краситель из семян аннато. Изредка аллергия.", "en": "Yellow-orange colour from annatto seeds. Occasional allergy." },
+      "detail": {
+        "ru": "Натуральный краситель, которым подкрашивают сыры, масло и снеки. Безопасен для подавляющего большинства, но входит в список редких пищевых аллергенов — описаны случаи крапивницы.",
+        "en": "A natural colour used in cheese, butter and snacks. Safe for the vast majority, but it appears on lists of uncommon food allergens — cases of urticaria are documented."
+      },
+      "concerns": ["allergen"],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["аннато", "биксин", "норбиксин", "annatto", "bixin", "norbixin", "cl 75120"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E162",
+      "names": { "ru": "Свекольный красный (бетанин)", "en": "Beetroot red (betanin)" },
+      "category": "colour",
+      "risk": "none",
+      "summary": { "ru": "Краситель из свёклы. Безопасен.", "en": "Colour from beetroot. Safe." },
+      "detail": {
+        "ru": "Обычный свекольный сок в концентрированном виде. Может слегка окрашивать мочу — это безвредно. ADI не установлен, опасений нет.",
+        "en": "Concentrated beetroot juice, essentially. It can tint urine slightly, which is harmless. No ADI set; no concerns."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["свекольный красный", "бетанин", "beetroot red", "betanin", "betalain"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E171",
+      "names": { "ru": "Диоксид титана", "en": "Titanium dioxide" },
+      "category": "colour",
+      "risk": "high",
+      "summary": { "ru": "Белый краситель, запрещённый в ЕС с 2022 года из-за генотоксичности.", "en": "White colour, banned in the EU since 2022 over genotoxicity concerns." },
+      "detail": {
+        "ru": "В 2021 году EFSA заключило, что E171 больше нельзя считать безопасной пищевой добавкой: нельзя исключить повреждение ДНК наночастицами, а безопасную дозу установить не удалось. С августа 2022 года в ЕС запрещён в пище. В США и ряде других стран пока разрешён. Встречается в жевательной резинке, глазури, белых кондитерских покрытиях.",
+        "en": "In 2021 EFSA concluded that E171 can no longer be considered safe as a food additive: genotoxicity from nanoparticles could not be ruled out and no safe level could be set. Banned in EU food since August 2022, still permitted in the USA and some other countries. Found in chewing gum, icings and white confectionery coatings."
+      },
+      "concerns": ["banned-somewhere", "carcinogen-suspected", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": ["EU"],
+      "synonyms": ["диоксид титана", "двуокись титана", "titanium dioxide", "cl 77891", "ti02", "tio2"],
+      "sources": ["efsa-e171", "eu-1333-2008"]
+    },
+    {
+      "code": "E172",
+      "names": { "ru": "Оксиды и гидроксиды железа", "en": "Iron oxides and hydroxides" },
+      "category": "colour",
+      "risk": "low",
+      "summary": { "ru": "Минеральные пигменты для оболочек и покрытий.", "en": "Mineral pigments for coatings and casings." },
+      "detail": {
+        "ru": "Практически не всасываются, применяются в основном для внешнего окрашивания — оболочек сыров, драже. При обычном использовании претензий нет.",
+        "en": "Barely absorbed and used mainly for external colouring — cheese rinds, coated sweets. No concerns at normal use levels."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["оксид железа", "оксиды железа", "iron oxide", "iron oxides", "cl 77491", "cl 77492", "cl 77499"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E173",
+      "names": { "ru": "Алюминий", "en": "Aluminium" },
+      "category": "colour",
+      "risk": "moderate",
+      "summary": { "ru": "Металлическое декоративное покрытие. Алюминий накапливается в организме.", "en": "Metallic decorative coating. Aluminium accumulates in the body." },
+      "detail": {
+        "ru": "Разрешён только как внешнее декоративное покрытие кондитерских изделий и не для массового употребления. EFSA установило допустимое недельное поступление алюминия из всех источников — 1 мг на кг веса в неделю, и у части населения оно и так превышается за счёт других продуктов.",
+        "en": "Permitted only as an external decorative coating on confectionery, not for routine consumption. EFSA set a tolerable weekly intake for aluminium from all sources of 1 mg/kg bw per week, which part of the population already exceeds from other foods."
+      },
+      "concerns": ["kidney", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["алюминий", "aluminium", "aluminum", "серебристое покрытие"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    }
+  ]
+}

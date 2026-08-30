@@ -1,0 +1,21 @@
+{
+  "name": "foodlens",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FoodLens \u2014 scan a food label, get a plain-language verdict",
+  "workspaces": [
+    "packages/*",
+    "backend",
+    "mobile"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace @foodlens/engine && npm run build --workspace @foodlens/data && npm run build --workspace @foodlens/backend",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run build --workspace @foodlens/engine && npm test --workspace @foodlens/engine && npm test --workspace @foodlens/backend",
+    "dev": "npm run dev --workspace @foodlens/backend",
+    "mobile": "npm start --workspace foodlens-mobile"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

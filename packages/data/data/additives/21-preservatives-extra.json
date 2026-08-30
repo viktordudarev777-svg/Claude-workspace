@@ -1,0 +1,430 @@
+{
+  "group": "preservatives-extended",
+  "additives": [
+    {
+      "code": "E203",
+      "names": { "ru": "Сорбат кальция", "en": "Calcium sorbate" },
+      "category": "preservative",
+      "risk": "low",
+      "summary": { "ru": "Кальциевая соль сорбиновой кислоты, работает против плесени.", "en": "The calcium salt of sorbic acid, used against mould." },
+      "detail": {
+        "ru": "Ведёт себя как E200 и E202 и входит в тот же групповой ADI 3 мг/кг веса. При пересмотре EFSA отметило, что имеющихся данных по генотоксичности сорбатов недостаточно и требуются дополнительные исследования — это не запрет, а открытый вопрос.",
+        "en": "Behaves like E200 and E202 and counts against the same group ADI of 3 mg/kg bw. In its re-evaluation EFSA noted that the available genotoxicity data on sorbates are insufficient and further study is needed — an open question rather than a ban."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 3,
+      "restrictedIn": [],
+      "synonyms": ["сорбат кальция", "кальция сорбат", "calcium sorbate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E212",
+      "names": { "ru": "Бензоат калия", "en": "Potassium benzoate" },
+      "category": "preservative",
+      "risk": "moderate",
+      "summary": { "ru": "Бензоат для продуктов, где нежелателен лишний натрий.", "en": "The benzoate used where extra sodium is unwanted." },
+      "detail": {
+        "ru": "Отличается от E211 только противоионом, все вопросы те же: групповой ADI 5 мг/кг веса, возможное образование бензола в кислых напитках с витамином C и участие в «южгемптонском» исследовании о внимании детей.",
+        "en": "Differs from E211 only in the counter-ion; the questions are identical: group ADI 5 mg/kg bw, possible benzene formation in acidic drinks that also contain vitamin C, and a role in the Southampton work on children's attention."
+      },
+      "concerns": ["carcinogen-suspected", "hyperactivity-children", "asthma-trigger"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 5,
+      "restrictedIn": [],
+      "synonyms": ["бензоат калия", "калия бензоат", "potassium benzoate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E214",
+      "names": { "ru": "Этилпарабен", "en": "Ethyl para-hydroxybenzoate" },
+      "category": "preservative",
+      "risk": "moderate",
+      "summary": { "ru": "Парабен. Разрешён в ЕС узко, ADI группы 10 мг/кг веса.", "en": "A paraben. Narrowly permitted in the EU, group ADI 10 mg/kg bw." },
+      "detail": {
+        "ru": "Парабены обсуждают из-за слабого эстрогеноподобного действия, обнаруженного в опытах. EFSA сохранило групповой ADI 10 мг/кг веса для метил- и этилпарабена, а пропилпарабен из группового ADI исключило после данных о влиянии на половые гормоны у молодых крыс. В пище парабены встречаются редко — их основная территория косметика.",
+        "en": "Parabens are debated because of the weak oestrogen-like activity seen in laboratory studies. EFSA kept a group ADI of 10 mg/kg bw for the methyl and ethyl esters, and removed the propyl ester from that group ADI after data on sex hormones in young rats. Parabens are rare in food; cosmetics are their main territory."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 10,
+      "restrictedIn": [],
+      "synonyms": ["этилпарабен", "этиловый эфир пара-оксибензойной кислоты", "ethylparaben", "ethyl paraben", "ethyl para-hydroxybenzoate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E218",
+      "names": { "ru": "Метилпарабен", "en": "Methyl para-hydroxybenzoate" },
+      "category": "preservative",
+      "risk": "moderate",
+      "summary": { "ru": "Самый распространённый парабен, групповой ADI 10 мг/кг веса.", "en": "The most common paraben, group ADI 10 mg/kg bw." },
+      "detail": {
+        "ru": "Входит вместе с этилпарабеном в групповой ADI 10 мг/кг веса. Опасения связаны со слабым эстрогеноподобным действием in vitro; регуляторы считают пищевые уровни приемлемыми. В продуктах питания в ЕС применяется ограниченно.",
+        "en": "Shares the group ADI of 10 mg/kg bw with the ethyl ester. Concerns stem from weak oestrogen-like activity in vitro; regulators consider dietary levels acceptable. Its use in EU food is limited."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 10,
+      "restrictedIn": [],
+      "synonyms": ["метилпарабен", "метиловый эфир пара-оксибензойной кислоты", "methylparaben", "methyl paraben", "nipagin"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E221",
+      "names": { "ru": "Сульфит натрия", "en": "Sodium sulphite" },
+      "category": "preservative",
+      "risk": "moderate",
+      "summary": { "ru": "Сульфит: обязательная маркировка как аллергена, риск для астматиков.", "en": "A sulphite: a declarable allergen and a risk for asthmatics." },
+      "detail": {
+        "ru": "Ведёт себя как диоксид серы и учитывается в том же сульфитном ADI 0.7 мг/кг веса. Сульфиты выше 10 мг/кг обязаны указываться в составе, потому что у астматиков они способны вызвать бронхоспазм. Встречается в сухофруктах, вине, картофельных заготовках.",
+        "en": "Behaves like sulphur dioxide and counts against the same sulphite ADI of 0.7 mg/kg bw. Sulphites above 10 mg/kg must be declared, because they can trigger bronchospasm in people with asthma. Found in dried fruit, wine and prepared potato products."
+      },
+      "concerns": ["allergen", "asthma-trigger"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.7,
+      "restrictedIn": [],
+      "synonyms": ["сульфит натрия", "натрия сульфит", "sodium sulphite", "sodium sulfite"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E222",
+      "names": { "ru": "Гидросульфит натрия", "en": "Sodium hydrogen sulphite" },
+      "category": "preservative",
+      "risk": "moderate",
+      "summary": { "ru": "Сульфит: тот же аллерген и та же осторожность при астме.", "en": "A sulphite: the same allergen and the same caution with asthma." },
+      "detail": {
+        "ru": "Разновидность сульфита, выделяющая SO2 в продукте. Общий сульфитный ADI 0.7 мг/кг веса — низкий, и любители сухофруктов и вина вполне могут его выбирать. Обязателен к указанию в составе выше 10 мг/кг.",
+        "en": "A sulphite that releases SO2 in the product. The shared sulphite ADI of 0.7 mg/kg bw is low, and heavy consumers of dried fruit and wine can realistically reach it. Must be declared above 10 mg/kg."
+      },
+      "concerns": ["allergen", "asthma-trigger"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.7,
+      "restrictedIn": [],
+      "synonyms": ["гидросульфит натрия", "бисульфит натрия", "sodium hydrogen sulphite", "sodium bisulphite"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E224",
+      "names": { "ru": "Метабисульфит калия", "en": "Potassium metabisulphite" },
+      "category": "preservative",
+      "risk": "moderate",
+      "summary": { "ru": "Винный сульфит: аллерген для маркировки, осторожно при астме.", "en": "The wine sulphite: a declarable allergen, caution with asthma." },
+      "detail": {
+        "ru": "Основной консервант виноделия и части соков. Входит в сульфитный ADI 0.7 мг/кг веса. Именно из-за него на бутылках стоит «содержит сульфиты» — это требование маркировки аллергенов, а не формальность.",
+        "en": "The main preservative in winemaking and some juices. Counts against the sulphite ADI of 0.7 mg/kg bw. It is the reason bottles say 'contains sulphites' — an allergen labelling requirement, not a formality."
+      },
+      "concerns": ["allergen", "asthma-trigger"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.7,
+      "restrictedIn": [],
+      "synonyms": ["метабисульфит калия", "пиросульфит калия", "potassium metabisulphite", "potassium pyrosulphite"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E234",
+      "names": { "ru": "Низин", "en": "Nisin" },
+      "category": "preservative",
+      "risk": "low",
+      "summary": { "ru": "Бактериоцин молочнокислых бактерий; естественно есть в сырах.", "en": "A bacteriocin from lactic acid bacteria; naturally present in cheese." },
+      "detail": {
+        "ru": "Вырабатывается теми же бактериями, что сквашивают молоко, и встречается в традиционных сырах без всякого добавления. Переваривается как белок. ADI 0.13 мг/кг веса. Из промышленных консервантов один из самых спокойных.",
+        "en": "Produced by the same bacteria that ferment milk and present in traditional cheese without being added. Digested like a protein. ADI 0.13 mg/kg bw. One of the least troubling industrial preservatives."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": 0.13,
+      "restrictedIn": [],
+      "synonyms": ["низин", "nisin"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E242",
+      "names": { "ru": "Диметилдикарбонат", "en": "Dimethyl dicarbonate" },
+      "category": "preservative",
+      "risk": "low",
+      "summary": { "ru": "«Холодная стерилизация» напитков: распадается сразу после внесения.", "en": "Cold sterilisation for drinks: it breaks down right after dosing." },
+      "detail": {
+        "ru": "Вносится в напиток, убивает дрожжи и распадается на метанол и углекислый газ за считаные часы, так что в готовом продукте его уже нет. Количество образующегося метанола на порядки ниже того, что естественно есть в соках. EFSA не увидело поводов для беспокойства при разрешённом применении.",
+        "en": "Dosed into the drink, it kills yeast and decomposes into methanol and carbon dioxide within hours, so none remains in the finished product. The methanol formed is orders of magnitude below what juices contain naturally. EFSA saw no concerns at permitted use levels."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["диметилдикарбонат", "dimethyl dicarbonate", "dmdc", "velcorin"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E260",
+      "names": { "ru": "Уксусная кислота", "en": "Acetic acid" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Обычный уксус. Безопасен, ADI не установлен.", "en": "Ordinary vinegar. Safe, no ADI set." },
+      "detail": {
+        "ru": "То же вещество, что в столовом уксусе, и один из старейших консервантов человечества. Организм перерабатывает его как обычный метаболит. Никаких вопросов, кроме воздействия концентрированного раствора на зубную эмаль.",
+        "en": "The same substance as in table vinegar and one of humanity's oldest preservatives. The body handles it as an ordinary metabolite. No concerns beyond what a concentrated solution does to tooth enamel."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["уксусная кислота", "уксус", "acetic acid", "vinegar"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E262",
+      "names": { "ru": "Ацетаты натрия", "en": "Sodium acetates" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Соль уксусной кислоты: вкус «соли с уксусом» и защита от плесени.", "en": "The salt of acetic acid: the salt-and-vinegar taste, plus mould protection." },
+      "detail": {
+        "ru": "Даёт чипсам вкус «соль с уксусом» и продлевает срок хранения хлеба и мясных изделий. ADI не установлен. Единственное замечание — это ещё один источник натрия, который учитывается в общем количестве соли.",
+        "en": "Gives crisps their salt-and-vinegar taste and extends the shelf life of bread and meat products. No ADI set. The one caveat is that it is another source of sodium, counting towards total salt."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["ацетат натрия", "ацетаты натрия", "диацетат натрия", "sodium acetate", "sodium diacetate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E284",
+      "names": { "ru": "Борная кислота", "en": "Boric acid" },
+      "category": "preservative",
+      "risk": "high",
+      "summary": { "ru": "Разрешена в ЕС единственно для икры; бор накапливается в организме.", "en": "Permitted in the EU for caviar only; boron accumulates in the body." },
+      "detail": {
+        "ru": "Когда-то борную кислоту широко применяли как консервант, но от этого отказались: бор накапливается и в высоких дозах влияет на репродуктивную систему в опытах на животных. В ЕС осталось единственное исключение — икра осетровых. В любом другом продукте это красный флаг.",
+        "en": "Boric acid was once a widespread preservative, but the practice was abandoned: boron accumulates and at high doses affects the reproductive system in animal studies. One exception survives in the EU — sturgeon caviar. In any other product it is a red flag."
+      },
+      "concerns": ["banned-somewhere", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": ["EU"],
+      "synonyms": ["борная кислота", "boric acid", "тетраборат натрия", "sodium tetraborate", "borax"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E290",
+      "names": { "ru": "Диоксид углерода", "en": "Carbon dioxide" },
+      "category": "other",
+      "risk": "none",
+      "summary": { "ru": "Углекислый газ: пузырьки в газировке и защитная атмосфера в упаковке.", "en": "Carbon dioxide: the bubbles in fizzy drinks and the protective atmosphere in packs." },
+      "detail": {
+        "ru": "Тот же газ, который человек выдыхает. В упаковке вытесняет кислород и замедляет порчу, в напитках даёт пузырьки. Безопасен; газированная вода лишь слегка кислее обычной, что имеет значение только для зубной эмали при постоянном употреблении.",
+        "en": "The same gas people exhale. In packaging it displaces oxygen and slows spoilage; in drinks it makes the bubbles. Safe; carbonated water is only slightly more acidic than still, which matters only to tooth enamel with constant use."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["диоксид углерода", "углекислый газ", "carbon dioxide", "co2"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E297",
+      "names": { "ru": "Фумаровая кислота", "en": "Fumaric acid" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Кислота, участвующая в обмене веществ каждой клетки.", "en": "An acid that is part of every cell's metabolism." },
+      "detail": {
+        "ru": "Участник цикла Кребса, то есть вещество, которое организм и так производит постоянно. Как добавка даёт кислый вкус в порошковых напитках и начинках. Опасений нет.",
+        "en": "A component of the Krebs cycle, so a substance the body produces constantly anyway. As an additive it provides tartness in powdered drinks and fillings. No concerns."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["фумаровая кислота", "fumaric acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E301",
+      "names": { "ru": "Аскорбат натрия", "en": "Sodium ascorbate" },
+      "category": "antioxidant",
+      "risk": "none",
+      "summary": { "ru": "Соль витамина C: антиоксидант, который заодно витамин.", "en": "The salt of vitamin C: an antioxidant that is also a vitamin." },
+      "detail": {
+        "ru": "Работает как аскорбиновая кислота, но без кислого вкуса, поэтому его добавляют в мясные изделия. Полезный побочный эффект: в присутствии аскорбата в колбасах образуется меньше нитрозаминов из нитрита. ADI не установлен.",
+        "en": "Works like ascorbic acid but without the sour taste, which is why it goes into meat products. A useful side effect: with ascorbate present, less nitrosamine forms from nitrite in cured meat. No ADI set."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["аскорбат натрия", "натрия аскорбат", "sodium ascorbate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E304",
+      "names": { "ru": "Эфиры аскорбиновой кислоты (аскорбилпальмитат)", "en": "Ascorbyl palmitate" },
+      "category": "antioxidant",
+      "risk": "none",
+      "summary": { "ru": "Жирорастворимая форма витамина C для защиты масел.", "en": "A fat-soluble form of vitamin C that protects oils." },
+      "detail": {
+        "ru": "Витамин C, «пришитый» к жирной кислоте, чтобы он растворялся в масле и защищал жиры от прогоркания. В организме распадается на аскорбиновую и пальмитиновую кислоту — обе обычные. ADI не установлен.",
+        "en": "Vitamin C attached to a fatty acid so it dissolves in oil and protects fats from going rancid. In the body it splits into ascorbic and palmitic acid, both ordinary. No ADI set."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["аскорбилпальмитат", "аскорбил пальмитат", "ascorbyl palmitate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E307",
+      "names": { "ru": "Альфа-токоферол", "en": "Alpha-tocopherol" },
+      "category": "antioxidant",
+      "risk": "none",
+      "summary": { "ru": "Витамин E в чистом виде. Хорошая замена синтетическим BHA и BHT.", "en": "Pure vitamin E. A good replacement for synthetic BHA and BHT." },
+      "detail": {
+        "ru": "Наиболее активная форма витамина E. Защищает жиры от окисления и при этом остаётся витамином. Если производитель выбрал его вместо BHA или BHT — это в пользу продукта.",
+        "en": "The most active form of vitamin E. It protects fats from oxidation while remaining a vitamin. A manufacturer choosing it over BHA or BHT counts in the product's favour."
+      },
+      "concerns": [],
+      "origin": "mixed",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["альфа-токоферол", "a-токоферол", "alpha-tocopherol", "d-alpha-tocopherol"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E311",
+      "names": { "ru": "Октилгаллат", "en": "Octyl gallate" },
+      "category": "antioxidant",
+      "risk": "moderate",
+      "summary": { "ru": "Синтетический антиоксидант из семейства галлатов.", "en": "A synthetic antioxidant from the gallate family." },
+      "detail": {
+        "ru": "Как и пропилгаллат, защищает жиры от прогоркания и, как и он, у части людей вызывает крапивницу. Токоферолы (E306, E307) делают ту же работу без этих вопросов. Присутствие галлатов — признак жирного продукта долгого хранения.",
+        "en": "Like propyl gallate it protects fats from rancidity and, like it, causes urticaria in some people. Tocopherols (E306, E307) do the same job without those questions. Gallates signal a long-life fatty product."
+      },
+      "concerns": ["allergen", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["октилгаллат", "октиловый эфир галловой кислоты", "octyl gallate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E315",
+      "names": { "ru": "Изоаскорбиновая (эриторбовая) кислота", "en": "Erythorbic acid" },
+      "category": "antioxidant",
+      "risk": "none",
+      "summary": { "ru": "Дешёвый «двойник» витамина C: антиоксидант без витаминной активности.", "en": "A cheap twin of vitamin C: the antioxidant activity without the vitamin activity." },
+      "detail": {
+        "ru": "Химически почти копия аскорбиновой кислоты, но витамином не является. Применяется в мясных изделиях, где помогает подавлять образование нитрозаминов. Безопасна; ожидать от неё пользы витамина C не стоит.",
+        "en": "Chemically almost a copy of ascorbic acid, but it is not a vitamin. Used in meat products, where it helps suppress nitrosamine formation. Safe, but it delivers none of vitamin C's benefit."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["изоаскорбиновая кислота", "эриторбовая кислота", "erythorbic acid", "isoascorbic acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E325",
+      "names": { "ru": "Лактат натрия", "en": "Sodium lactate" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Соль молочной кислоты: удерживает влагу и сдерживает бактерии.", "en": "The salt of lactic acid: holds moisture and holds back bacteria." },
+      "detail": {
+        "ru": "Применяется в мясных изделиях и выпечке. Безопасен, ADI не установлен. Как и другие натриевые соли, добавляет натрий — в мясных полуфабрикатах его вклад в общую соль заметен.",
+        "en": "Used in meat products and baked goods. Safe, no ADI set. Like other sodium salts it adds sodium — in meat preparations its contribution to total salt is noticeable."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["лактат натрия", "натрия лактат", "sodium lactate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E331",
+      "names": { "ru": "Цитраты натрия", "en": "Sodium citrates" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Соли лимонной кислоты: регулятор кислотности и плавитель сыра.", "en": "The salts of citric acid: acidity regulator and cheese melting salt." },
+      "detail": {
+        "ru": "Именно благодаря им плавленый сыр остаётся однородным, а газировка — стабильной по вкусу. Безопасны, ADI не установлен. Единственное — это источник натрия, хоть и небольшой.",
+        "en": "They are why processed cheese stays smooth and soft drinks keep a stable taste. Safe, no ADI set. The only caveat is that they are a source of sodium, albeit a small one."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["цитрат натрия", "цитраты натрия", "sodium citrate", "sodium citrates", "trisodium citrate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E333",
+      "names": { "ru": "Цитраты кальция", "en": "Calcium citrates" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Соли лимонной кислоты и кальция. Безопасны, ADI не установлен.", "en": "Calcium salts of citric acid. Safe, no ADI set." },
+      "detail": {
+        "ru": "Регулируют кислотность и укрепляют структуру консервированных овощей и фруктов, а заодно служат источником усвояемого кальция — цитрат кальция используется и в аптечных добавках. Опасений не вызывают.",
+        "en": "They regulate acidity and firm up canned fruit and vegetables, and double as a source of absorbable calcium — calcium citrate is used in supplements too. No concerns."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["цитрат кальция", "цитраты кальция", "calcium citrate", "calcium citrates"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E339",
+      "names": { "ru": "Фосфаты натрия", "en": "Sodium phosphates" },
+      "category": "stabiliser",
+      "risk": "moderate",
+      "summary": { "ru": "Фосфаты: удерживают воду и добавляют нагрузку фосфором и натрием.", "en": "Phosphates: they hold water and add both a phosphorus and a sodium load." },
+      "detail": {
+        "ru": "Учитываются в общем фосфатном пределе 40 мг/кг веса в день в пересчёте на фосфор, который у части населения уже превышается. Избыток фосфора — нагрузка на почки и фактор риска для сосудов и костей. Встречаются в плавленых сырах, мясных изделиях, газировке.",
+        "en": "Counted against the overall phosphate limit of 40 mg/kg bw per day as phosphorus, which part of the population already exceeds. Excess phosphorus loads the kidneys and is a risk factor for vessels and bone. Found in processed cheese, meat products and soft drinks."
+      },
+      "concerns": ["kidney", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 40,
+      "restrictedIn": [],
+      "synonyms": ["фосфат натрия", "фосфаты натрия", "ортофосфат натрия", "sodium phosphate", "sodium phosphates"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E341",
+      "names": { "ru": "Фосфаты кальция", "en": "Calcium phosphates" },
+      "category": "anti-caking",
+      "risk": "moderate",
+      "summary": { "ru": "Фосфаты кальция: разрыхлитель, антислёживатель, источник кальция.", "en": "Calcium phosphates: raising agent, anti-caking agent and calcium source." },
+      "detail": {
+        "ru": "Основа костной ткани, поэтому вещество для организма не чужое. Но как добавка оно входит в общий фосфатный предел 40 мг/кг веса в день в пересчёте на фосфор, а суммарное поступление фосфатов из переработанной еды у многих и так избыточно.",
+        "en": "The mineral of bone, so hardly foreign to the body. As an additive, though, it counts against the overall phosphate limit of 40 mg/kg bw per day as phosphorus, and total phosphate intake from processed food is already excessive for many people."
+      },
+      "concerns": ["kidney"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 40,
+      "restrictedIn": [],
+      "synonyms": ["фосфат кальция", "фосфаты кальция", "calcium phosphate", "calcium phosphates", "tricalcium phosphate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E392",
+      "names": { "ru": "Экстракт розмарина", "en": "Extract of rosemary" },
+      "category": "antioxidant",
+      "risk": "none",
+      "summary": { "ru": "Растительный антиоксидант — «чистая» замена BHA и BHT.", "en": "A plant antioxidant — the clean-label replacement for BHA and BHT." },
+      "detail": {
+        "ru": "Вытяжка из розмарина, содержащая карнозоловую кислоту. Защищает жиры от прогоркания не хуже синтетических антиоксидантов и при этом не вызывает вопросов у регуляторов. Его появление в составе — признак того, что производитель уходит от BHA/BHT.",
+        "en": "A rosemary extract containing carnosic acid. It protects fats from rancidity as well as the synthetic antioxidants do, without the regulatory questions. Its appearance on a label usually means the maker is moving away from BHA and BHT."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["экстракт розмарина", "розмариновый экстракт", "extract of rosemary", "rosemary extract", "carnosic acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    }
+  ]
+}

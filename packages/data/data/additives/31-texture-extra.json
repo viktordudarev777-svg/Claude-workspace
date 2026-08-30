@@ -1,0 +1,430 @@
+{
+  "group": "texture-extended",
+  "additives": [
+    {
+      "code": "E400",
+      "names": { "ru": "Альгиновая кислота", "en": "Alginic acid" },
+      "category": "thickener",
+      "risk": "none",
+      "summary": { "ru": "Загуститель из бурых водорослей. Растворимая клетчатка.", "en": "Thickener from brown seaweed — soluble fibre." },
+      "detail": {
+        "ru": "Извлекается из бурых водорослей, не переваривается и ведёт себя как растворимая клетчатка. ADI не установлен. В больших количествах, как любая клетчатка, может слегка пучить.",
+        "en": "Extracted from brown seaweed, indigestible and behaving like soluble fibre. No ADI set. In quantity it can cause mild bloating, as any fibre can."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["альгиновая кислота", "alginic acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E401",
+      "names": { "ru": "Альгинат натрия", "en": "Sodium alginate" },
+      "category": "thickener",
+      "risk": "none",
+      "summary": { "ru": "Водорослевый загуститель мороженого и соусов. Безопасен.", "en": "Seaweed thickener for ice cream and sauces. Safe." },
+      "detail": {
+        "ru": "Соль альгиновой кислоты, знакомая по молекулярной кухне: с кальцием мгновенно образует гель. В продукте держит текстуру мороженого и соусов. Не переваривается, опасений не вызывает.",
+        "en": "The salt of alginic acid, familiar from molecular cooking: with calcium it gels instantly. In a product it holds the texture of ice cream and sauces. Indigestible and free of concerns."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["альгинат натрия", "натрия альгинат", "sodium alginate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E406",
+      "names": { "ru": "Агар", "en": "Agar" },
+      "category": "thickener",
+      "risk": "none",
+      "summary": { "ru": "Желирующее вещество из красных водорослей. Растительная альтернатива желатину.", "en": "Gelling agent from red seaweed — the plant alternative to gelatine." },
+      "detail": {
+        "ru": "Традиционный ингредиент азиатской кухни и растительная замена желатину в мармеладе и десертах. Не переваривается, работает как клетчатка. ADI не установлен, опасений нет.",
+        "en": "A traditional ingredient in Asian cooking and the plant replacement for gelatine in jellies and desserts. Indigestible and behaves as fibre. No ADI set and no concerns."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["агар", "агар-агар", "agar", "agar-agar"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E407a",
+      "names": { "ru": "Обработанные водоросли Euchema", "en": "Processed Euchema seaweed" },
+      "category": "thickener",
+      "risk": "low",
+      "summary": { "ru": "Менее очищенный родственник каррагинана.", "en": "A less refined relative of carrageenan." },
+      "detail": {
+        "ru": "По сути те же водоросли, что дают каррагинан, но обработанные мягче, с большей долей клетчатки. Групповые вопросы те же, что к E407, и та же неопределённость по влиянию на кишечник. Людям с воспалительными заболеваниями кишечника имеет смысл ограничить.",
+        "en": "Essentially the same seaweed that yields carrageenan, processed more gently and retaining more fibre. It carries the same group questions as E407 and the same uncertainty about effects on the gut. Worth limiting if you have inflammatory bowel disease."
+      },
+      "concerns": ["gut-microbiome", "ultra-processed-marker"],
+      "origin": "natural",
+      "adiMgPerKgBw": 75,
+      "restrictedIn": [],
+      "synonyms": ["обработанные водоросли euchema", "processed euchema seaweed", "pes"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E414",
+      "names": { "ru": "Гуммиарабик (камедь акации)", "en": "Acacia gum (gum arabic)" },
+      "category": "thickener",
+      "risk": "none",
+      "summary": { "ru": "Смола акации: один из старейших и самых безобидных загустителей.", "en": "Acacia resin: one of the oldest and most harmless thickeners." },
+      "detail": {
+        "ru": "Применяется тысячи лет, не переваривается и работает как растворимая клетчатка — есть даже исследования его пребиотического действия. ADI не установлен. Часто встречается в напитках, глазури, жевательной резинке.",
+        "en": "In use for thousands of years, indigestible and behaving as soluble fibre — there is even research on its prebiotic effect. No ADI set. Common in drinks, glazes and chewing gum."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["гуммиарабик", "камедь акации", "acacia gum", "gum arabic"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E418",
+      "names": { "ru": "Геллановая камедь", "en": "Gellan gum" },
+      "category": "thickener",
+      "risk": "none",
+      "summary": { "ru": "Загуститель растительного молока, получаемый брожением.", "en": "The thickener in plant milks, produced by fermentation." },
+      "detail": {
+        "ru": "Продукт брожения бактерий; удерживает частицы во взвеси, поэтому его так часто видно в составе овсяного и миндального молока. Не переваривается, ADI не установлен, опасений нет.",
+        "en": "A bacterial fermentation product that keeps particles in suspension, which is why it appears so often in oat and almond milk. Indigestible, no ADI set, no concerns."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["геллановая камедь", "геллан", "gellan gum"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E421",
+      "names": { "ru": "Маннит", "en": "Mannitol" },
+      "category": "sweetener",
+      "risk": "low",
+      "summary": { "ru": "Сахарный спирт: слабит сильнее большинства собратьев.", "en": "A sugar alcohol with a stronger laxative effect than most." },
+      "detail": {
+        "ru": "Плохо всасывается, поэтому почти вся съеденная доза доходит до толстой кишки и тянет за собой воду. Порог послабления у маннита ниже, чем у сорбита. Продукты с содержанием полиолов выше 10% обязаны нести соответствующее предупреждение.",
+        "en": "Poorly absorbed, so almost the whole dose reaches the colon and draws water with it. Its laxative threshold is lower than sorbitol's. Products with more than 10% polyols must carry the corresponding warning."
+      },
+      "concerns": ["laxative-effect"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["маннит", "маннитол", "mannitol"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E422",
+      "names": { "ru": "Глицерин", "en": "Glycerol" },
+      "category": "other",
+      "risk": "none",
+      "summary": { "ru": "Влагоудерживатель: не даёт зефиру и батончикам засохнуть.", "en": "A humectant: it keeps marshmallows and bars from drying out." },
+      "detail": {
+        "ru": "Составная часть обычного жира — организм получает глицерин при переваривании любого масла. Как добавка удерживает влагу и придаёт мягкость. Безопасен; в очень больших дозах слегка слабит, как и сахарные спирты.",
+        "en": "A building block of ordinary fat — the body gets glycerol from digesting any oil. As an additive it holds moisture and keeps things soft. Safe; in very large doses it is mildly laxative, like the sugar alcohols."
+      },
+      "concerns": [],
+      "origin": "mixed",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["глицерин", "глицерол", "glycerol", "glycerine", "glycerin"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E425",
+      "names": { "ru": "Конжаковая камедь", "en": "Konjac gum" },
+      "category": "thickener",
+      "risk": "moderate",
+      "summary": { "ru": "Загуститель, запрещённый в желейных мини-стаканчиках из-за риска удушья.", "en": "Thickener banned in jelly mini-cups because of the choking risk." },
+      "detail": {
+        "ru": "Само вещество — обычная растворимая клетчатка, из него делают лапшу ширатаки. Проблема механическая: в желейных мини-стаканчиках конжак образует упругий комок, который не разжёвывается и перекрывает дыхательные пути. После смертельных случаев у детей ЕС запретил именно эту форму выпуска, а не сам загуститель.",
+        "en": "The substance itself is ordinary soluble fibre — shirataki noodles are made from it. The problem is mechanical: in jelly mini-cups konjac forms a springy lump that does not break up when chewed and blocks the airway. After deaths among children the EU banned that specific format, not the thickener."
+      },
+      "concerns": ["banned-somewhere"],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": ["EU"],
+      "synonyms": ["конжаковая камедь", "конжак", "глюкоманнан", "konjac gum", "konjac glucomannan"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E432",
+      "names": { "ru": "Полисорбат 20", "en": "Polysorbate 20" },
+      "category": "emulsifier",
+      "risk": "moderate",
+      "summary": { "ru": "Синтетический эмульгатор; вопросы к влиянию на микрофлору.", "en": "Synthetic emulsifier; questions about its effect on gut flora." },
+      "detail": {
+        "ru": "Групповой ADI полисорбатов 25 мг/кг веса. Как и полисорбат 80, в опытах на животных влиял на состав микрофлоры и слизистый барьер кишечника; у людей данных мало. Типичный компонент промышленных десертов и соусов.",
+        "en": "The group ADI for polysorbates is 25 mg/kg bw. Like polysorbate 80, it affected gut flora composition and the mucus barrier in animal studies; human data are scarce. A typical component of industrial desserts and sauces."
+      },
+      "concerns": ["gut-microbiome", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 25,
+      "restrictedIn": [],
+      "synonyms": ["полисорбат 20", "polysorbate 20", "tween 20"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E435",
+      "names": { "ru": "Полисорбат 60", "en": "Polysorbate 60" },
+      "category": "emulsifier",
+      "risk": "moderate",
+      "summary": { "ru": "Эмульгатор промышленной выпечки и взбитых начинок.", "en": "The emulsifier of industrial baking and whipped toppings." },
+      "detail": {
+        "ru": "Входит в тот же групповой ADI 25 мг/кг веса, что и остальные полисорбаты, и разделяет с ними вопросы о влиянии на кишечную микрофлору. В домашней кухне такого ингредиента нет — это маркер промышленной рецептуры.",
+        "en": "Shares the 25 mg/kg bw group ADI with the other polysorbates and the same questions about effects on gut flora. No home kitchen uses it — it is a marker of an industrial formulation."
+      },
+      "concerns": ["gut-microbiome", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 25,
+      "restrictedIn": [],
+      "synonyms": ["полисорбат 60", "polysorbate 60", "tween 60"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E452",
+      "names": { "ru": "Полифосфаты", "en": "Polyphosphates" },
+      "category": "stabiliser",
+      "risk": "moderate",
+      "summary": { "ru": "Самые «сильные» из фосфатов по удержанию воды в мясе и рыбе.", "en": "The strongest of the phosphates at holding water in meat and fish." },
+      "detail": {
+        "ru": "Позволяют продукту впитать заметное количество воды, которая уходит при жарке — вы платите за неё как за мясо. Учитываются в общем фосфатном пределе 40 мг/кг веса в день в пересчёте на фосфор; его избыток нагружает почки и влияет на обмен кальция.",
+        "en": "They let a product take up a noticeable amount of water that is lost again in the pan — you pay meat prices for it. Counted against the overall phosphate limit of 40 mg/kg bw per day as phosphorus, whose excess loads the kidneys and affects calcium handling."
+      },
+      "concerns": ["kidney", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 40,
+      "restrictedIn": [],
+      "synonyms": ["полифосфаты", "полифосфат натрия", "polyphosphates", "sodium polyphosphate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E460",
+      "names": { "ru": "Целлюлоза", "en": "Cellulose" },
+      "category": "anti-caking",
+      "risk": "low",
+      "summary": { "ru": "Обычная растительная клетчатка в роли наполнителя.", "en": "Ordinary plant fibre used as a filler." },
+      "detail": {
+        "ru": "Не переваривается и проходит транзитом. Сама по себе безвредна, но её роль в продукте часто экономическая: микрокристаллическая целлюлоза заменяет часть более дорогого сырья и не даёт тёртому сыру слипаться.",
+        "en": "Indigestible and passes straight through. Harmless in itself, but its role in a product is often economic: microcrystalline cellulose replaces part of a more expensive ingredient and keeps grated cheese from clumping."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["целлюлоза", "микрокристаллическая целлюлоза", "cellulose", "microcrystalline cellulose", "mcc"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E464",
+      "names": { "ru": "Гидроксипропилметилцеллюлоза", "en": "Hydroxypropyl methyl cellulose" },
+      "category": "thickener",
+      "risk": "low",
+      "summary": { "ru": "Модифицированная целлюлоза: держит структуру в безглютеновой выпечке.", "en": "Modified cellulose that holds gluten-free baking together." },
+      "detail": {
+        "ru": "Заменяет клейковину там, где её нет, и делает растительные котлеты плотными. Не переваривается, токсикологических претензий нет. Присутствие говорит о промышленной рецептуре, а не об опасности.",
+        "en": "It stands in for gluten where there is none and gives plant-based patties their bite. Indigestible, with no toxicological concerns. Its presence indicates an industrial formulation rather than a hazard."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["гидроксипропилметилцеллюлоза", "гпмц", "hydroxypropyl methyl cellulose", "hpmc", "methylcellulose"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E470a",
+      "names": { "ru": "Соли жирных кислот", "en": "Salts of fatty acids" },
+      "category": "emulsifier",
+      "risk": "low",
+      "summary": { "ru": "Эмульгатор и антислёживатель из обычных жирных кислот.", "en": "Emulsifier and anti-caking agent made from ordinary fatty acids." },
+      "detail": {
+        "ru": "По сути мыло пищевого качества: соли тех же жирных кислот, что содержатся в масле. Организм переваривает их как жир. Претензий по токсичности нет; это маркер переработанного продукта.",
+        "en": "Food-grade soap, essentially: salts of the same fatty acids found in oil, digested as fat. No toxicity concerns; it is a marker of a processed product."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "mixed",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["соли жирных кислот", "стеарат магния", "salts of fatty acids", "magnesium stearate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E472a",
+      "names": { "ru": "Эфиры моно- и диглицеридов с уксусной кислотой", "en": "Acetic acid esters of mono- and diglycerides" },
+      "category": "emulsifier",
+      "risk": "low",
+      "summary": { "ru": "Модифицированный жировой эмульгатор для покрытий и выпечки.", "en": "A modified fat emulsifier for coatings and baked goods." },
+      "detail": {
+        "ru": "Обычные моно- и диглицериды, соединённые с уксусной кислотой. Организм расщепляет их на жир и уксусную кислоту — оба компонента привычные. Значение то же, что у E471: признак промышленной рецептуры.",
+        "en": "Ordinary mono- and diglycerides joined to acetic acid; the body breaks them into fat and acetic acid, both familiar. Their significance matches E471's: a sign of an industrial recipe."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["эфиры моно- и диглицеридов с уксусной кислотой", "acetic acid esters of mono- and diglycerides", "acetem"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E472c",
+      "names": { "ru": "Эфиры моно- и диглицеридов с лимонной кислотой", "en": "Citric acid esters of mono- and diglycerides" },
+      "category": "emulsifier",
+      "risk": "low",
+      "summary": { "ru": "Эмульгатор колбас, маргарина и сухих смесей.", "en": "The emulsifier of sausages, margarine and dry mixes." },
+      "detail": {
+        "ru": "Соединение жировых фрагментов с лимонной кислотой. Расщепляется на понятные организму составляющие, токсикологических вопросов нет. Как и остальные E472, служит указанием на степень переработки продукта.",
+        "en": "Fat fragments joined to citric acid. It breaks down into components the body knows well, with no toxicological questions. Like the other E472 group members, it indicates how processed the product is."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["эфиры моно- и диглицеридов с лимонной кислотой", "citric acid esters of mono- and diglycerides", "citrem"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E473",
+      "names": { "ru": "Эфиры сахарозы и жирных кислот", "en": "Sucrose esters of fatty acids" },
+      "category": "emulsifier",
+      "risk": "low",
+      "summary": { "ru": "Эмульгатор из сахара и жира. ADI 40 мг/кг веса.", "en": "An emulsifier made from sugar and fat. ADI 40 mg/kg bw." },
+      "detail": {
+        "ru": "Организм расщепляет его на сахарозу и жирные кислоты. В очень больших количествах, как и другие плохо всасывающиеся вещества, может послаблять. Применяется в кондитерских изделиях, напитках, покрытиях фруктов.",
+        "en": "The body splits it into sucrose and fatty acids. In very large amounts, like other poorly absorbed substances, it can loosen the stool. Used in confectionery, drinks and fruit coatings."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 40,
+      "restrictedIn": [],
+      "synonyms": ["эфиры сахарозы и жирных кислот", "sucrose esters of fatty acids", "sucrose esters"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E481",
+      "names": { "ru": "Стеароил-2-лактилат натрия", "en": "Sodium stearoyl-2-lactylate" },
+      "category": "emulsifier",
+      "risk": "low",
+      "summary": { "ru": "Улучшитель промышленного хлеба: пышность и одинаковый мякиш.", "en": "An industrial bread improver: volume and a uniform crumb." },
+      "detail": {
+        "ru": "Укрепляет клейковину, чтобы батон получался объёмным и одинаковым изо дня в день. ADI 20 мг/кг веса. Токсикологических претензий нет; это просто признак того, что хлеб промышленный, а не из трёх ингредиентов.",
+        "en": "It strengthens gluten so a loaf comes out voluminous and identical day after day. ADI 20 mg/kg bw. No toxicological concerns; it simply marks industrial bread rather than a three-ingredient loaf."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 20,
+      "restrictedIn": [],
+      "synonyms": ["стеароил-2-лактилат натрия", "sodium stearoyl-2-lactylate", "ssl", "стеароиллактилат"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E491",
+      "names": { "ru": "Сорбитан моностеарат", "en": "Sorbitan monostearate" },
+      "category": "emulsifier",
+      "risk": "low",
+      "summary": { "ru": "Эмульгатор из сорбита и стеариновой кислоты. ADI группы 25 мг/кг.", "en": "An emulsifier from sorbitol and stearic acid. Group ADI 25 mg/kg." },
+      "detail": {
+        "ru": "Применяется в глазури, дрожжах, десертах. Расщепляется на сорбит и жирную кислоту, обе знакомые организму. Групповой ADI сорбитановых эфиров 25 мг/кг веса; в пищевых количествах вопросов нет.",
+        "en": "Used in icings, yeast and desserts. It splits into sorbitol and a fatty acid, both familiar to the body. The group ADI for sorbitan esters is 25 mg/kg bw; at food levels there are no questions."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 25,
+      "restrictedIn": [],
+      "synonyms": ["сорбитан моностеарат", "sorbitan monostearate", "span 60"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E1400",
+      "names": { "ru": "Декстрины", "en": "Dextrins" },
+      "category": "thickener",
+      "risk": "low",
+      "summary": { "ru": "Расщеплённый крахмал: наполнитель и загуститель.", "en": "Broken-down starch used as filler and thickener." },
+      "detail": {
+        "ru": "Крахмал, частично разобранный на более короткие цепочки. Переваривается как крахмал и даёт те же калории. Опасности нет, но в продукте это чаще всего дешёвый наполнитель, а не то, ради чего покупают.",
+        "en": "Starch partly broken into shorter chains. Digested as starch and supplying the same calories. Not hazardous, but in a product it is usually a cheap filler rather than the thing you are paying for."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "mixed",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["декстрин", "декстрины", "dextrin", "dextrins"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E1412",
+      "names": { "ru": "Дикрахмалфосфат", "en": "Distarch phosphate" },
+      "category": "thickener",
+      "risk": "low",
+      "summary": { "ru": "Модифицированный крахмал: держит соус при нагреве.", "en": "Modified starch that holds a sauce together when heated." },
+      "detail": {
+        "ru": "Обычный крахмал со сшитыми цепочками, чтобы соус не расслаивался при нагревании. «Модифицированный» здесь не имеет отношения к ГМО. Токсикологических вопросов нет; это маркер готовых блюд и полуфабрикатов.",
+        "en": "Ordinary starch with cross-linked chains so a sauce does not separate when heated. 'Modified' here has nothing to do with GM. No toxicological questions; a marker of ready meals and convenience food."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "mixed",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["дикрахмалфосфат", "distarch phosphate", "модифицированный крахмал 1412"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E1414",
+      "names": { "ru": "Ацетилированный дикрахмалфосфат", "en": "Acetylated distarch phosphate" },
+      "category": "thickener",
+      "risk": "low",
+      "summary": { "ru": "Модифицированный крахмал для замороженных и консервированных блюд.", "en": "Modified starch for frozen and canned dishes." },
+      "detail": {
+        "ru": "Выдерживает заморозку и стерилизацию, не давая продукту расслоиться. Переваривается как крахмал, опасений нет. В составе означает готовое промышленное блюдо.",
+        "en": "Survives freezing and sterilisation without letting the product separate. Digested as starch, with no concerns. On a label it means an industrial ready meal."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "mixed",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["ацетилированный дикрахмалфосфат", "acetylated distarch phosphate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E1422",
+      "names": { "ru": "Ацетилированный дикрахмаладипат", "en": "Acetylated distarch adipate" },
+      "category": "thickener",
+      "risk": "low",
+      "summary": { "ru": "Модифицированный крахмал йогуртов, соусов и детского питания.", "en": "The modified starch of yoghurts, sauces and baby food." },
+      "detail": {
+        "ru": "Один из самых распространённых модифицированных крахмалов. Переваривается как обычный крахмал, токсикологических претензий нет. Значение то же — продукт составлен промышленно, а не приготовлен из нескольких ингредиентов.",
+        "en": "One of the most widespread modified starches. Digested as ordinary starch, with no toxicological concerns. The meaning is the same: an industrially formulated product rather than one made from a few ingredients."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "mixed",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["ацетилированный дикрахмаладипат", "acetylated distarch adipate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E1450",
+      "names": { "ru": "Октенилсукцинат крахмала натрия", "en": "Starch sodium octenyl succinate" },
+      "category": "emulsifier",
+      "risk": "low",
+      "summary": { "ru": "Крахмал, работающий эмульгатором в напитках и порошках.", "en": "Starch that works as an emulsifier in drinks and powders." },
+      "detail": {
+        "ru": "Модифицированный крахмал, удерживающий ароматизаторы и жиры во взвеси — отсюда его присутствие в порошковых напитках и сухих сливках. Переваривается как крахмал, опасений нет.",
+        "en": "A modified starch that keeps flavourings and fats in suspension, which is why it appears in powdered drinks and non-dairy creamers. Digested as starch, with no concerns."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "mixed",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["октенилсукцинат крахмала натрия", "starch sodium octenyl succinate", "osa starch"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    }
+  ]
+}

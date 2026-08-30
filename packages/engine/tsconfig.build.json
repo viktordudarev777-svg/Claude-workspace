@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // The consumers differ — the backend is CommonJS, Metro bundles whatever
+    // it is given — so the published output is plain CommonJS with
+    // declarations, which both handle without further configuration.
+    "module": "commonjs",
+    "moduleResolution": "node10",
+    "noEmit": false,
+    "outDir": "dist",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
+  }
+}

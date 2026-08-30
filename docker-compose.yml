@@ -1,0 +1,31 @@
+services:
+  api:
+    build:
+      # The repo root: the API is a workspace that depends on two sibling
+      # packages, so the build needs to see all of them.
+      context: .
+    image: foodlens-api:latest
+    restart: unless-stopped
+    ports:
+      - '${PORT:-4000}:4000'
+    environment:
+      NODE_ENV: production
+      DATABASE_PATH: /data/foodlens.db
+      # Open Food Facts asks every client to identify itself and give a way to
+      # get in touch. Replace the address before running this anywhere real.
+      OFF_BASE_URL: ${OFF_BASE_URL:-https://world.openfoodfacts.org}
+      OFF_USER_AGENT: ${OFF_USER_AGENT:-FoodLens/1.0 (contact@example.com)}
+      OFF_ENABLED: ${OFF_ENABLED:-1}
+      CORS_ORIGIN: ${CORS_ORIGIN:-*}
+      # Optional; the app works without them using barcode and on-device OCR.
+      VISION_PROVIDER: ${VISION_PROVIDER:-none}
+      OCR_PROVIDER: ${OCR_PROVIDER:-none}
+      GOOGLE_VISION_API_KEY: ${GOOGLE_VISION_API_KEY:-}
+      CLARIFAI_PAT: ${CLARIFAI_PAT:-}
+    volumes:
+      # History and the Open Food Facts cache live here. Losing this volume
+      # loses every user's scan history — it is the only stateful thing.
+      - foodlens-data:/data
+
+volumes:
+  foodlens-data:

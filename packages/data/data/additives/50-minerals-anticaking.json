@@ -1,0 +1,464 @@
+{
+  "group": "minerals-anticaking-flavour",
+  "additives": [
+    {
+      "code": "E501",
+      "names": { "ru": "Карбонаты калия", "en": "Potassium carbonates" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Щелочная соль: поташ в пряниках и обработке какао.", "en": "An alkaline salt: potash in gingerbread and cocoa processing." },
+      "detail": {
+        "ru": "Традиционный разрыхлитель пряничного теста и щёлочь для обработки какао, придающая тёмный цвет. ADI не установлен. В отличие от натриевых солей, натрия не добавляет.",
+        "en": "The traditional raising agent for gingerbread dough and the alkali used to darken cocoa. No ADI set. Unlike the sodium salts, it adds no sodium."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["карбонат калия", "карбонаты калия", "поташ", "potassium carbonate", "potash"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E503",
+      "names": { "ru": "Карбонаты аммония", "en": "Ammonium carbonates" },
+      "category": "raising-agent",
+      "risk": "none",
+      "summary": { "ru": "Старинный разрыхлитель тонкого печенья («углекислый аммоний»).", "en": "The traditional raising agent for thin biscuits (baker's ammonia)." },
+      "detail": {
+        "ru": "При выпечке полностью разлагается на аммиак, углекислый газ и воду, поэтому в готовом печенье его уже нет. Работает только в тонких изделиях, где аммиак успевает улетучиться. Безопасен, ADI не установлен.",
+        "en": "During baking it decomposes completely into ammonia, carbon dioxide and water, so none remains in the finished biscuit. It only works in thin items where the ammonia can escape. Safe, no ADI set."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["карбонат аммония", "карбонаты аммония", "углекислый аммоний", "ammonium carbonate", "bakers ammonia"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E508",
+      "names": { "ru": "Хлорид калия", "en": "Potassium chloride" },
+      "category": "other",
+      "risk": "low",
+      "summary": { "ru": "Заменитель соли: солёный вкус без натрия.", "en": "A salt substitute: saltiness without the sodium." },
+      "detail": {
+        "ru": "Основа «соли с пониженным содержанием натрия» — с точки зрения давления это плюс. Два предостережения: у него горьковатый привкус, и людям с болезнями почек или на лекарствах, задерживающих калий, избыток калия противопоказан.",
+        "en": "The basis of reduced-sodium salt, which is a plus for blood pressure. Two caveats: it tastes slightly bitter, and excess potassium is contraindicated for people with kidney disease or on potassium-sparing medication."
+      },
+      "concerns": ["kidney"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["хлорид калия", "калия хлорид", "potassium chloride"],
+      "sources": ["eu-1333-2008", "efsa-additives", "who-salt"]
+    },
+    {
+      "code": "E509",
+      "names": { "ru": "Хлорид кальция", "en": "Calcium chloride" },
+      "category": "stabiliser",
+      "risk": "none",
+      "summary": { "ru": "Уплотнитель: держит форму консервированных овощей и сыра.", "en": "A firming agent: it keeps canned vegetables and cheese in shape." },
+      "detail": {
+        "ru": "Не даёт консервированным огурцам и помидорам развалиться, а в сыроварении помогает свернуть молоко. Безопасен, ADI не установлен. В концентрированном виде горький, поэтому больше нужного не кладут.",
+        "en": "It keeps canned cucumbers and tomatoes from falling apart and helps milk set in cheesemaking. Safe, no ADI set. Concentrated it tastes bitter, so nobody uses more than needed."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["хлорид кальция", "кальция хлорид", "calcium chloride"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E524",
+      "names": { "ru": "Гидроксид натрия", "en": "Sodium hydroxide" },
+      "category": "acidity-regulator",
+      "risk": "low",
+      "summary": { "ru": "Щёлочь для обработки: в готовом продукте нейтрализуется.", "en": "A processing alkali: neutralised in the finished product." },
+      "detail": {
+        "ru": "В концентрированном виде это едкая щёлочь, но в пищевом производстве она применяется для обработки — например, поверхности кренделей-брецелей — и к моменту готовности нейтрализуется. Название пугает сильнее, чем сам процесс.",
+        "en": "Concentrated it is a caustic alkali, but in food production it is used as a processing aid — on the surface of pretzels, for instance — and is neutralised by the time the food is ready. The name is more alarming than the process."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["гидроксид натрия", "едкий натр", "каустическая сода", "sodium hydroxide", "caustic soda", "lye"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E536",
+      "names": { "ru": "Ферроцианид калия", "en": "Potassium ferrocyanide" },
+      "category": "anti-caking",
+      "risk": "moderate",
+      "summary": { "ru": "Антислёживатель соли с самым низким ADI среди массовых добавок.", "en": "The salt anti-caking agent with the lowest ADI of any mass-market additive." },
+      "detail": {
+        "ru": "Цианид здесь прочно связан железом и не высвобождается, но групповой ADI ферроцианидов всего 0.03 мг/кг веса, и при большом потреблении соли к нему можно приблизиться. Лучший ответ — не искать соль без добавок, а есть меньше соли.",
+        "en": "The cyanide is tightly bound by iron and is not released, but the group ADI for ferrocyanides is just 0.03 mg/kg bw, and heavy salt consumers can approach it. The better answer is not additive-free salt but less salt."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.03,
+      "restrictedIn": [],
+      "synonyms": ["ферроцианид калия", "жёлтая кровяная соль", "potassium ferrocyanide"],
+      "sources": ["eu-1333-2008", "efsa-additives", "who-salt"]
+    },
+    {
+      "code": "E541",
+      "names": { "ru": "Кислый фосфат алюминия-натрия", "en": "Sodium aluminium phosphate, acidic" },
+      "category": "raising-agent",
+      "risk": "moderate",
+      "summary": { "ru": "Разрыхлитель, добавляющий и фосфаты, и алюминий.", "en": "A raising agent that adds both phosphate and aluminium." },
+      "detail": {
+        "ru": "Применяется в бисквитах и кексах промышленного производства. Минусов два сразу: фосфаты учитываются в общем пределе 40 мг/кг веса в день, а алюминий — в допустимом недельном поступлении 1 мг/кг веса, которое у части населения уже превышено за счёт других источников.",
+        "en": "Used in industrial sponge cakes and muffins. It carries two downsides at once: the phosphate counts against the 40 mg/kg bw daily limit, and the aluminium against the tolerable weekly intake of 1 mg/kg bw, which part of the population already exceeds from other sources."
+      },
+      "concerns": ["kidney", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 40,
+      "restrictedIn": [],
+      "synonyms": ["фосфат алюминия-натрия", "кислый фосфат алюминия натрия", "sodium aluminium phosphate", "salp"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E552",
+      "names": { "ru": "Силикат кальция", "en": "Calcium silicate" },
+      "category": "anti-caking",
+      "risk": "low",
+      "summary": { "ru": "Антислёживатель порошков и соли. Не всасывается.", "en": "Anti-caking agent for powders and salt. Not absorbed." },
+      "detail": {
+        "ru": "Минеральный порошок, впитывающий влагу и не дающий продукту слипнуться. Через кишечник проходит транзитом. Как и у диоксида кремния, открытый вопрос касается доли наночастиц, а не самого вещества.",
+        "en": "A mineral powder that absorbs moisture and keeps a product free-flowing. It passes through the gut unchanged. As with silicon dioxide, the open question concerns the nanoparticle fraction rather than the substance itself."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["силикат кальция", "кальция силикат", "calcium silicate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E553b",
+      "names": { "ru": "Тальк", "en": "Talc" },
+      "category": "anti-caking",
+      "risk": "moderate",
+      "summary": { "ru": "Минеральный антислёживатель; вопрос в чистоте сырья от асбеста.", "en": "A mineral anti-caking agent; the question is asbestos-free purity." },
+      "detail": {
+        "ru": "Сам по себе тальк инертен и не всасывается. Опасения связаны с природным соседством талька и асбеста в месторождениях, поэтому к пищевому тальку предъявляют требование отсутствия асбестовых волокон. IARC оценивал тальк, содержащий асбест, как канцероген — это про загрязнение, а не про чистый минерал.",
+        "en": "Talc itself is inert and not absorbed. The concern is that talc and asbestos occur together in deposits, so food-grade talc must be free of asbestos fibres. IARC's carcinogenic classification applies to asbestos-containing talc — a contamination issue, not the pure mineral."
+      },
+      "concerns": ["carcinogen-suspected", "ultra-processed-marker"],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["тальк", "talc", "talcum"],
+      "sources": ["eu-1333-2008", "efsa-additives", "iarc"]
+    },
+    {
+      "code": "E575",
+      "names": { "ru": "Глюконо-дельта-лактон", "en": "Glucono-delta-lactone" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Медленная кислота: подкисляет тофу и колбасы постепенно.", "en": "A slow acid: it acidifies tofu and sausages gradually." },
+      "detail": {
+        "ru": "В воде постепенно превращается в глюконовую кислоту, поэтому подкисление идёт медленно и равномерно — так свёртывают соевое молоко для тофу и подкисляют сырокопчёные изделия. Безопасен, ADI не установлен.",
+        "en": "In water it slowly turns into gluconic acid, so acidification is gradual and even — this is how soy milk is set for tofu and how cured sausages are acidified. Safe, no ADI set."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["глюконо-дельта-лактон", "гдл", "glucono-delta-lactone", "gdl"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E620",
+      "names": { "ru": "Глутаминовая кислота", "en": "Glutamic acid" },
+      "category": "flavour-enhancer",
+      "risk": "moderate",
+      "summary": { "ru": "Сама аминокислота, из которой делают глутамат натрия.", "en": "The amino acid that monosodium glutamate is made from." },
+      "detail": {
+        "ru": "Обычная аминокислота, которой много в пармезане, помидорах и соевом соусе. Входит в групповой ADI глутаматов 30 мг/кг веса, который EFSA установило в 2017 году, отметив превышение у части населения. Как и E621, это в первую очередь признак того, что вкусу продукта нужна помощь.",
+        "en": "An ordinary amino acid, abundant in Parmesan, tomatoes and soy sauce. It counts against the glutamate group ADI of 30 mg/kg bw that EFSA set in 2017, noting that part of the population exceeds it. Like E621, it mainly signals that the product's taste needed help."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "mixed",
+      "adiMgPerKgBw": 30,
+      "restrictedIn": [],
+      "synonyms": ["глутаминовая кислота", "глютаминовая кислота", "glutamic acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E622",
+      "names": { "ru": "Глутамат калия", "en": "Monopotassium glutamate" },
+      "category": "flavour-enhancer",
+      "risk": "moderate",
+      "summary": { "ru": "Усилитель вкуса для рецептур с пониженным натрием.", "en": "The flavour enhancer for reduced-sodium recipes." },
+      "detail": {
+        "ru": "Тот же глутамат, но с калием вместо натрия — применяется там, где производитель снижает содержание соли. Входит в групповой ADI глутаматов 30 мг/кг веса. Людям с болезнями почек стоит помнить про дополнительный калий.",
+        "en": "The same glutamate with potassium instead of sodium, used where a manufacturer is cutting salt. Counts against the glutamate group ADI of 30 mg/kg bw. People with kidney disease should note the extra potassium."
+      },
+      "concerns": ["ultra-processed-marker", "kidney"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 30,
+      "restrictedIn": [],
+      "synonyms": ["глутамат калия", "monopotassium glutamate", "potassium glutamate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E635",
+      "names": { "ru": "5'-рибонуклеотиды натрия", "en": "Sodium 5'-ribonucleotides" },
+      "category": "flavour-enhancer",
+      "risk": "low",
+      "summary": { "ru": "Смесь гуанилата и инозината: усиливает глутамат в разы.", "en": "A guanylate-inosinate blend that multiplies the effect of glutamate." },
+      "detail": {
+        "ru": "Готовая смесь E627 и E631, почти всегда идёт в паре с глутаматом. Это пуриновые производные, поэтому людям с подагрой и высокой мочевой кислотой такие продукты стоит ограничить. Связка «E621 + E635» — надёжный признак сильно переработанной еды.",
+        "en": "A ready blend of E627 and E631, almost always paired with glutamate. These are purine derivatives, so people with gout or high uric acid should limit such products. The 'E621 + E635' pairing is a reliable sign of heavily processed food."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["рибонуклеотиды натрия", "5'-рибонуклеотиды натрия", "sodium 5'-ribonucleotides", "disodium ribonucleotides"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E640",
+      "names": { "ru": "Глицин", "en": "Glycine" },
+      "category": "flavour-enhancer",
+      "risk": "none",
+      "summary": { "ru": "Простейшая аминокислота, слегка сладковатая на вкус.", "en": "The simplest amino acid, mildly sweet in taste." },
+      "detail": {
+        "ru": "Организм синтезирует глицин сам и получает его из любого белка. Как добавка смягчает вкус и слегка подслащивает. Опасений нет, ADI не установлен.",
+        "en": "The body makes glycine itself and gets it from any protein. As an additive it rounds out flavour and adds slight sweetness. No concerns, no ADI set."
+      },
+      "concerns": [],
+      "origin": "mixed",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["глицин", "glycine"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E901",
+      "names": { "ru": "Пчелиный воск", "en": "Beeswax" },
+      "category": "glazing-agent",
+      "risk": "none",
+      "summary": { "ru": "Натуральный глазирователь. Не подходит веганам.", "en": "A natural glazing agent. Not suitable for vegans." },
+      "detail": {
+        "ru": "Придаёт блеск драже и покрывает фрукты, чтобы они дольше не сохли. Не переваривается и проходит транзитом. Единственное замечание — животное происхождение.",
+        "en": "It gives coated sweets their shine and covers fruit so it dries out more slowly. Indigestible and passes straight through. The only caveat is its animal origin."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["пчелиный воск", "воск пчелиный", "beeswax", "cera alba"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E903",
+      "names": { "ru": "Карнаубский воск", "en": "Carnauba wax" },
+      "category": "glazing-agent",
+      "risk": "none",
+      "summary": { "ru": "Растительный воск пальмы: блеск драже и жевательной резинки.", "en": "A palm wax: the shine on coated sweets and chewing gum." },
+      "detail": {
+        "ru": "Добывается из листьев бразильской пальмы. Не всасывается, ADI 7 мг/кг веса. Растительная альтернатива пчелиному воску и шеллаку, подходит веганам.",
+        "en": "Harvested from the leaves of a Brazilian palm. Not absorbed, ADI 7 mg/kg bw. The plant alternative to beeswax and shellac, suitable for vegans."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": 7,
+      "restrictedIn": [],
+      "synonyms": ["карнаубский воск", "воск карнаубский", "carnauba wax"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E920",
+      "names": { "ru": "L-цистеин", "en": "L-cysteine" },
+      "category": "flour-treatment",
+      "risk": "low",
+      "summary": { "ru": "Аминокислота-улучшитель теста; вопрос в происхождении сырья.", "en": "An amino-acid dough conditioner; the question is where it comes from." },
+      "detail": {
+        "ru": "Расслабляет клейковину, чтобы тесто быстрее раскатывалось — отсюда её присутствие в промышленных булочках и пицце. Сама аминокислота безопасна и есть в любом белке. Исторический вопрос в другом: L-цистеин получали из перьев и волос, и часть производителей до сих пор использует животное сырьё. Сегодня есть и микробиологический синтез, но по этикетке это не различить.",
+        "en": "It relaxes gluten so dough rolls out faster, which is why it appears in industrial buns and pizza. The amino acid itself is safe and present in any protein. The historical question is different: L-cysteine was made from feathers and hair, and some producers still use animal sources. Microbial production also exists today, but a label does not distinguish them."
+      },
+      "concerns": [],
+      "origin": "mixed",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["l-цистеин", "цистеин", "l-cysteine", "cysteine"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E927b",
+      "names": { "ru": "Карбамид (мочевина)", "en": "Carbamide (urea)" },
+      "category": "flour-treatment",
+      "risk": "low",
+      "summary": { "ru": "Разрешён только в жевательной резинке — от кариеса, а не для вкуса.", "en": "Permitted only in chewing gum — for caries, not for taste." },
+      "detail": {
+        "ru": "Название отталкивает, но это обычный продукт белкового обмена, который организм и так производит. В жевательной резинке он нейтрализует кислоту во рту и тем самым защищает эмаль. Разрешён только для этого применения.",
+        "en": "The name is off-putting, but it is an ordinary product of protein metabolism that the body makes anyway. In chewing gum it neutralises acid in the mouth and so protects enamel. Permitted for that use only."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["карбамид", "мочевина", "carbamide", "urea"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E941",
+      "names": { "ru": "Азот", "en": "Nitrogen" },
+      "category": "other",
+      "risk": "none",
+      "summary": { "ru": "Тот же газ, что составляет 78% воздуха. Вытесняет кислород из упаковки.", "en": "The gas that makes up 78% of air. It displaces oxygen from packaging." },
+      "detail": {
+        "ru": "Именно поэтому пачка чипсов «надутая»: азот вытесняет кислород, и жир не прогоркает. Полностью инертен и безвреден. Один из самых полезных способов продлить срок хранения без единого консерванта.",
+        "en": "This is why a bag of crisps looks inflated: nitrogen displaces oxygen so the fat does not go rancid. Completely inert and harmless — one of the best ways to extend shelf life without a single preservative."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["азот", "nitrogen", "n2"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E1103",
+      "names": { "ru": "Инвертаза", "en": "Invertase" },
+      "category": "other",
+      "risk": "none",
+      "summary": { "ru": "Фермент, который делает начинку конфет жидкой изнутри.", "en": "The enzyme that makes a sweet's filling go liquid inside." },
+      "detail": {
+        "ru": "Расщепляет сахарозу и превращает твёрдую помадку в жидкую начинку уже внутри конфеты. Обычный пищевой фермент, разрушается при переваривании. Опасений нет.",
+        "en": "It splits sucrose and turns a solid fondant into a liquid centre inside the sweet. An ordinary food enzyme, destroyed during digestion. No concerns."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["инвертаза", "invertase"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E1200",
+      "names": { "ru": "Полидекстроза", "en": "Polydextrose" },
+      "category": "other",
+      "risk": "low",
+      "summary": { "ru": "Синтетическая клетчатка-наполнитель в продуктах «без сахара».", "en": "A synthetic bulking fibre in no-sugar products." },
+      "detail": {
+        "ru": "Заменяет объём и текстуру сахара при вчетверо меньшей калорийности, и как неперевариваемое волокно частично работает пребиотиком. Плата та же, что у сахарных спиртов: больше 50 г в день у большинства людей вызывают вздутие и послабление.",
+        "en": "It replaces the bulk and texture of sugar at a quarter of the calories, and as an indigestible fibre it partly acts as a prebiotic. The price is the same as with sugar alcohols: above about 50 g a day most people get bloating and loose stools."
+      },
+      "concerns": ["laxative-effect", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["полидекстроза", "polydextrose"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E1505",
+      "names": { "ru": "Триэтилцитрат", "en": "Triethyl citrate" },
+      "category": "other",
+      "risk": "low",
+      "summary": { "ru": "Растворитель ароматизаторов и стабилизатор яичного белка.", "en": "A flavour solvent and egg-white stabiliser." },
+      "detail": {
+        "ru": "Эфир лимонной кислоты и спирта, в организме распадается на знакомые компоненты. ADI 20 мг/кг веса. Применяется в мизерных количествах как носитель ароматизаторов.",
+        "en": "An ester of citric acid and alcohol that breaks down into familiar components in the body. ADI 20 mg/kg bw. Used in tiny amounts as a carrier for flavourings."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 20,
+      "restrictedIn": [],
+      "synonyms": ["триэтилцитрат", "triethyl citrate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E1519",
+      "names": { "ru": "Бензиловый спирт", "en": "Benzyl alcohol" },
+      "category": "other",
+      "risk": "low",
+      "summary": { "ru": "Растворитель ароматизаторов; естественно есть в жасмине и корице.", "en": "A flavour solvent; naturally present in jasmine and cinnamon." },
+      "detail": {
+        "ru": "Встречается в природе в эфирных маслах. Как добавка служит носителем ароматизаторов в мизерных дозах. ADI 5 мг/кг веса. В концентрированном виде раздражает кожу, но к пищевым количествам это не относится.",
+        "en": "Occurs naturally in essential oils. As an additive it carries flavourings in minute amounts. ADI 5 mg/kg bw. Concentrated it irritates skin, but that does not apply at food levels."
+      },
+      "concerns": [],
+      "origin": "mixed",
+      "adiMgPerKgBw": 5,
+      "restrictedIn": [],
+      "synonyms": ["бензиловый спирт", "benzyl alcohol"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E953",
+      "names": { "ru": "Изомальт", "en": "Isomalt" },
+      "category": "sweetener",
+      "risk": "low",
+      "summary": { "ru": "Сахарный спирт из леденцов «без сахара». Слабит в количестве.", "en": "The sugar alcohol of sugar-free lozenges. Laxative in quantity." },
+      "detail": {
+        "ru": "Делается из сахарозы, но усваивается лишь частично, поэтому калорийность вдвое ниже и зубы не страдают. Оборотная сторона обычная для полиолов: съев полпачки леденцов, можно получить вздутие и послабление.",
+        "en": "Made from sucrose but only partly absorbed, so it has half the calories and does not harm teeth. The usual polyol flip side applies: half a packet of lozenges can bring bloating and loose stools."
+      },
+      "concerns": ["laxative-effect"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["изомальт", "изомальтит", "isomalt"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E957",
+      "names": { "ru": "Тауматин", "en": "Thaumatin" },
+      "category": "sweetener",
+      "risk": "none",
+      "summary": { "ru": "Белок-подсластитель из африканского фрукта, в тысячи раз слаще сахара.", "en": "A sweet protein from an African fruit, thousands of times sweeter than sugar." },
+      "detail": {
+        "ru": "Обычный белок, который организм переваривает как любой другой, — поэтому ADI для него не устанавливали. Из-за огромной сладости применяется в микроскопических количествах, чаще как модификатор вкуса, а не основной подсластитель.",
+        "en": "An ordinary protein digested like any other, which is why no ADI was set. Its extreme sweetness means it is used in microscopic amounts, more often as a taste modifier than as the main sweetener."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["тауматин", "thaumatin"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E962",
+      "names": { "ru": "Соль аспартама и ацесульфама", "en": "Salt of aspartame-acesulfame" },
+      "category": "sweetener",
+      "risk": "moderate",
+      "summary": { "ru": "Два подсластителя в одной молекуле. Противопоказан при фенилкетонурии.", "en": "Two sweeteners in one molecule. Contraindicated in phenylketonuria." },
+      "detail": {
+        "ru": "В организме распадается на аспартам и ацесульфам калия, поэтому наследует все их свойства, включая источник фенилаланина — при фенилкетонурии продукт противопоказан, и упаковка обязана об этом предупреждать. Смесь используют потому, что вместе эти подсластители дают более «сахарный» вкус.",
+        "en": "It breaks down into aspartame and acesulfame K, inheriting all their properties including the phenylalanine — contraindicated in phenylketonuria, and the pack must say so. The blend is used because together the two taste more like sugar."
+      },
+      "concerns": ["phenylketonuria", "carcinogen-suspected"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["соль аспартама-ацесульфама", "aspartame-acesulfame salt", "salt of aspartame-acesulfame"],
+      "sources": ["eu-1333-2008", "efsa-additives", "iarc"]
+    },
+    {
+      "code": "E966",
+      "names": { "ru": "Лактит", "en": "Lactitol" },
+      "category": "sweetener",
+      "risk": "low",
+      "summary": { "ru": "Сахарный спирт из лактозы; в больших дозах — слабительное средство.", "en": "A sugar alcohol from lactose; in large doses an actual laxative." },
+      "detail": {
+        "ru": "Почти не всасывается и доходит до толстой кишки — настолько, что в высоких дозах лактит применяется как лекарственное слабительное. В продуктах «без сахара» это стоит помнить: порог неприятностей здесь ниже, чем у большинства полиолов.",
+        "en": "Barely absorbed and reaching the colon — so much so that at high doses lactitol is used as a medicinal laxative. Worth remembering in sugar-free products: the threshold for trouble is lower here than with most polyols."
+      },
+      "concerns": ["laxative-effect"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["лактит", "лактитол", "lactitol"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "group": "colours-extended",
+  "additives": [
+    {
+      "code": "E141",
+      "names": { "ru": "Медные комплексы хлорофиллов", "en": "Copper complexes of chlorophylls" },
+      "category": "colour",
+      "risk": "low",
+      "summary": { "ru": "Стойкий зелёный краситель: хлорофилл, в котором магний заменён медью.", "en": "A stable green colour: chlorophyll with the magnesium swapped for copper." },
+      "detail": {
+        "ru": "Обычный хлорофилл в кислой среде буреет, поэтому магний в его центре заменяют медью — цвет становится стойким. ADI 15 мг/кг веса. Медь при этом связана в комплексе и в свободном виде почти не высвобождается; в пищевых количествах опасений нет.",
+        "en": "Ordinary chlorophyll browns in acid, so the magnesium at its centre is replaced with copper and the colour becomes stable. ADI 15 mg/kg bw. The copper stays bound in the complex and is barely released; at food levels there are no concerns."
+      },
+      "concerns": [],
+      "origin": "mixed",
+      "adiMgPerKgBw": 15,
+      "restrictedIn": [],
+      "synonyms": ["медные комплексы хлорофиллов", "хлорофиллин", "copper complexes of chlorophylls", "chlorophyllin", "cl 75815"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E142",
+      "names": { "ru": "Зелёный S", "en": "Green S" },
+      "category": "colour",
+      "risk": "moderate",
+      "summary": { "ru": "Синтетический зелёный краситель, в США к применению в пище не допущен.", "en": "Synthetic green dye, not approved for food in the USA." },
+      "detail": {
+        "ru": "Применяется в мятных драже, консервированном горошке, десертах. ADI 5 мг/кг веса. Токсичности при пищевом употреблении не показано, но в США и ряде других стран разрешения нет, а в ЕС он остаётся типичным маркером сильно окрашенной кондитерской продукции.",
+        "en": "Used in mint sweets, canned peas and desserts. ADI 5 mg/kg bw. No toxicity has been shown at dietary levels, but it is not authorised in the USA and several other countries, and in the EU it remains a marker of heavily coloured confectionery."
+      },
+      "concerns": ["banned-somewhere", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 5,
+      "restrictedIn": ["US"],
+      "synonyms": ["зелёный s", "зеленый s", "green s", "lissamine green", "cl 44090", "acid brilliant green bs"],
+      "sources": ["eu-1333-2008", "efsa-additives", "fda-additives"]
+    },
+    {
+      "code": "E151",
+      "names": { "ru": "Чёрный блестящий BN", "en": "Brilliant Black BN" },
+      "category": "colour",
+      "risk": "moderate",
+      "summary": { "ru": "Синтетический чёрный азокраситель, в США не разрешён.", "en": "Synthetic black azo dye, not permitted in the USA." },
+      "detail": {
+        "ru": "Даёт чёрный и тёмно-фиолетовый цвет в лакрице, икре, десертах. ADI 5 мг/кг веса. Почти не всасывается. В «шестёрку» с предупреждением о детях не входит, но это азокраситель, и в США его применение в пище не разрешено.",
+        "en": "Gives black and deep purple in liquorice, roe and desserts. ADI 5 mg/kg bw and barely absorbed. It is not one of the six colours needing the children's warning, but it is an azo dye and is not permitted in food in the USA."
+      },
+      "concerns": ["banned-somewhere", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 5,
+      "restrictedIn": ["US"],
+      "synonyms": ["чёрный блестящий", "черный блестящий bn", "brilliant black bn", "black pn", "cl 28440"],
+      "sources": ["eu-1333-2008", "efsa-additives", "fda-additives"]
+    },
+    {
+      "code": "E155",
+      "names": { "ru": "Коричневый HT", "en": "Brown HT" },
+      "category": "colour",
+      "risk": "moderate",
+      "summary": { "ru": "Синтетический коричневый краситель с низкой допустимой дозой.", "en": "Synthetic brown colour with a low acceptable intake." },
+      "detail": {
+        "ru": "Заменяет шоколадный оттенок в выпечке и десертах. ADI 1.5 мг/кг веса — заметно ниже, чем у большинства красителей. У части людей с непереносимостью салицилатов и астмой описаны реакции. В США не разрешён.",
+        "en": "Stands in for a chocolate shade in baked goods and desserts. ADI 1.5 mg/kg bw, noticeably lower than most colours. Reactions are described in some people with salicylate intolerance and asthma. Not permitted in the USA."
+      },
+      "concerns": ["allergen", "asthma-trigger", "banned-somewhere"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 1.5,
+      "restrictedIn": ["US"],
+      "synonyms": ["коричневый ht", "brown ht", "chocolate brown ht", "cl 20285"],
+      "sources": ["eu-1333-2008", "efsa-additives", "fda-additives"]
+    },
+    {
+      "code": "E160c",
+      "names": { "ru": "Экстракт паприки", "en": "Paprika extract" },
+      "category": "colour",
+      "risk": "none",
+      "summary": { "ru": "Красно-оранжевый краситель из сладкого перца. Безопасен.", "en": "Red-orange colour from sweet pepper. Safe." },
+      "detail": {
+        "ru": "Вытяжка из плодов паприки, содержит капсантин и капсорубин. Применяется в колбасах, снеках, соусах. Опасений не вызывает; вопросы к продукту с ним обычно относятся не к красителю, а к соли и жиру рядом.",
+        "en": "An extract of paprika fruit containing capsanthin and capsorubin, used in sausages, snacks and sauces. No concerns; whatever is wrong with such a product is usually the salt and fat beside it, not the colour."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["экстракт паприки", "капсантин", "капсорубин", "paprika extract", "capsanthin", "capsorubin", "oleoresin paprika"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E160d",
+      "names": { "ru": "Ликопин", "en": "Lycopene" },
+      "category": "colour",
+      "risk": "none",
+      "summary": { "ru": "Красный пигмент помидоров. Безопасен, сам по себе антиоксидант.", "en": "The red pigment of tomatoes. Safe, and an antioxidant in its own right." },
+      "detail": {
+        "ru": "Тот самый ликопин, ради которого советуют есть томаты. ADI 0.5 мг/кг веса как добавки — это ограничение для концентрата, а не повод избегать помидоров. В составе продукта означает лишь способ придать красный цвет без синтетики.",
+        "en": "The same lycopene tomatoes are recommended for. The ADI of 0.5 mg/kg bw applies to the concentrated additive, not to tomatoes themselves. On a label it simply means a red colour achieved without synthetics."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": 0.5,
+      "restrictedIn": [],
+      "synonyms": ["ликопин", "ликопен", "lycopene", "cl 75125"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E161b",
+      "names": { "ru": "Лютеин", "en": "Lutein" },
+      "category": "colour",
+      "risk": "none",
+      "summary": { "ru": "Жёлтый пигмент из бархатцев; тот же, что накапливается в сетчатке глаза.", "en": "Yellow pigment from marigold; the same one that accumulates in the retina." },
+      "detail": {
+        "ru": "Каротиноид, который организм использует в жёлтом пятне сетчатки. ADI 1 мг/кг веса. Как пищевой краситель безопасен; в виде БАДов его отдельно принимают для здоровья глаз.",
+        "en": "A carotenoid the body uses in the macula of the retina. ADI 1 mg/kg bw. Safe as a food colour; it is also taken as a supplement for eye health."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": 1,
+      "restrictedIn": [],
+      "synonyms": ["лютеин", "lutein", "xanthophyll", "ксантофилл"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E161g",
+      "names": { "ru": "Кантаксантин", "en": "Canthaxanthin" },
+      "category": "colour",
+      "risk": "moderate",
+      "summary": { "ru": "Оранжевый каротиноид с очень низким ADI: в высоких дозах откладывается в сетчатке.", "en": "Orange carotenoid with a very low ADI: at high doses it deposits in the retina." },
+      "detail": {
+        "ru": "ADI 0.03 мг/кг веса — одна из самых низких величин среди красителей. Причина известна: в 1980-х кантаксантин продавали как «таблетки для загара», и высокие дозы приводили к отложению кристаллов в сетчатке. В пище он разрешён в единичных продуктах и в мизерных количествах, но низкий предел стоит того, чтобы о нём знать.",
+        "en": "ADI 0.03 mg/kg bw — one of the lowest of any colour. The reason is documented: in the 1980s canthaxanthin was sold as a tanning pill, and high doses led to crystal deposits in the retina. In food it is permitted in a handful of products at tiny levels, but the low limit is worth knowing about."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "mixed",
+      "adiMgPerKgBw": 0.03,
+      "restrictedIn": [],
+      "synonyms": ["кантаксантин", "canthaxanthin", "cl 40850"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E163",
+      "names": { "ru": "Антоцианы", "en": "Anthocyanins" },
+      "category": "colour",
+      "risk": "none",
+      "summary": { "ru": "Красно-фиолетовые пигменты ягод, винограда и краснокочанной капусты.", "en": "The red-purple pigments of berries, grapes and red cabbage." },
+      "detail": {
+        "ru": "Извлекаются из съедобного сырья — виноградной кожицы, чёрной смородины, капусты. Меняют оттенок в зависимости от кислотности, чем и объясняются странные цвета некоторых напитков. Опасений нет; сами по себе антоцианы изучают как антиоксиданты.",
+        "en": "Extracted from edible sources — grape skin, blackcurrant, cabbage. They shift hue with acidity, which explains the odd colours of some drinks. No concerns; anthocyanins themselves are studied as antioxidants."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["антоцианы", "антоциан", "anthocyanins", "grape skin extract", "экстракт виноградной кожицы"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E170",
+      "names": { "ru": "Карбонат кальция (мел)", "en": "Calcium carbonate" },
+      "category": "colour",
+      "risk": "none",
+      "summary": { "ru": "Обычный мел: белый краситель, наполнитель и источник кальция.", "en": "Ordinary chalk: white colour, filler and a source of calcium." },
+      "detail": {
+        "ru": "То же вещество, что в таблетках кальция и в зубной пасте. Служит и красителем, и регулятором кислотности, и обогатителем. ADI не установлен. В больших количествах может мешать всасыванию железа, но пищевые дозы до этого не доходят.",
+        "en": "The same substance as in calcium tablets and toothpaste. It serves as colour, acidity regulator and fortificant. No ADI set. In large amounts it can interfere with iron absorption, but food levels do not come close."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["карбонат кальция", "мел", "calcium carbonate", "chalk", "cl 77220"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E174",
+      "names": { "ru": "Серебро", "en": "Silver" },
+      "category": "colour",
+      "risk": "low",
+      "summary": { "ru": "Декоративное серебрение кондитерских изделий, только снаружи.", "en": "Decorative silvering on confectionery, external only." },
+      "detail": {
+        "ru": "Разрешено исключительно как внешнее украшение — шарики для тортов, оболочка ликёров. Металлическое серебро в кишечнике практически не всасывается. Это украшение, а не еда: регулярно его никто не ест, и не нужно.",
+        "en": "Permitted only as external decoration — cake balls, liqueur coatings. Metallic silver is barely absorbed in the gut. It is decoration rather than food: nobody eats it regularly, and nobody should."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["серебро", "silver", "argentum", "серебряное покрытие"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E175",
+      "names": { "ru": "Золото", "en": "Gold" },
+      "category": "colour",
+      "risk": "none",
+      "summary": { "ru": "Пищевое сусальное золото для украшения. Инертно.", "en": "Edible gold leaf for decoration. Inert." },
+      "detail": {
+        "ru": "Химически инертно, не всасывается и выходит в неизменном виде. Разрешено только как внешнее украшение кондитерских изделий и напитков. Вреда нет, пользы тоже — это чистая эстетика.",
+        "en": "Chemically inert, not absorbed and excreted unchanged. Permitted only as external decoration on confectionery and drinks. No harm, and no benefit either — it is purely aesthetic."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["золото", "gold", "сусальное золото", "gold leaf", "aurum"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E180",
+      "names": { "ru": "Литолрубин BK", "en": "Litholrubine BK" },
+      "category": "colour",
+      "risk": "low",
+      "summary": { "ru": "Розовый краситель, разрешённый только для окрашивания корки сыра.", "en": "Pink colour permitted only for colouring cheese rind." },
+      "detail": {
+        "ru": "Единственное разрешённое применение в ЕС — съедобная корка твёрдых сыров, которую обычно не едят. Внутрь продукта не проникает. Если код встретился где-то ещё, это повод присмотреться к упаковке внимательнее.",
+        "en": "Its only permitted use in the EU is the edible rind of hard cheese, which is usually not eaten, and it does not penetrate the body of the cheese. Seeing the code anywhere else is a reason to look at the pack more carefully."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["литолрубин", "litholrubine bk", "rubinpigment bk", "cl 15850"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E150b",
+      "names": { "ru": "Карамельный колер II (щелочно-сульфитный)", "en": "Caustic sulphite caramel (Class II)" },
+      "category": "colour",
+      "risk": "low",
+      "summary": { "ru": "Жжёный сахар с сульфитами, без аммиака — значит, без 4-MEI.", "en": "Burnt sugar made with sulphites but no ammonia — so no 4-MEI." },
+      "detail": {
+        "ru": "Готовится с сульфитами, но без аммиака, поэтому спорного 4-метилимидазола в нём не образуется. Групповой ADI карамельных колеров 300 мг/кг веса. Применяется в основном в крепком алкоголе и уксусах.",
+        "en": "Made with sulphites but without ammonia, so the contentious 4-methylimidazole does not form. The group ADI for caramel colours is 300 mg/kg bw. Used mainly in spirits and vinegars."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 300,
+      "restrictedIn": [],
+      "synonyms": ["карамельный колер ii", "щелочно-сульфитная карамель", "caustic sulphite caramel", "caramel ii"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E150c",
+      "names": { "ru": "Карамельный колер III (аммиачный)", "en": "Ammonia caramel (Class III)" },
+      "category": "colour",
+      "risk": "moderate",
+      "summary": { "ru": "Аммиачная карамель: как и колер IV, содержит примесь 4-MEI.", "en": "Ammonia caramel: like class IV, it carries the 4-MEI by-product." },
+      "detail": {
+        "ru": "Производится с аммиаком, поэтому в нём тоже образуется 4-метилимидазол, отнесённый IARC к группе 2B. Для этого колера установлен более строгий индивидуальный ADI — 100 мг/кг веса. Встречается в пиве, соусах, хлебе, кондитерских изделиях.",
+        "en": "Produced with ammonia, so it too forms 4-methylimidazole, which IARC places in Group 2B. This class carries a stricter individual ADI of 100 mg/kg bw. Found in beer, sauces, bread and confectionery."
+      },
+      "concerns": ["carcinogen-suspected", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 100,
+      "restrictedIn": [],
+      "synonyms": ["карамельный колер iii", "аммиачная карамель", "ammonia caramel", "caramel iii", "caramel color iii"],
+      "sources": ["eu-1333-2008", "efsa-additives", "iarc"]
+    }
+  ]
+}
