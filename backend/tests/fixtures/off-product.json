@@ -1,0 +1,30 @@
+{
+  "_comment": "Hand-written fixture in the shape of an Open Food Facts /api/v2/product response. Values are representative of a chocolate hazelnut spread; it is test data, not a record of a real product.",
+  "status": 1,
+  "code": "3017620422003",
+  "product": {
+    "code": "3017620422003",
+    "product_name": "Ореховая паста с какао",
+    "product_name_en": "Hazelnut spread with cocoa",
+    "brands": "Test Brand, Second Brand",
+    "quantity": "400 g",
+    "categories_tags": ["en:spreads", "en:sweet-spreads", "en:chocolate-spreads"],
+    "image_front_url": "https://images.example.org/front.jpg",
+    "ingredients_text_ru": "Сахар, пальмовое масло, фундук 13%, обезжиренное сухое молоко 8,7%, какао-порошок 7,4%, эмульгатор: лецитины (соя) E322, ароматизатор ванилин",
+    "ingredients_text": "Sugar, palm oil, hazelnuts 13%, skimmed milk powder 8.7%, cocoa 7.4%, emulsifier: lecithins (soya) E322, vanillin",
+    "nutriments": {
+      "energy-kcal_100g": 539,
+      "energy-kj_100g": 2252,
+      "fat_100g": 30.9,
+      "saturated-fat_100g": 10.6,
+      "carbohydrates_100g": 57.5,
+      "sugars_100g": 56.3,
+      "fiber_100g": 0,
+      "proteins_100g": 6.3,
+      "salt_100g": 0.107,
+      "sodium_100g": 0.0428
+    },
+    "nutriscore_grade": "e",
+    "nova_group": 4
+  }
+}

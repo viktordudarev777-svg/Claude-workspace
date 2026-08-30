@@ -1,0 +1,175 @@
+{
+  "group": "sweeteners",
+  "additives": [
+    {
+      "code": "E950",
+      "names": { "ru": "Ацесульфам калия", "en": "Acesulfame K" },
+      "category": "sweetener",
+      "risk": "low",
+      "summary": { "ru": "Подсластитель в 200 раз слаще сахара. Разрешён, ADI 9 мг/кг.", "en": "A sweetener 200 times sweeter than sugar. Authorised, ADI 9 mg/kg." },
+      "detail": {
+        "ru": "Не усваивается и выводится почками без изменений. Почти всегда идёт в паре с аспартамом или сукралозой, чтобы замаскировать привкус. Доказанного вреда в пищевых дозах нет; EFSA держит его в программе пересмотра. Главный вопрос к таким продуктам не токсичность, а привычка к очень сладкому вкусу.",
+        "en": "Not metabolised and excreted unchanged by the kidneys. Almost always paired with aspartame or sucralose to mask the aftertaste. No proven harm at dietary doses; EFSA keeps it under re-evaluation. The main issue with such products is not toxicity but the habit of very sweet taste."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 9,
+      "restrictedIn": [],
+      "synonyms": ["ацесульфам калия", "ацесульфам к", "acesulfame k", "acesulfame potassium", "ace-k"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E951",
+      "names": { "ru": "Аспартам", "en": "Aspartame" },
+      "category": "sweetener",
+      "risk": "moderate",
+      "summary": { "ru": "IARC в 2023 отнёс к группе 2B; ADI сохранён. Опасен при фенилкетонурии.", "en": "IARC listed it Group 2B in 2023; the ADI stands. Dangerous in phenylketonuria." },
+      "detail": {
+        "ru": "В июле 2023 года IARC отнесло аспартам к группе 2B — «возможно канцерогенен для человека», но это классификация силы доказательств, а не меры риска; одновременно комитет JECFA перепроверил дозы и оставил ADI 40 мг/кг веса (для взрослого это порядка 9-14 банок диетической газировки в день). Абсолютное противопоказание одно и жёсткое: фенилкетонурия — поэтому на упаковке обязательна надпись «содержит источник фенилаланина».",
+        "en": "In July 2023 IARC classified aspartame in Group 2B, possibly carcinogenic to humans — a statement about strength of evidence, not about the size of the risk. At the same time JECFA reviewed intakes and kept the ADI at 40 mg/kg bw (roughly 9-14 cans of diet drink a day for an adult). There is one absolute contraindication: phenylketonuria, which is why packs must state 'contains a source of phenylalanine'."
+      },
+      "concerns": ["phenylketonuria", "carcinogen-suspected"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 40,
+      "restrictedIn": [],
+      "synonyms": ["аспартам", "aspartame", "источник фенилаланина", "phenylalanine"],
+      "sources": ["iarc", "jecfa", "eu-1333-2008"]
+    },
+    {
+      "code": "E952",
+      "names": { "ru": "Цикламовая кислота и цикламаты", "en": "Cyclamic acid and cyclamates" },
+      "category": "sweetener",
+      "risk": "moderate",
+      "summary": { "ru": "Разрешён в ЕС, но запрещён в США с 1970 года.", "en": "Permitted in the EU, banned in the USA since 1970." },
+      "detail": {
+        "ru": "Запрет в США связан с исследованием 1969 года на крысах (опухоли мочевого пузыря), результаты которого позже оспаривались; повторные заявки на возврат FDA не удовлетворило. В ЕС разрешён с ADI 7 мг/кг веса — довольно низким. Расхождение регуляторов само по себе повод предпочесть другой подсластитель.",
+        "en": "The US ban stems from a 1969 rat study (bladder tumours) whose findings were later disputed; petitions to reinstate it have not been granted. In the EU it is permitted with a fairly low ADI of 7 mg/kg bw. The disagreement between regulators is itself a reason to prefer another sweetener."
+      },
+      "concerns": ["banned-somewhere", "carcinogen-suspected"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 7,
+      "restrictedIn": ["US"],
+      "synonyms": ["цикламат", "цикламаты", "цикламат натрия", "cyclamate", "cyclamates", "sodium cyclamate", "cyclamic acid"],
+      "sources": ["eu-1333-2008", "efsa-additives", "fda-additives"]
+    },
+    {
+      "code": "E954",
+      "names": { "ru": "Сахарин", "en": "Saccharin" },
+      "category": "sweetener",
+      "risk": "low",
+      "summary": { "ru": "Старейший подсластитель. Подозрения 1970-х сняты.", "en": "The oldest sweetener. The 1970s suspicions were withdrawn." },
+      "detail": {
+        "ru": "В 1970-х его связывали с опухолями мочевого пузыря у крыс, но выяснилось, что этот механизм специфичен для крыс и на человека не переносится; в 2000 году США убрали сахарин из списка канцерогенов и сняли предупредительную маркировку. EFSA пересматривало оценку в последние годы. Даёт характерный металлический привкус, поэтому обычно смешивается с другими подсластителями.",
+        "en": "In the 1970s it was linked to bladder tumours in rats, but the mechanism proved specific to rats and not transferable to humans; in 2000 the USA removed saccharin from its carcinogen list and dropped the warning label. EFSA has revisited the assessment in recent years. Its metallic aftertaste means it is usually blended with other sweeteners."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 5,
+      "restrictedIn": [],
+      "synonyms": ["сахарин", "сахаринат натрия", "saccharin", "sodium saccharin"],
+      "sources": ["eu-1333-2008", "efsa-additives", "fda-additives"]
+    },
+    {
+      "code": "E955",
+      "names": { "ru": "Сукралоза", "en": "Sucralose" },
+      "category": "sweetener",
+      "risk": "low",
+      "summary": { "ru": "В 600 раз слаще сахара. Не для выпечки при высокой температуре.", "en": "600 times sweeter than sugar. Not for high-temperature baking." },
+      "detail": {
+        "ru": "Почти не усваивается. ADI в ЕС 15 мг/кг веса (в США FDA использует 5 мг/кг). Отдельный вопрос — нагрев: выше примерно 120 °C сукралоза разлагается, и EFSA отмечало нехватку данных о продуктах распада. Для холодных напитков и творожков это не актуально, для домашней выпечки лучше выбрать другой подсластитель.",
+        "en": "Barely absorbed. The EU ADI is 15 mg/kg bw (the US FDA uses 5 mg/kg). Heat is a separate question: above roughly 120 °C sucralose decomposes, and EFSA noted a lack of data on the breakdown products. Irrelevant for cold drinks and desserts, but for home baking another sweetener is a better choice."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 15,
+      "restrictedIn": [],
+      "synonyms": ["сукралоза", "sucralose", "trichlorogalactosucrose", "splenda"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E960",
+      "names": { "ru": "Стевиольные гликозиды (стевия)", "en": "Steviol glycosides (stevia)" },
+      "category": "sweetener",
+      "risk": "low",
+      "summary": { "ru": "Подсластитель из листьев стевии. Один из наиболее спокойных вариантов.", "en": "Sweetener from stevia leaves. One of the least controversial options." },
+      "detail": {
+        "ru": "Растительного происхождения, не даёт калорий и не поднимает сахар крови. ADI 4 мг/кг веса в пересчёте на стевиол. Из массовых подсластителей вызывает меньше всего вопросов у регуляторов. Минус чисто вкусовой — травянистое послевкусие.",
+        "en": "Plant-derived, calorie-free and does not raise blood glucose. ADI 4 mg/kg bw as steviol equivalents. Of the mainstream sweeteners it raises the fewest regulatory questions. The drawback is purely sensory: a grassy aftertaste."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": 4,
+      "restrictedIn": [],
+      "synonyms": ["стевиольные гликозиды", "стевиол", "стевия", "steviol glycosides", "stevia", "rebaudioside a"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E965",
+      "names": { "ru": "Мальтит", "en": "Maltitol" },
+      "category": "sweetener",
+      "risk": "low",
+      "summary": { "ru": "Сахарный спирт «без сахара». Слабит и всё же поднимает глюкозу.", "en": "A 'sugar-free' sugar alcohol. Laxative, and it still raises glucose." },
+      "detail": {
+        "ru": "Основа большинства «диабетических» шоколадок. Два подвоха: гликемический индекс всё-таки заметный (примерно вдвое ниже сахара, но не ноль), и слабительный эффект — 30-40 г мальтита переносят далеко не все. Маркировка «чрезмерное употребление может оказывать слабительное действие» на таких плитках стоит не просто так.",
+        "en": "The basis of most 'diabetic' chocolate. Two catches: the glycaemic index is still noticeable (about half that of sugar, but not zero), and the laxative effect — 30-40 g of maltitol is more than many people tolerate. The 'excessive consumption may produce laxative effects' line on those bars is there for a reason."
+      },
+      "concerns": ["laxative-effect"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["мальтит", "мальтитол", "мальтитный сироп", "maltitol", "maltitol syrup"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E967",
+      "names": { "ru": "Ксилит", "en": "Xylitol" },
+      "category": "sweetener",
+      "risk": "low",
+      "summary": { "ru": "Сахарный спирт, полезен для зубов, слабит в количестве. Смертелен для собак.", "en": "Sugar alcohol, good for teeth, laxative in quantity. Lethal to dogs." },
+      "detail": {
+        "ru": "Единственный подсластитель с доказанным противокариозным действием — поэтому он в жевательной резинке. Для человека безопасен, но выше 30-40 г в день даёт вздутие и понос. Важное предупреждение: для собак ксилит смертельно ядовит даже в маленьких дозах, жвачку и конфеты нельзя оставлять в доступе питомца.",
+        "en": "The only sweetener with proven anti-caries action, which is why it is in chewing gum. Safe for humans, but above 30-40 g a day it causes bloating and diarrhoea. Important warning: xylitol is lethally toxic to dogs even in small amounts — keep gum and sweets out of a pet's reach."
+      },
+      "concerns": ["laxative-effect"],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["ксилит", "ксилитол", "xylitol"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E968",
+      "names": { "ru": "Эритрит", "en": "Erythritol" },
+      "category": "sweetener",
+      "risk": "low",
+      "summary": { "ru": "Почти не слабит, но с 2023 года обсуждается связь с тромбозами.", "en": "Barely laxative, but since 2023 a possible link to clotting is debated." },
+      "detail": {
+        "ru": "Переносится лучше других сахарных спиртов, потому что всасывается и выводится почками. В 2023 году вышло исследование, связавшее высокий уровень эритрита в крови с сердечно-сосудистыми событиями и повышенной активностью тромбоцитов; это наблюдательные данные, причинность не доказана, но тема на контроле у регуляторов. Пока разумно относиться к нему как к нормальной альтернативе сахару без ежедневных больших доз.",
+        "en": "Better tolerated than other sugar alcohols because it is absorbed and excreted by the kidneys. In 2023 a study linked high blood erythritol to cardiovascular events and increased platelet activity; the data are observational and causality is unproven, but regulators are watching. For now it is reasonable to treat it as a normal sugar alternative without large daily doses."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["эритрит", "эритритол", "erythritol"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E1105",
+      "names": { "ru": "Лизоцим", "en": "Lysozyme" },
+      "category": "preservative",
+      "risk": "low",
+      "summary": { "ru": "Фермент из яичного белка. Аллерген для людей с аллергией на яйцо.", "en": "An enzyme from egg white. An allergen for people allergic to egg." },
+      "detail": {
+        "ru": "Применяется в сырах и вине против нежелательных бактерий. Сам по себе безопасен, но получают его из куриного яйца, поэтому продукт с ним не подходит людям с аллергией на яичный белок и должен это указывать.",
+        "en": "Used in cheese and wine against unwanted bacteria. Safe in itself, but it is obtained from hen egg, so products containing it are unsuitable for people allergic to egg white and must declare it."
+      },
+      "concerns": ["allergen"],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["лизоцим", "lysozyme"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "eu-1333-2008": {
+    "title": "Regulation (EC) No 1333/2008 on food additives (consolidated, incl. Annex II positive list and Annex V warning labels)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+  },
+  "efsa-additives": {
+    "title": "EFSA — Food additives re-evaluation programme and scientific opinions",
+    "url": "https://www.efsa.europa.eu/en/topics/topic/food-additives"
+  },
+  "efsa-e171": {
+    "title": "EFSA (2021): Safety assessment of titanium dioxide (E171) as a food additive — no longer considered safe",
+    "url": "https://www.efsa.europa.eu/en/efsajournal/pub/6585"
+  },
+  "iarc": {
+    "title": "IARC Monographs on the Identification of Carcinogenic Hazards to Humans",
+    "url": "https://monographs.iarc.who.int/"
+  },
+  "iarc-processed-meat": {
+    "title": "IARC Monographs Vol. 114 (2018): Red meat and processed meat — processed meat classified Group 1",
+    "url": "https://publications.iarc.who.int/564"
+  },
+  "jecfa": {
+    "title": "JECFA — Joint FAO/WHO Expert Committee on Food Additives evaluations",
+    "url": "https://www.fao.org/food-safety/scientific-advice/jecfa/en/"
+  },
+  "fda-additives": {
+    "title": "U.S. FDA — Food additives and color additives status list",
+    "url": "https://www.fda.gov/food/food-additives-petitions/food-additive-status-list"
+  },
+  "codex-gsfa": {
+    "title": "Codex Alimentarius — General Standard for Food Additives (GSFA)",
+    "url": "https://www.fao.org/gsfaonline/index.html"
+  },
+  "who-sugar": {
+    "title": "WHO guideline: Sugars intake for adults and children (2015)",
+    "url": "https://www.who.int/publications/i/item/9789241549028"
+  },
+  "who-salt": {
+    "title": "WHO guideline: Sodium intake for adults and children (2012)",
+    "url": "https://www.who.int/publications/i/item/9789241504836"
+  },
+  "who-tfa": {
+    "title": "WHO — Countdown to 2023: elimination of industrially produced trans-fatty acids",
+    "url": "https://www.who.int/teams/nutrition-and-food-safety/replace-trans-fat"
+  },
+  "fsa-traffic-lights": {
+    "title": "UK Department of Health / FSA — Guide to creating a front of pack nutrition label",
+    "url": "https://www.gov.uk/government/publications/front-of-pack-nutrition-labelling-guidance"
+  },
+  "nutriscore-2023": {
+    "title": "Nutri-Score scientific committee — updated algorithm for foods (2022) and beverages (2023)",
+    "url": "https://www.santepubliquefrance.fr/en/nutri-score"
+  },
+  "openfoodfacts": {
+    "title": "Open Food Facts — open database of food products",
+    "url": "https://world.openfoodfacts.org/"
+  }
+}

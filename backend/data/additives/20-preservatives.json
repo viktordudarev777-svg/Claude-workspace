@@ -1,0 +1,447 @@
+{
+  "group": "preservatives-and-antioxidants",
+  "additives": [
+    {
+      "code": "E200",
+      "names": { "ru": "Сорбиновая кислота", "en": "Sorbic acid" },
+      "category": "preservative",
+      "risk": "low",
+      "summary": { "ru": "Мягкий консервант против плесени. Один из самых безобидных.", "en": "A mild anti-mould preservative — one of the gentlest available." },
+      "detail": {
+        "ru": "Подавляет плесень и дрожжи, в организме перерабатывается как обычная жирная кислота. EFSA в 2015 году установило групповой ADI 3 мг/кг веса. Изредка при контакте вызывает раздражение кожи, но при съедании проблем не описано.",
+        "en": "Suppresses moulds and yeasts and is metabolised like an ordinary fatty acid. EFSA set a group ADI of 3 mg/kg bw in 2015. It can irritate skin on contact, but no problems are described from eating it."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 3,
+      "restrictedIn": [],
+      "synonyms": ["сорбиновая кислота", "sorbic acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E202",
+      "names": { "ru": "Сорбат калия", "en": "Potassium sorbate" },
+      "category": "preservative",
+      "risk": "low",
+      "summary": { "ru": "Самый распространённый «щадящий» консервант.", "en": "The most common of the gentle preservatives." },
+      "detail": {
+        "ru": "Соль сорбиновой кислоты, работает против плесени в сырах, выпечке, напитках и соусах. Групповой ADI 3 мг/кг веса. Считается предпочтительной заменой бензоатам — именно его выбирают производители, которые убирают E211 из рецептуры.",
+        "en": "The salt of sorbic acid, used against mould in cheese, baked goods, drinks and sauces. Group ADI 3 mg/kg bw. It is the usual preferred replacement for benzoates when manufacturers reformulate away from E211."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 3,
+      "restrictedIn": [],
+      "synonyms": ["сорбат калия", "калия сорбат", "potassium sorbate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E210",
+      "names": { "ru": "Бензойная кислота", "en": "Benzoic acid" },
+      "category": "preservative",
+      "risk": "moderate",
+      "summary": { "ru": "Консервант; в кислых напитках с витамином C может давать следы бензола.", "en": "Preservative; in acidic drinks with vitamin C it can form traces of benzene." },
+      "detail": {
+        "ru": "Естественно содержится в бруснике и клюкве, но как добавка применяется синтетическая. ADI 5 мг/кг веса. Главный вопрос: в кислой среде вместе с аскорбиновой кислотой (E300, витамин C) может образоваться бензол — канцероген. Поэтому сочетание «бензоат + витамин C» в составе газировки стоит воспринимать как минус.",
+        "en": "Occurs naturally in lingonberries and cranberries, though the additive is synthetic. ADI 5 mg/kg bw. The main issue: in an acidic medium together with ascorbic acid (E300, vitamin C) it can form benzene, a carcinogen. So 'benzoate + vitamin C' in a soft drink is a mark against it."
+      },
+      "concerns": ["carcinogen-suspected", "asthma-trigger", "hyperactivity-children"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 5,
+      "restrictedIn": [],
+      "synonyms": ["бензойная кислота", "benzoic acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E211",
+      "names": { "ru": "Бензоат натрия", "en": "Sodium benzoate" },
+      "category": "preservative",
+      "risk": "moderate",
+      "summary": { "ru": "Массовый консервант газировки и соусов; спорен в сочетании с витамином C.", "en": "The mass-market preservative of sodium and sauces; debated together with vitamin C." },
+      "detail": {
+        "ru": "ADI 5 мг/кг веса. Два повода для настороженности: в кислых напитках с аскорбиновой кислотой возможно образование бензола, и в известном «южгемптонском» исследовании бензоат натрия изучался вместе с красителями в связи с гиперактивностью у детей. Для взрослого в разумных количествах — умеренный минус, для детского рациона лучше искать вариант без него.",
+        "en": "ADI 5 mg/kg bw. Two reasons for caution: benzene can form in acidic drinks that also contain ascorbic acid, and sodium benzoate was studied alongside the colours in the well-known Southampton work on hyperactivity in children. A moderate negative for adults in reasonable amounts; for children's food it is worth looking for a version without it."
+      },
+      "concerns": ["carcinogen-suspected", "hyperactivity-children", "asthma-trigger"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 5,
+      "restrictedIn": [],
+      "synonyms": ["бензоат натрия", "натрия бензоат", "sodium benzoate", "e-211"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E220",
+      "names": { "ru": "Диоксид серы", "en": "Sulphur dioxide" },
+      "category": "preservative",
+      "risk": "moderate",
+      "summary": { "ru": "Сульфит. Обязателен к маркировке как аллерген, опасен для астматиков.", "en": "A sulphite. A labelled allergen and a real risk for asthmatics." },
+      "detail": {
+        "ru": "Используется в сухофруктах, вине, картофельных полуфабрикатах. У людей с астмой способен вызвать бронхоспазм — поэтому сульфиты выше 10 мг/кг обязаны указываться в составе как аллерген. ADI 0.7 мг/кг веса — низкий, и любители сухофруктов и вина его вполне могут выбирать полностью.",
+        "en": "Used in dried fruit, wine and processed potato products. In people with asthma it can trigger bronchospasm, which is why sulphites above 10 mg/kg must be declared as an allergen. ADI 0.7 mg/kg bw is low, and heavy consumers of dried fruit and wine can realistically reach it."
+      },
+      "concerns": ["allergen", "asthma-trigger"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.7,
+      "restrictedIn": [],
+      "synonyms": ["диоксид серы", "двуокись серы", "сернистый ангидрид", "sulphur dioxide", "sulfur dioxide", "so2", "сульфиты", "sulphites"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E223",
+      "names": { "ru": "Метабисульфит натрия", "en": "Sodium metabisulphite" },
+      "category": "preservative",
+      "risk": "moderate",
+      "summary": { "ru": "Сульфит: аллерген для маркировки, риск для астматиков.", "en": "A sulphite: declarable allergen, risk for asthmatics." },
+      "detail": {
+        "ru": "Ведёт себя как диоксид серы: в продукте выделяет SO2. Входит в общий сульфитный ADI 0.7 мг/кг веса. Астматикам и людям с непереносимостью сульфитов такие продукты лучше не брать.",
+        "en": "Behaves like sulphur dioxide, releasing SO2 in the product. Counts against the shared sulphite ADI of 0.7 mg/kg bw. People with asthma or sulphite intolerance should avoid such products."
+      },
+      "concerns": ["allergen", "asthma-trigger"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.7,
+      "restrictedIn": [],
+      "synonyms": ["метабисульфит натрия", "пиросульфит натрия", "sodium metabisulphite", "sodium metabisulfite", "sodium pyrosulphite"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E235",
+      "names": { "ru": "Натамицин (пимарицин)", "en": "Natamycin (pimaricin)" },
+      "category": "preservative",
+      "risk": "moderate",
+      "summary": { "ru": "Противогрибковый антибиотик для обработки корки сыра и колбас.", "en": "An antifungal antibiotic used on cheese rind and sausage casings." },
+      "detail": {
+        "ru": "Это лекарственный противогрибковый препарат, применяемый в пищевке. Разрешён только для поверхностной обработки твёрдых сыров и сушёных колбас и не должен проникать глубже нескольких миллиметров. ADI 0.3 мг/кг веса. Основной аргумент против — принципиальная нежелательность пищевого применения антибиотиков (риск устойчивости грибков).",
+        "en": "A medicinal antifungal used in food. Permitted only for surface treatment of hard cheese and dried sausage, and it must not penetrate more than a few millimetres. ADI 0.3 mg/kg bw. The main argument against it is the general undesirability of dietary antibiotic exposure and fungal resistance."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "natural",
+      "adiMgPerKgBw": 0.3,
+      "restrictedIn": [],
+      "synonyms": ["натамицин", "пимарицин", "natamycin", "pimaricin"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E239",
+      "names": { "ru": "Гексаметилентетрамин", "en": "Hexamethylene tetramine" },
+      "category": "preservative",
+      "risk": "high",
+      "summary": { "ru": "Выделяет формальдегид. В ЕС разрешён только для одного сыра.", "en": "Releases formaldehyde. In the EU allowed only for one cheese." },
+      "detail": {
+        "ru": "В кислой среде распадается с выделением формальдегида — вещества, отнесённого IARC к группе 1 (канцероген для человека при вдыхании). Именно поэтому применение сведено к единственному исключению: сыр проволоне. В любом другом продукте это красный флаг.",
+        "en": "In acid it breaks down releasing formaldehyde, which IARC classifies in Group 1 (carcinogenic to humans by inhalation). Its use is therefore reduced to a single exception: Provolone cheese. In any other product it is a red flag."
+      },
+      "concerns": ["carcinogen-classified", "banned-somewhere"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": ["EU"],
+      "synonyms": ["гексаметилентетрамин", "гексамин", "уротропин", "hexamethylene tetramine", "hexamine", "methenamine"],
+      "sources": ["eu-1333-2008", "efsa-additives", "iarc"]
+    },
+    {
+      "code": "E249",
+      "names": { "ru": "Нитрит калия", "en": "Potassium nitrite" },
+      "category": "preservative",
+      "risk": "high",
+      "summary": { "ru": "Нитрит: защищает от ботулизма, но образует нитрозамины.", "en": "A nitrite: protects against botulism but forms nitrosamines." },
+      "detail": {
+        "ru": "Работает так же, как нитрит натрия: даёт розовый цвет мясу и защищает от ботулизма. При нагревании с белком образует нитрозамины — канцерогенные соединения. ADI 0.07 мг/кг веса в пересчёте на нитрит-ион. Обработанное мясо в целом отнесено IARC к группе 1.",
+        "en": "Works like sodium nitrite: it keeps meat pink and protects against botulism. Heated with protein it forms nitrosamines, which are carcinogenic. ADI 0.07 mg/kg bw as nitrite ion. Processed meat as a whole is classified by IARC in Group 1."
+      },
+      "concerns": ["nitrosamine-forming", "carcinogen-classified", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.07,
+      "restrictedIn": [],
+      "synonyms": ["нитрит калия", "калия нитрит", "potassium nitrite"],
+      "sources": ["eu-1333-2008", "efsa-additives", "iarc-processed-meat"]
+    },
+    {
+      "code": "E250",
+      "names": { "ru": "Нитрит натрия", "en": "Sodium nitrite" },
+      "category": "preservative",
+      "risk": "high",
+      "summary": { "ru": "Главная добавка колбас. Защищает от ботулизма, но даёт нитрозамины.", "en": "The signature sausage additive. Protects against botulism, but forms nitrosamines." },
+      "detail": {
+        "ru": "Именно из-за него варёная колбаса розовая, а не серая. Польза реальная: нитрит подавляет возбудителя ботулизма. Минус тоже реальный: при жарке и в желудке он участвует в образовании нитрозаминов, а обработанное мясо IARC относит к группе 1 — доказанный канцероген для человека. ADI 0.07 мг/кг веса. Вывод не «никогда», а «не каждый день»: сосиски и бекон стоит держать в рационе как редкость.",
+        "en": "This is why cooked sausage is pink rather than grey. The benefit is real — nitrite suppresses the botulism organism. So is the downside: during frying and in the stomach it contributes to nitrosamine formation, and IARC classifies processed meat in Group 1, carcinogenic to humans. ADI 0.07 mg/kg bw. The conclusion is not 'never' but 'not daily': keep sausages and bacon occasional."
+      },
+      "concerns": ["nitrosamine-forming", "carcinogen-classified", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.07,
+      "restrictedIn": [],
+      "synonyms": ["нитрит натрия", "натрия нитрит", "sodium nitrite", "нитритная соль", "нитритно-посолочная смесь", "curing salt"],
+      "sources": ["eu-1333-2008", "efsa-additives", "iarc-processed-meat"]
+    },
+    {
+      "code": "E251",
+      "names": { "ru": "Нитрат натрия", "en": "Sodium nitrate" },
+      "category": "preservative",
+      "risk": "moderate",
+      "summary": { "ru": "Медленно превращается в нитрит; те же вопросы, что и у E250.", "en": "Slowly converts to nitrite; the same questions as E250." },
+      "detail": {
+        "ru": "Сам по себе нитрат малоактивен, но бактерии во рту и в продукте превращают его в нитрит — дальше та же история с нитрозаминами. ADI 3.7 мг/кг веса в пересчёте на нитрат-ион. Применяется в сыровяленых изделиях и части сыров.",
+        "en": "Nitrate itself is fairly inert, but bacteria in the mouth and in the product convert it to nitrite — and from there the nitrosamine story repeats. ADI 3.7 mg/kg bw as nitrate ion. Used in dry-cured products and some cheeses."
+      },
+      "concerns": ["nitrosamine-forming", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 3.7,
+      "restrictedIn": [],
+      "synonyms": ["нитрат натрия", "натрия нитрат", "sodium nitrate", "чилийская селитра"],
+      "sources": ["eu-1333-2008", "efsa-additives", "iarc-processed-meat"]
+    },
+    {
+      "code": "E252",
+      "names": { "ru": "Нитрат калия (селитра)", "en": "Potassium nitrate (saltpetre)" },
+      "category": "preservative",
+      "risk": "moderate",
+      "summary": { "ru": "Селитра для сыровяленых изделий; превращается в нитрит.", "en": "Saltpetre for dry-cured products; converts to nitrite." },
+      "detail": {
+        "ru": "Традиционная посолочная селитра. В организме и в продукте частично переходит в нитрит со всеми связанными вопросами. ADI 3.7 мг/кг веса как нитрат-ион.",
+        "en": "The traditional curing saltpetre. Partly converted to nitrite in the product and in the body, with all the associated questions. ADI 3.7 mg/kg bw as nitrate ion."
+      },
+      "concerns": ["nitrosamine-forming", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 3.7,
+      "restrictedIn": [],
+      "synonyms": ["нитрат калия", "калия нитрат", "селитра", "potassium nitrate", "saltpetre", "saltpeter"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E270",
+      "names": { "ru": "Молочная кислота", "en": "Lactic acid" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Кислота из кисломолочных продуктов. Безопасна.", "en": "The acid of fermented milk. Safe." },
+      "detail": {
+        "ru": "Та же кислота, что образуется при сквашивании молока и в мышцах при нагрузке. ADI не установлен. Единственное ограничение — не используют в питании детей до трёх месяцев.",
+        "en": "The same acid produced when milk ferments and in muscles during exercise. No ADI set. The only restriction is that it is not used in food for infants under three months."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["молочная кислота", "lactic acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E280",
+      "names": { "ru": "Пропионовая кислота", "en": "Propionic acid" },
+      "category": "preservative",
+      "risk": "low",
+      "summary": { "ru": "Консервант хлеба против плесени и «картофельной болезни».", "en": "Bread preservative against mould and rope spoilage." },
+      "detail": {
+        "ru": "Естественно образуется в кишечнике и в зрелых сырах. EFSA не увидело поводов для числового ADI при нынешнем применении. В хлебе это в первую очередь маркер длительного срока хранения, а не опасности.",
+        "en": "Formed naturally in the gut and in mature cheese. EFSA saw no need for a numerical ADI at current use levels. In bread it is chiefly a marker of long shelf life rather than of danger."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["пропионовая кислота", "propionic acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E282",
+      "names": { "ru": "Пропионат кальция", "en": "Calcium propionate" },
+      "category": "preservative",
+      "risk": "low",
+      "summary": { "ru": "Соль пропионовой кислоты в промышленном хлебе.", "en": "The propionic acid salt used in industrial bread." },
+      "detail": {
+        "ru": "Даёт хлебу неделю-полторы без плесени. Токсикологически претензий нет; отдельные исследования поведения у детей были небольшими и не подтверждены. Как и E280, это скорее сигнал «промышленный хлеб длительного хранения».",
+        "en": "Gives bread a week or more without mould. No toxicological concerns; small studies on children's behaviour have not been confirmed. Like E280 it mainly signals long-life industrial bread."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["пропионат кальция", "кальция пропионат", "calcium propionate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E296",
+      "names": { "ru": "Яблочная кислота", "en": "Malic acid" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Кислота яблок. Безопасна.", "en": "The acid of apples. Safe." },
+      "detail": {
+        "ru": "Естественный компонент яблок и других фруктов, участник обмена веществ. ADI не установлен, ограничение — только детское питание до трёх месяцев.",
+        "en": "A natural component of apples and other fruit and part of normal metabolism. No ADI set; the only restriction concerns food for infants under three months."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["яблочная кислота", "malic acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E300",
+      "names": { "ru": "Аскорбиновая кислота (витамин C)", "en": "Ascorbic acid (vitamin C)" },
+      "category": "antioxidant",
+      "risk": "none",
+      "summary": { "ru": "Это витамин C. Полезен.", "en": "This is vitamin C. Beneficial." },
+      "detail": {
+        "ru": "Антиоксидант и витамин одновременно: защищает продукт от окисления и не вредит человеку. Единственная тонкость — в кислых напитках вместе с бензоатами (E210/E211) может образовываться бензол, но виноват здесь бензоат, а не витамин.",
+        "en": "Antioxidant and vitamin in one: it protects the product from oxidation and does no harm. The one nuance is that in acidic drinks together with benzoates (E210/E211) benzene can form — but the benzoate is the problem there, not the vitamin."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["аскорбиновая кислота", "витамин c", "ascorbic acid", "vitamin c", "l-ascorbic acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E306",
+      "names": { "ru": "Токоферолы (витамин E)", "en": "Tocopherols (vitamin E)" },
+      "category": "antioxidant",
+      "risk": "none",
+      "summary": { "ru": "Витамин E, защищает жиры от прогоркания. Безопасен.", "en": "Vitamin E, protects fats from going rancid. Safe." },
+      "detail": {
+        "ru": "Натуральный антиоксидант из растительных масел. Хороший знак: производитель выбрал витамин E вместо синтетических BHA/BHT.",
+        "en": "A natural antioxidant from vegetable oils. A good sign: the manufacturer chose vitamin E over synthetic BHA/BHT."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["токоферол", "токоферолы", "витамин e", "tocopherol", "tocopherols", "vitamin e"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E310",
+      "names": { "ru": "Пропилгаллат", "en": "Propyl gallate" },
+      "category": "antioxidant",
+      "risk": "moderate",
+      "summary": { "ru": "Синтетический антиоксидант жиров, ADI низкий.", "en": "Synthetic fat antioxidant with a low ADI." },
+      "detail": {
+        "ru": "Защищает жиры от прогоркания в снеках, жевательной резинке, бульонных кубиках. EFSA снизило ADI до 1.4 мг/кг веса. Отдельные люди реагируют на галлаты крапивницей. Токоферолы (E306) — более удачная альтернатива.",
+        "en": "Protects fats from rancidity in snacks, chewing gum and stock cubes. EFSA lowered the ADI to 1.4 mg/kg bw. Some people react to gallates with urticaria. Tocopherols (E306) are the better alternative."
+      },
+      "concerns": ["allergen", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 1.4,
+      "restrictedIn": [],
+      "synonyms": ["пропилгаллат", "пропиловый эфир галловой кислоты", "propyl gallate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E319",
+      "names": { "ru": "Трет-бутилгидрохинон (TBHQ)", "en": "Tertiary-butylhydroquinone (TBHQ)" },
+      "category": "antioxidant",
+      "risk": "moderate",
+      "summary": { "ru": "Синтетический антиоксидант с низким ADI 0.7 мг/кг.", "en": "Synthetic antioxidant with a low ADI of 0.7 mg/kg." },
+      "detail": {
+        "ru": "Применяется во фритюрных жирах и снеках длительного хранения. ADI 0.7 мг/кг веса — низкий, а сам факт присутствия говорит о сильно переработанном жирном продукте. Есть работы о влиянии на иммунный ответ, но окончательных выводов регуляторы не делают.",
+        "en": "Used in frying fats and long-life snacks. The ADI of 0.7 mg/kg bw is low, and its presence signals a heavily processed fatty product. There is research on effects on immune response, but regulators have drawn no final conclusions."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.7,
+      "restrictedIn": [],
+      "synonyms": ["трет-бутилгидрохинон", "tbhq", "tertiary butylhydroquinone", "tert-butylhydroquinone"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E320",
+      "names": { "ru": "Бутилгидроксианизол (BHA)", "en": "Butylated hydroxyanisole (BHA)" },
+      "category": "antioxidant",
+      "risk": "high",
+      "summary": { "ru": "IARC относит к группе 2B — «возможно канцерогенен для человека».", "en": "IARC places it in Group 2B — possibly carcinogenic to humans." },
+      "detail": {
+        "ru": "Синтетический антиоксидант жиров. IARC отнесло BHA к группе 2B на основании опухолей преджелудка у грызунов; у человека такого органа нет, поэтому регуляторы сохранили разрешение с ADI 1.0 мг/кг веса. Тем не менее это тот случай, когда есть прямая и безопасная замена — токоферолы (E306), и многие производители уже перешли на неё.",
+        "en": "A synthetic fat antioxidant. IARC placed BHA in Group 2B on the basis of forestomach tumours in rodents; humans have no forestomach, so regulators kept it authorised with an ADI of 1.0 mg/kg bw. Even so, this is a case where a direct, safe replacement exists — tocopherols (E306) — and many manufacturers have already switched."
+      },
+      "concerns": ["carcinogen-suspected", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 1,
+      "restrictedIn": [],
+      "synonyms": ["бутилгидроксианизол", "bha", "butylated hydroxyanisole", "бга"],
+      "sources": ["eu-1333-2008", "efsa-additives", "iarc"]
+    },
+    {
+      "code": "E321",
+      "names": { "ru": "Бутилгидрокситолуол (BHT)", "en": "Butylated hydroxytoluene (BHT)" },
+      "category": "antioxidant",
+      "risk": "moderate",
+      "summary": { "ru": "Синтетический антиоксидант, ADI 0.25 мг/кг — очень низкий.", "en": "Synthetic antioxidant with a very low ADI of 0.25 mg/kg." },
+      "detail": {
+        "ru": "Родственник BHA, применяется в жирах, жевательной резинке, сухих завтраках. EFSA установило ADI 0.25 мг/кг веса — это один из самых низких показателей среди антиоксидантов. Как и в случае BHA, есть более удачная замена — витамин E.",
+        "en": "A relative of BHA used in fats, chewing gum and breakfast cereals. EFSA set an ADI of 0.25 mg/kg bw, one of the lowest among antioxidants. As with BHA, a better replacement exists — vitamin E."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.25,
+      "restrictedIn": [],
+      "synonyms": ["бутилгидрокситолуол", "bht", "butylated hydroxytoluene", "ионол"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E322",
+      "names": { "ru": "Лецитины", "en": "Lecithins" },
+      "category": "emulsifier",
+      "risk": "none",
+      "summary": { "ru": "Эмульгатор из сои или подсолнечника. Безопасен.", "en": "Emulsifier from soy or sunflower. Safe." },
+      "detail": {
+        "ru": "Природный компонент клеточных мембран, содержится в яйце и сое. ADI не установлен. Один нюанс: соевый лецитин делают из сои, которая часто ГМО, и он же может быть источником следов соевого аллергена.",
+        "en": "A natural component of cell membranes, present in egg and soy. No ADI set. One nuance: soy lecithin comes from soy that is often GM, and it can carry traces of the soy allergen."
+      },
+      "concerns": ["allergen"],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["лецитин", "лецитины", "соевый лецитин", "lecithin", "lecithins", "soy lecithin", "sunflower lecithin"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E330",
+      "names": { "ru": "Лимонная кислота", "en": "Citric acid" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Кислота цитрусовых. Безопасна.", "en": "The acid of citrus fruit. Safe." },
+      "detail": {
+        "ru": "Одна из самых массовых и самых безобидных добавок; участвует в обмене веществ каждой клетки (цикл Кребса). ADI не установлен. В больших количествах в напитках вредна разве что для зубной эмали.",
+        "en": "One of the most common and most harmless additives; it is part of every cell's metabolism (the Krebs cycle). No ADI set. In large amounts in drinks the only real issue is tooth enamel."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["лимонная кислота", "citric acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E338",
+      "names": { "ru": "Ортофосфорная кислота", "en": "Phosphoric acid" },
+      "category": "acidity-regulator",
+      "risk": "moderate",
+      "summary": { "ru": "Кислота колы. Много фосфатов — нагрузка на почки и кости.", "en": "The acid in cola. A high phosphate load stresses kidneys and bones." },
+      "detail": {
+        "ru": "В 2019 году EFSA впервые установило групповой допустимый уровень для фосфатов — 40 мг на кг веса в день в пересчёте на фосфор — и отметило, что у части населения он превышается. Избыток фосфатов связывают с нагрузкой на почки и с обменом кальция в костях. Плюс прямое действие на зубную эмаль.",
+        "en": "In 2019 EFSA set a group acceptable intake for phosphates for the first time — 40 mg/kg bw per day as phosphorus — and noted that part of the population exceeds it. Excess phosphate is linked to kidney load and to calcium handling in bone, plus direct erosion of tooth enamel."
+      },
+      "concerns": ["kidney", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 40,
+      "restrictedIn": [],
+      "synonyms": ["ортофосфорная кислота", "фосфорная кислота", "phosphoric acid", "orthophosphoric acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E385",
+      "names": { "ru": "ЭДТА кальция-натрия", "en": "Calcium disodium EDTA" },
+      "category": "antioxidant",
+      "risk": "moderate",
+      "summary": { "ru": "Хелатор металлов; связывает не только «плохие» металлы.", "en": "A metal chelator — it binds more than just the unwanted metals." },
+      "detail": {
+        "ru": "Связывает следы металлов, чтобы продукт не темнел и не прогоркал. Разрешён с жёсткими ограничениями по продуктам и дозам. Теоретический минус в том, что при высоком потреблении он способен связывать и нужные микроэлементы, например цинк. В обычном рационе встречается редко — в основном в консервированных соусах и майонезах.",
+        "en": "Binds trace metals so the product does not darken or go rancid. Permitted with tight limits on products and doses. The theoretical downside is that at high intakes it can also bind useful trace elements such as zinc. Rare in an ordinary diet — mostly canned sauces and mayonnaise."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["эдта", "этилендиаминтетраацетат", "calcium disodium edta", "edta", "кальция-натрия эдта"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    }
+  ]
+}
