@@ -1,0 +1,481 @@
+{
+  "group": "acids-salts-waxes-gases",
+  "additives": [
+    {
+      "code": "E160e",
+      "names": { "ru": "Бета-апо-8'-каротеналь", "en": "Beta-apo-8'-carotenal" },
+      "category": "colour",
+      "risk": "moderate",
+      "summary": { "ru": "Оранжевый каротиноид, у которого EFSA заметно снизило допустимую дозу.", "en": "An orange carotenoid whose acceptable intake EFSA lowered substantially." },
+      "detail": {
+        "ru": "Родственник бета-каротина, но синтетический и с куда более строгим пределом: ADI 0.05 мг/кг веса против «не установлен» у обычных каротинов. Причина — недостаток данных при пересмотре, а не доказанный вред. Натуральные каротины (E160a) предпочтительнее.",
+        "en": "A relative of beta-carotene, but synthetic and with a far stricter limit: ADI 0.05 mg/kg bw against 'not specified' for ordinary carotenes. The reason is a shortage of data at re-evaluation rather than proven harm. Natural carotenes (E160a) are the better option."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 0.05,
+      "restrictedIn": [],
+      "synonyms": ["бета-апо-8'-каротеналь", "апокаротеналь", "beta-apo-8'-carotenal", "apocarotenal"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E263",
+      "names": { "ru": "Ацетат кальция", "en": "Calcium acetate" },
+      "category": "preservative",
+      "risk": "none",
+      "summary": { "ru": "Соль уксусной кислоты: против плесени в хлебе, плюс кальций.", "en": "The salt of acetic acid: anti-mould in bread, and calcium besides." },
+      "detail": {
+        "ru": "Сдерживает плесень в хлебе и уплотняет консервированные овощи. ADI не установлен. В отличие от натриевых солей, натрия не добавляет — в мясных и хлебных изделиях это плюс.",
+        "en": "It holds back mould in bread and firms canned vegetables. No ADI set. Unlike the sodium salts it adds no sodium, which is a plus in bread and meat products."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["ацетат кальция", "кальция ацетат", "calcium acetate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E326",
+      "names": { "ru": "Лактат калия", "en": "Potassium lactate" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Соль молочной кислоты без натрия: консервант мясных изделий.", "en": "The sodium-free lactate salt: a meat-product preservative." },
+      "detail": {
+        "ru": "Сдерживает рост бактерий и удерживает влагу в мясных изделиях, не добавляя при этом натрия, — поэтому его выбирают в рецептурах с пониженной солью. Безопасен, ADI не установлен.",
+        "en": "It holds back bacteria and retains moisture in meat products without adding sodium, which is why it is chosen for reduced-salt recipes. Safe, no ADI set."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["лактат калия", "калия лактат", "potassium lactate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E327",
+      "names": { "ru": "Лактат кальция", "en": "Calcium lactate" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Соль молочной кислоты и хорошо усваиваемый источник кальция.", "en": "A lactate salt and a well-absorbed source of calcium." },
+      "detail": {
+        "ru": "Уплотняет консервированные фрукты и обогащает продукты кальцием — эту же форму используют в аптечных добавках из-за хорошей усвояемости. Опасений нет, ADI не установлен.",
+        "en": "It firms canned fruit and fortifies products with calcium — the same form is used in supplements because it absorbs well. No concerns, no ADI set."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["лактат кальция", "кальция лактат", "calcium lactate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E332",
+      "names": { "ru": "Цитраты калия", "en": "Potassium citrates" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Цитрат без натрия: регулятор кислотности для рецептур с пониженной солью.", "en": "The sodium-free citrate: an acidity regulator for reduced-salt recipes." },
+      "detail": {
+        "ru": "Работает как цитрат натрия, но добавляет калий вместо натрия. Безопасен, ADI не установлен. Людям с тяжёлыми болезнями почек стоит помнить об общем поступлении калия.",
+        "en": "Works like sodium citrate but contributes potassium instead of sodium. Safe, no ADI set. People with severe kidney disease should keep total potassium intake in mind."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["цитрат калия", "цитраты калия", "potassium citrate", "potassium citrates"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E334",
+      "names": { "ru": "Винная кислота", "en": "Tartaric acid" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Кислота винограда: та самая, что даёт вину кислотность.", "en": "The acid of grapes — the one that gives wine its tartness." },
+      "detail": {
+        "ru": "Естественный компонент винограда и побочный продукт виноделия. Придаёт кислый вкус напиткам и начинкам, работает в разрыхлителях. ADI 30 мг/кг веса, опасений нет.",
+        "en": "A natural component of grapes and a by-product of winemaking. It provides tartness in drinks and fillings and works in baking powders. ADI 30 mg/kg bw, no concerns."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": 30,
+      "restrictedIn": [],
+      "synonyms": ["винная кислота", "tartaric acid", "l-tartaric acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E336",
+      "names": { "ru": "Тартраты калия (винный камень)", "en": "Potassium tartrates (cream of tartar)" },
+      "category": "raising-agent",
+      "risk": "none",
+      "summary": { "ru": "Винный камень: кислая часть классического разрыхлителя.", "en": "Cream of tartar: the acid half of classic baking powder." },
+      "detail": {
+        "ru": "Осадок, выпадающий в винных бочках; в кухне известен как винный камень. В паре с содой даёт углекислый газ и подъём теста, а во взбитых белках стабилизирует пену. Безопасен.",
+        "en": "The deposit that forms in wine barrels, known in the kitchen as cream of tartar. Paired with soda it releases carbon dioxide and lifts dough; in whipped egg white it stabilises the foam. Safe."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": 30,
+      "restrictedIn": [],
+      "synonyms": ["тартрат калия", "тартраты калия", "винный камень", "potassium tartrate", "cream of tartar", "bitartrate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E340",
+      "names": { "ru": "Фосфаты калия", "en": "Potassium phosphates" },
+      "category": "stabiliser",
+      "risk": "moderate",
+      "summary": { "ru": "Фосфаты без натрия — но фосфорная нагрузка остаётся.", "en": "Sodium-free phosphates — but the phosphorus load remains." },
+      "detail": {
+        "ru": "Регулируют кислотность и стабилизируют плавленые сыры и напитки. Натрия не добавляют, но входят в общий фосфатный предел 40 мг/кг веса в день в пересчёте на фосфор, который у части населения уже превышен.",
+        "en": "They regulate acidity and stabilise processed cheese and drinks. They add no sodium, but they count against the overall phosphate limit of 40 mg/kg bw per day as phosphorus, which part of the population already exceeds."
+      },
+      "concerns": ["kidney", "ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 40,
+      "restrictedIn": [],
+      "synonyms": ["фосфат калия", "фосфаты калия", "potassium phosphate", "potassium phosphates"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E405",
+      "names": { "ru": "Пропиленгликольальгинат", "en": "Propylene glycol alginate" },
+      "category": "thickener",
+      "risk": "low",
+      "summary": { "ru": "Водорослевый загуститель, работающий в кислой среде.", "en": "A seaweed thickener that works in acidic conditions." },
+      "detail": {
+        "ru": "Модифицированный альгинат, который не выпадает в осадок в кислых напитках и держит пену на пиве. ADI 70 мг/кг веса. В организме распадается на альгинат и пропиленгликоль, оба изучены и в пищевых дозах безопасны.",
+        "en": "A modified alginate that does not precipitate in acidic drinks and holds the head on beer. ADI 70 mg/kg bw. In the body it splits into alginate and propylene glycol, both well studied and safe at food levels."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 70,
+      "restrictedIn": [],
+      "synonyms": ["пропиленгликольальгинат", "propylene glycol alginate", "pga"],
+      "sources": ["eu-1333-2008", "efsa-additives", "jecfa"]
+    },
+    {
+      "code": "E413",
+      "names": { "ru": "Трагакант", "en": "Tragacanth" },
+      "category": "thickener",
+      "risk": "none",
+      "summary": { "ru": "Природная камедь из смолы астрагала. Растворимая клетчатка.", "en": "A natural gum from astragalus resin — soluble fibre." },
+      "detail": {
+        "ru": "Одна из старейших пищевых камедей, применяется в кондитерских изделиях и соусах. Не переваривается, ведёт себя как клетчатка, ADI не установлен. Опасений нет.",
+        "en": "One of the oldest food gums, used in confectionery and sauces. Indigestible and behaving as fibre, with no ADI set. No concerns."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["трагакант", "камедь трагаканта", "tragacanth", "gum tragacanth"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E417",
+      "names": { "ru": "Камедь тары", "en": "Tara gum" },
+      "category": "thickener",
+      "risk": "none",
+      "summary": { "ru": "Растительная камедь из семян перуанского дерева тара.", "en": "A plant gum from the seeds of the Peruvian tara tree." },
+      "detail": {
+        "ru": "Близкая родственница гуаровой камеди и камеди рожкового дерева. Не переваривается, работает как растворимая клетчатка, ADI не установлен. Опасений нет.",
+        "en": "A close relative of guar gum and locust bean gum. Indigestible and behaving as soluble fibre, with no ADI set. No concerns."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["камедь тары", "тара", "tara gum"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E461",
+      "names": { "ru": "Метилцеллюлоза", "en": "Methyl cellulose" },
+      "category": "thickener",
+      "risk": "low",
+      "summary": { "ru": "Модифицированная целлюлоза: густеет при нагревании, а не при остывании.", "en": "Modified cellulose that thickens when heated rather than when cooled." },
+      "detail": {
+        "ru": "Ведёт себя наоборот по сравнению с обычными загустителями, и потому держит форму растительных котлет при жарке. Не переваривается, токсикологических вопросов нет — это указание на промышленную рецептуру.",
+        "en": "It behaves the opposite way to ordinary thickeners, which is how plant-based patties keep their shape in the pan. Indigestible, with no toxicological questions — an indicator of an industrial recipe."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["метилцеллюлоза", "methyl cellulose", "methylcellulose"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E470b",
+      "names": { "ru": "Магниевые соли жирных кислот", "en": "Magnesium salts of fatty acids" },
+      "category": "emulsifier",
+      "risk": "low",
+      "summary": { "ru": "Эмульгатор и антислёживатель; знаком по таблеткам как стеарат магния.", "en": "Emulsifier and anti-caking agent — familiar from tablets as magnesium stearate." },
+      "detail": {
+        "ru": "Соли обычных жирных кислот, которые организм переваривает как жир. Широко применяется в сухих смесях и в фармацевтике. Токсикологических претензий нет; в составе это признак порошкового или сильно переработанного продукта.",
+        "en": "Salts of ordinary fatty acids, digested as fat. Widely used in dry mixes and in pharmaceuticals. No toxicological concerns; on a label it signals a powdered or heavily processed product."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "mixed",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["магниевые соли жирных кислот", "стеарат магния", "magnesium salts of fatty acids", "magnesium stearate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E472b",
+      "names": { "ru": "Эфиры моно- и диглицеридов с молочной кислотой", "en": "Lactic acid esters of mono- and diglycerides" },
+      "category": "emulsifier",
+      "risk": "low",
+      "summary": { "ru": "Эмульгатор взбитых десертов и сухих сливок.", "en": "The emulsifier of whipped desserts and non-dairy creamers." },
+      "detail": {
+        "ru": "Жировые фрагменты, соединённые с молочной кислотой; в организме распадаются на привычные компоненты. Токсикологических вопросов нет. Как и другие представители группы E472, указывает на степень переработки.",
+        "en": "Fat fragments joined to lactic acid, breaking down into familiar components in the body. No toxicological questions. Like the rest of the E472 group, it indicates how processed the product is."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["эфиры моно- и диглицеридов с молочной кислотой", "lactic acid esters of mono- and diglycerides", "lactem"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E475",
+      "names": { "ru": "Эфиры полиглицерина и жирных кислот", "en": "Polyglycerol esters of fatty acids" },
+      "category": "emulsifier",
+      "risk": "low",
+      "summary": { "ru": "Эмульгатор промышленной выпечки и кремов. ADI 25 мг/кг веса.", "en": "An emulsifier for industrial baking and creams. ADI 25 mg/kg bw." },
+      "detail": {
+        "ru": "Держит воздух в бисквитах и не даёт кремам расслаиваться. Расщепляется на глицерин и жирные кислоты — обычные компоненты жира. Опасений при пищевом применении нет.",
+        "en": "It holds air in sponge cakes and keeps creams from separating. It breaks down into glycerol and fatty acids, the ordinary components of fat. No concerns at food use levels."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 25,
+      "restrictedIn": [],
+      "synonyms": ["эфиры полиглицерина и жирных кислот", "polyglycerol esters of fatty acids", "pge"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E504",
+      "names": { "ru": "Карбонаты магния", "en": "Magnesium carbonates" },
+      "category": "anti-caking",
+      "risk": "none",
+      "summary": { "ru": "Минеральный антислёживатель; он же аптечный антацид.", "en": "A mineral anti-caking agent; also a pharmacy antacid." },
+      "detail": {
+        "ru": "Не даёт слипаться соли и сухим смесям, а в аптеке продаётся как средство от изжоги. Безопасен, ADI не установлен. В больших количествах, как любая магниевая соль, может послаблять.",
+        "en": "It keeps salt and dry mixes free-flowing and is sold in pharmacies for heartburn. Safe, no ADI set. In large amounts, like any magnesium salt, it can loosen the stool."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["карбонат магния", "карбонаты магния", "magnesium carbonate", "magnesium carbonates"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E507",
+      "names": { "ru": "Соляная кислота", "en": "Hydrochloric acid" },
+      "category": "acidity-regulator",
+      "risk": "none",
+      "summary": { "ru": "Та же кислота, что в желудке. В производстве нейтрализуется.", "en": "The same acid the stomach makes. Neutralised during production." },
+      "detail": {
+        "ru": "Название звучит грозно, но желудок вырабатывает соляную кислоту сам, причём в куда большей концентрации. В пищевом производстве применяется для корректировки кислотности и к готовому продукту нейтрализуется.",
+        "en": "The name sounds alarming, but the stomach produces hydrochloric acid itself, and at a far higher concentration. In food production it adjusts acidity and is neutralised by the time the product is finished."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["соляная кислота", "хлористоводородная кислота", "hydrochloric acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E511",
+      "names": { "ru": "Хлорид магния", "en": "Magnesium chloride" },
+      "category": "stabiliser",
+      "risk": "none",
+      "summary": { "ru": "Нигари: традиционный коагулянт тофу и источник магния.", "en": "Nigari: the traditional tofu coagulant and a source of magnesium." },
+      "detail": {
+        "ru": "Именно им сворачивают соевое молоко при изготовлении тофу — в Японии это вещество известно как нигари, выпаренная морская вода. Безопасен, ADI не установлен; в больших количествах, как все соли магния, слабит.",
+        "en": "It is what curdles soy milk to make tofu — in Japan it is known as nigari, evaporated seawater. Safe, no ADI set; in large amounts, like all magnesium salts, it is laxative."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["хлорид магния", "магния хлорид", "нигари", "magnesium chloride", "nigari"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E516",
+      "names": { "ru": "Сульфат кальция (гипс)", "en": "Calcium sulphate (gypsum)" },
+      "category": "stabiliser",
+      "risk": "none",
+      "summary": { "ru": "Пищевой гипс: коагулянт тофу и улучшитель теста.", "en": "Food-grade gypsum: a tofu coagulant and dough conditioner." },
+      "detail": {
+        "ru": "Тот же минерал, что и строительный гипс, но пищевой чистоты. Сворачивает соевое молоко, питает дрожжи в тесте и служит источником кальция. Практически не всасывается, опасений нет.",
+        "en": "The same mineral as builder's gypsum, at food-grade purity. It sets soy milk, feeds yeast in dough and serves as a calcium source. Barely absorbed, with no concerns."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["сульфат кальция", "гипс", "calcium sulphate", "calcium sulfate", "gypsum"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E570",
+      "names": { "ru": "Жирные кислоты", "en": "Fatty acids" },
+      "category": "glazing-agent",
+      "risk": "none",
+      "summary": { "ru": "Обычные жирные кислоты в роли глазирователя и антивспенивателя.", "en": "Ordinary fatty acids used as a glazing and antifoaming agent." },
+      "detail": {
+        "ru": "Стеариновая, олеиновая и другие кислоты, из которых состоит любой жир. Организм переваривает их как жир и получает те же калории. Опасений нет, ADI не установлен.",
+        "en": "Stearic, oleic and the other acids that make up any fat. The body digests them as fat and gets the same calories. No concerns, no ADI set."
+      },
+      "concerns": [],
+      "origin": "mixed",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["жирные кислоты", "стеариновая кислота", "fatty acids", "stearic acid"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E579",
+      "names": { "ru": "Глюконат железа", "en": "Ferrous gluconate" },
+      "category": "other",
+      "risk": "low",
+      "summary": { "ru": "Соль железа, которой чернят маслины. Заодно источник железа.", "en": "The iron salt that blackens olives — and a source of iron besides." },
+      "detail": {
+        "ru": "Именно из-за него чёрные маслины в банке такие ровно-чёрные: зелёные оливки окисляют и стабилизируют цвет солью железа. Само по себе железо в этой форме усваивается и применяется в аптечных препаратах. Опасений при пищевом применении нет.",
+        "en": "It is why canned black olives are so uniformly black: green olives are oxidised and the colour fixed with an iron salt. The iron in this form is absorbable and is used in pharmacy preparations. No concerns at food levels."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["глюконат железа", "железа глюконат", "ferrous gluconate", "iron gluconate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E902",
+      "names": { "ru": "Воск канделильский", "en": "Candelilla wax" },
+      "category": "glazing-agent",
+      "risk": "none",
+      "summary": { "ru": "Растительный воск для блеска. Подходит веганам.", "en": "A plant wax used for shine. Suitable for vegans." },
+      "detail": {
+        "ru": "Добывается из мексиканского кустарника канделилья. Не всасывается и проходит транзитом. Растительная альтернатива пчелиному воску и шеллаку в глазури драже и жевательной резинке.",
+        "en": "Harvested from the Mexican candelilla shrub. Not absorbed and passes straight through. The plant alternative to beeswax and shellac in sweet coatings and chewing gum."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["канделильский воск", "воск канделилла", "candelilla wax"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E942",
+      "names": { "ru": "Закись азота", "en": "Nitrous oxide" },
+      "category": "other",
+      "risk": "low",
+      "summary": { "ru": "Газ-вытеснитель взбитых сливок. Инертен в самом продукте.", "en": "The propellant in whipped cream. Inert in the product itself." },
+      "detail": {
+        "ru": "В баллончике сливок он растворяется под давлением и вспенивает их при выходе, оставаясь химически инертным. Отдельная тема, к еде отношения не имеющая: вдыхание закиси азота ради опьянения при повторении выводит из строя витамин B12 и повреждает нервы — это не про баллончик сливок, но знать стоит.",
+        "en": "In an aerosol cream can it dissolves under pressure and foams the cream on release, staying chemically inert. A separate matter, unrelated to food: repeatedly inhaling nitrous oxide recreationally disables vitamin B12 and damages nerves — not a property of the cream can, but worth knowing."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["закись азота", "оксид азота i", "nitrous oxide", "n2o"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E959",
+      "names": { "ru": "Неогесперидин дигидрохалкон", "en": "Neohesperidine dihydrochalcone" },
+      "category": "sweetener",
+      "risk": "low",
+      "summary": { "ru": "Подсластитель из горького апельсина с долгим лакричным послевкусием.", "en": "A sweetener from bitter orange with a lingering liquorice aftertaste." },
+      "detail": {
+        "ru": "Получают из кожуры горького апельсина. ADI 5 мг/кг веса. Из-за своеобразного долгого послевкусия применяется в основном как модификатор вкуса и маскировщик горечи, а не как главный подсластитель.",
+        "en": "Obtained from bitter orange peel. ADI 5 mg/kg bw. Its distinctive lingering aftertaste means it is used mainly as a taste modifier and bitterness masker rather than as the main sweetener."
+      },
+      "concerns": [],
+      "origin": "mixed",
+      "adiMgPerKgBw": 5,
+      "restrictedIn": [],
+      "synonyms": ["неогесперидин дигидрохалкон", "неогесперидин", "neohesperidine dihydrochalcone", "nhdc"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E961",
+      "names": { "ru": "Неотам", "en": "Neotame" },
+      "category": "sweetener",
+      "risk": "low",
+      "summary": { "ru": "Родственник аспартама в 8000 раз слаще сахара; предупреждение о ФКУ не требуется.", "en": "An aspartame relative 8000 times sweeter than sugar; no PKU warning required." },
+      "detail": {
+        "ru": "Химически близок аспартаму, но из-за огромной сладости применяется в таких мизерных количествах, что фенилаланина из него поступает пренебрежимо мало — поэтому предупреждение для больных фенилкетонурией на упаковке не требуется. ADI 2 мг/кг веса.",
+        "en": "Chemically close to aspartame, but its extreme sweetness means it is used in such tiny amounts that the phenylalanine contributed is negligible — which is why no phenylketonuria warning is required on the pack. ADI 2 mg/kg bw."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": 2,
+      "restrictedIn": [],
+      "synonyms": ["неотам", "neotame"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E999",
+      "names": { "ru": "Экстракт квиллайи", "en": "Quillaia extract" },
+      "category": "other",
+      "risk": "low",
+      "summary": { "ru": "Природный пенообразователь из коры мыльного дерева.", "en": "A natural foaming agent from the bark of the soapbark tree." },
+      "detail": {
+        "ru": "Содержит сапонины — природные «мыла», дающие устойчивую пену в напитках. Разрешён только в напитках со строгими ограничениями по количеству, ADI 1.5 мг/кг веса. В сравнимых пищевых дозах опасений не вызывает.",
+        "en": "It contains saponins, the natural soaps that give drinks a stable head. Permitted only in beverages with strict quantity limits, ADI 1.5 mg/kg bw. At comparable food doses it raises no concerns."
+      },
+      "concerns": [],
+      "origin": "natural",
+      "adiMgPerKgBw": 1.5,
+      "restrictedIn": [],
+      "synonyms": ["экстракт квиллайи", "квиллайя", "quillaia extract", "quillaja"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E1404",
+      "names": { "ru": "Окисленный крахмал", "en": "Oxidised starch" },
+      "category": "thickener",
+      "risk": "low",
+      "summary": { "ru": "Модифицированный крахмал для прозрачных, некрахмальных на вкус соусов.", "en": "Modified starch for clear sauces that do not taste starchy." },
+      "detail": {
+        "ru": "Обработка окислителем укорачивает цепочки крахмала, и раствор получается более жидким и прозрачным. Переваривается как обычный крахмал. Токсикологических вопросов нет, но в составе это маркер промышленной рецептуры.",
+        "en": "Oxidative treatment shortens the starch chains, giving a thinner and clearer solution. Digested as ordinary starch. No toxicological questions, but on a label it marks an industrial recipe."
+      },
+      "concerns": ["ultra-processed-marker"],
+      "origin": "mixed",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["окисленный крахмал", "oxidised starch", "oxidized starch"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    },
+    {
+      "code": "E1518",
+      "names": { "ru": "Триацетин", "en": "Triacetin" },
+      "category": "other",
+      "risk": "low",
+      "summary": { "ru": "Растворитель ароматизаторов и увлажнитель жевательной резинки.", "en": "A flavour solvent and chewing-gum humectant." },
+      "detail": {
+        "ru": "Эфир глицерина и уксусной кислоты: в организме распадается на глицерин и ацетат, оба обычные метаболиты. Применяется в мизерных количествах. Опасений при пищевом применении нет.",
+        "en": "An ester of glycerol and acetic acid that breaks down into glycerol and acetate, both ordinary metabolites. Used in minute amounts, with no concerns at food levels."
+      },
+      "concerns": [],
+      "origin": "synthetic",
+      "adiMgPerKgBw": null,
+      "restrictedIn": [],
+      "synonyms": ["триацетин", "triacetin", "glyceryl triacetate"],
+      "sources": ["eu-1333-2008", "efsa-additives"]
+    }
+  ]
+}

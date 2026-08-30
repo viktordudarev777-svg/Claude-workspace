@@ -19,10 +19,22 @@ interface Hit {
 const CODE_PATTERN = /(?:^|[^\p{L}\p{N}])((?:e|е|ins)\s*[-.]?\s*[a-z0-9а-я]{3,4}\s*(?:[a-z]{1,2}\d?)?)(?![\p{L}\p{N}])/giu;
 
 /**
- * Words that look like an additive synonym but must not trigger a match on
- * their own — they are ordinary ingredients or nutrition-panel labels.
+ * Synonyms that must never match by name alone.
+ *
+ * Two kinds live here. Ordinary ingredients ("соль", "сахар") share a name
+ * with an additive but mean the food, not the additive. Nutrition-panel
+ * wording ("насыщенные жирные кислоты") collides with additive names such as
+ * E570 "жирные кислоты"; the panel is normally cut off before matching, but a
+ * label with no "пищевая ценность" heading would otherwise leak into the
+ * ingredient text and produce a phantom finding.
+ *
+ * Codes still match: a real label declares E570 as a code, not as a phrase.
  */
-const STOPWORDS = new Set(['соль', 'сахар', 'вода', 'salt', 'sugar', 'water', 'мука', 'flour']);
+const AMBIGUOUS_SYNONYMS = new Set([
+  'соль', 'сахар', 'вода', 'мука', 'salt', 'sugar', 'water', 'flour',
+  'жирные кислоты', 'насыщенные жирные кислоты', 'fatty acids', 'saturated fat',
+  'белки', 'жиры', 'углеводы', 'protein', 'proteins', 'carbohydrates',
+]);
 
 function toFinding(additive: Additive, matchedText: string, confidence: number, locale: Locale): AdditiveFinding {
   return {
@@ -93,7 +105,7 @@ export function findAdditives(
 
   // Pass 2 — exact synonyms, longest first so "глутамат натрия" wins over "глутамат".
   for (const { key, additive } of db.synonymIndex) {
-    if (STOPWORDS.has(key)) continue;
+    if (AMBIGUOUS_SYNONYMS.has(key)) continue;
     let from = 0;
     for (;;) {
       const index = text.indexOf(key, from);
@@ -114,7 +126,7 @@ export function findAdditives(
   // false positives at edit distance 2.
   const words = [...text.matchAll(/[\p{L}\p{N}][\p{L}\p{N}\s-]{7,60}/gu)];
   for (const { key, additive } of db.synonymIndex) {
-    if (key.length < 9) continue;
+    if (key.length < 9 || AMBIGUOUS_SYNONYMS.has(key)) continue;
     if (hits.some((hit) => hit.additive.code === additive.code)) continue;
     for (const word of words) {
       const start = word.index;

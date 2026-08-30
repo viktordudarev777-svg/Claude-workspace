@@ -76,3 +76,28 @@ describe('findAdditives', () => {
     expect(en.summary).toMatch(/sausage/i);
   });
 });
+
+describe('nutrition-panel wording', () => {
+  it('does not read "насыщенные жирные кислоты" as the additive E570', () => {
+    // E570 is literally named "жирные кислоты", so a nutrition panel that
+    // reaches the matcher would otherwise produce a phantom finding.
+    const panel = 'Пищевая ценность на 100 г: жиры 20 г, в том числе насыщенные жирные кислоты 9 г, белки 5 г';
+    expect(findAdditives(panel, db).findings).toHaveLength(0);
+  });
+
+  it('still matches E570 when the label declares the code', () => {
+    expect(findAdditives('глазирователь E570', db).findings.map((f) => f.code)).toContain('E570');
+  });
+
+  it('stays clean on ordinary ingredient lists', () => {
+    const lists = [
+      'Состав: вода, сахар, соль, мука пшеничная, дрожжи, масло подсолнечное',
+      'Состав: молоко цельное, закваска, соль',
+      'Состав: говядина, вода, соль поваренная пищевая, перец чёрный, чеснок',
+      'Ingredients: oats, water, sea salt, sunflower oil',
+    ];
+    for (const list of lists) {
+      expect(findAdditives(list, db).findings, list).toHaveLength(0);
+    }
+  });
+});
