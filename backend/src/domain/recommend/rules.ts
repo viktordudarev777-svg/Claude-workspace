@@ -60,8 +60,15 @@ export function buildRecommendations(input: RecommendInput): Recommendation[] {
   if (additives.some((a) => a.code === 'E320' || a.code === 'E321' || a.code === 'E310')) {
     push('prefer-tocopherol', t(locale, 'rec.preferTocopherol'), t(locale, 'rec.preferTocopherolWhy'), 2);
   }
-  if (concerns.has('hyperactivity-children')) {
+  // The children's-attention concern comes from two different places: the six
+  // EU-warning colours, and benzoates. Naming colours when the product only
+  // contains a benzoate sends the shopper looking for the wrong thing.
+  const childConcern = additives.filter((a) => a.concerns.includes('hyperactivity-children'));
+  if (childConcern.some((a) => a.category === 'colour')) {
     push('child-caution', t(locale, 'rec.childCaution'), t(locale, 'rec.childCautionWhy'), 2);
+  } else if (childConcern.length > 0) {
+    const list = childConcern.map((a) => `${a.name.toLowerCase()} (${a.code})`).join(', ');
+    push('child-caution', t(locale, 'rec.childCautionOther', { list }), t(locale, 'rec.childCautionOtherWhy'), 2);
   }
   if (concerns.has('laxative-effect')) {
     push('laxative', t(locale, 'rec.laxative'), t(locale, 'rec.laxativeWhy'), 3);

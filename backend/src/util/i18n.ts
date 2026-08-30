@@ -100,6 +100,9 @@ const MESSAGES = {
     'rec.checkAllergenWhy': 'Эти компоненты чаще всего вызывают реакции у чувствительных людей.',
     'rec.childCaution': 'Для детского рациона поищите вариант без синтетических красителей.',
     'rec.childCautionWhy': 'В ЕС такие красители обязаны нести предупреждение о влиянии на активность и внимание детей.',
+    'rec.childCautionOther': ({ list }: Params) => `Для детского рациона поищите вариант без ${list}.`,
+    'rec.childCautionOtherWhy':
+      'Эти добавки изучались в связи с активностью и вниманием у детей — для взрослых вопрос куда менее острый.',
     'rec.phenylketonuria': 'Продукт содержит источник фенилаланина — он противопоказан при фенилкетонурии.',
     'rec.phenylketonuriaWhy': 'Это единственное строгое противопоказание к аспартаму.',
     'rec.laxative': 'Не съедайте много за раз: сахарные спирты в количестве дают вздутие и послабление.',
@@ -192,6 +195,9 @@ const MESSAGES = {
     'rec.checkAllergenWhy': 'These components most often cause reactions in sensitive people.',
     'rec.childCaution': "For children's food, look for a version without synthetic colours.",
     'rec.childCautionWhy': 'In the EU such colours must carry a warning about activity and attention in children.',
+    'rec.childCautionOther': ({ list }: Params) => `For children's food, look for a version without ${list}.`,
+    'rec.childCautionOtherWhy':
+      'These additives have been studied in connection with activity and attention in children; for adults the question is far less pressing.',
     'rec.phenylketonuria': 'This product contains a source of phenylalanine and is contraindicated in phenylketonuria.',
     'rec.phenylketonuriaWhy': 'That is the one strict contraindication for aspartame.',
     'rec.laxative': 'Do not eat a lot at once: sugar alcohols in quantity cause bloating and loose stools.',

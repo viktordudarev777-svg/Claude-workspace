@@ -112,3 +112,20 @@ describe('analyzeProduct', () => {
     expect(breakdown.every((entry) => Number.isFinite(entry.delta))).toBe(true);
   });
 });
+
+describe('children attention advice', () => {
+  const advice = (text: string) =>
+    analyze(text).recommendations.find((r) => r.id === 'child-caution');
+
+  it('names colours when the concern comes from a colour', () => {
+    expect(advice('Состав: сахар, красители E102, E110')?.text).toMatch(/красител/);
+  });
+
+  it('names the actual additive when no colour is involved', () => {
+    // Sodium benzoate carries the same concern, but telling the shopper to
+    // avoid colours would send them looking for the wrong thing.
+    const text = advice('Состав: вода, сахар, консервант E211')?.text ?? '';
+    expect(text).toMatch(/бензоат натрия \(E211\)/);
+    expect(text).not.toMatch(/красител/);
+  });
+});

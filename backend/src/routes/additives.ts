@@ -1,7 +1,6 @@
 import { Router } from 'express';
 import { getAdditiveDatabase } from '../domain/additives/database';
-import { canonicalizeECode } from '../util/text';
-import { normalize } from '../util/text';
+import { canonicalizeECode, normalize } from '../util/text';
 
 /**
  * Read-only access to the additive dictionary, so the app can offer search and

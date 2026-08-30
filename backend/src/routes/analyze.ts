@@ -15,7 +15,12 @@ const labelSchema = z.object({
 });
 
 const photoSchema = z.object({
-  imageBase64: z.string().min(100),
+  // Charset check only: decoding here just to validate would double the memory
+  // cost of every upload, and the provider rejects a malformed image anyway.
+  imageBase64: z
+    .string()
+    .min(100)
+    .regex(/^[A-Za-z0-9+/=\r\n]+$/, 'imageBase64 must be base64 encoded'),
 });
 
 export function analyzeRoutes(service: AnalysisService, config: Config): Router {
