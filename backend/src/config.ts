@@ -1,6 +1,6 @@
 import path from 'node:path';
 import dotenv from 'dotenv';
-import { dataDir, packageRoot } from './util/paths';
+import { packageRoot } from './util/paths';
 
 dotenv.config();
 
@@ -24,7 +24,6 @@ export const config = {
   env: str('NODE_ENV', 'development'),
   port: int('PORT', 4000),
   corsOrigin: str('CORS_ORIGIN', '*'),
-  dataDir: dataDir(),
   databasePath: str('DATABASE_PATH', path.join(packageRoot(), 'data/foodlens.db')),
   off: {
     baseUrl: str('OFF_BASE_URL', 'https://world.openfoodfacts.org'),

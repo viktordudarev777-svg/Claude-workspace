@@ -1,4 +1,4 @@
-import type { AnalysisResult, HistoryEntry, Locale } from '../domain/types';
+import type { AnalysisResult, HistoryEntry, Locale } from '@foodlens/engine';
 import type { OffProduct } from '../integrations/openfoodfacts';
 import type { Db } from './client';
 

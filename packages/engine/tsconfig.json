@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    // The engine ships as source. The backend compiles it with its own
+    // CommonJS settings and Metro bundles it for the app; this config only
+    // governs the standalone typecheck.
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "rootDir": "src",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    // No DOM and no Node types on purpose: the engine must not reach for a
+    // platform API, and leaving them out makes the compiler enforce that.
+    "types": []
+  },
+  "include": ["src/**/*.ts"]
+}

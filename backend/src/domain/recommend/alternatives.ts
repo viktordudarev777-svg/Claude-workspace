@@ -1,7 +1,6 @@
-import type { AlternativeProduct, Locale, ProductInfo } from '../types';
+import type { AlternativeProduct, Locale, ProductInfo } from '@foodlens/engine';
 import type { OpenFoodFactsClient, OffProduct } from '../../integrations/openfoodfacts';
-import { analyzeProduct } from '../analyze';
-import { t } from '../../util/i18n';
+import { analyzeProduct, t, type AdditiveDatabase } from '@foodlens/engine';
 
 /**
  * Suggests better products from the same category.
@@ -15,6 +14,7 @@ export async function findAlternatives(
   currentScore: number,
   client: OpenFoodFactsClient,
   locale: Locale,
+  additives: AdditiveDatabase,
   limit = 3,
 ): Promise<AlternativeProduct[]> {
   const category = pickCategory(product.categories);
@@ -30,6 +30,7 @@ export async function findAlternatives(
     const { result } = analyzeProduct({
       source: 'barcode',
       locale,
+      additives,
       product: candidate.product,
       nutriments: candidate.nutriments,
     });

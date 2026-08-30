@@ -1,17 +1,21 @@
-import type { AnalysisResult, Locale, Nutriments, ProductInfo } from '../domain/types';
-import { analyzeProduct } from '../domain/analyze';
+import { randomUUID } from 'node:crypto';
+import {
+  analyzeProduct, extractIngredientSection, matchWholeFood, parseNutritionLabel, t,
+  toPer100g, toProductInfo, type AdditiveDatabase, type AnalysisResult, type Locale,
+  type Nutriments, type ProductInfo, type WholeFood,
+} from '@foodlens/engine';
 import { findAlternatives } from '../domain/recommend/alternatives';
-import { parseNutritionLabel, toPer100g } from '../domain/nutrition/parseLabel';
-import { extractIngredientSection } from '../domain/ingredients/parse';
-import { matchWholeFood, toProductInfo } from '../domain/wholeFoods';
 import { OpenFoodFactsClient, isValidBarcode } from '../integrations/openfoodfacts';
 import type { OcrProvider } from '../integrations/ocr';
 import type { VisionProvider } from '../integrations/vision';
 import type { OffCacheRepository, ScanRepository } from '../db/repositories';
-import { t } from '../util/i18n';
 
 export interface AnalysisServiceDeps {
   off: OpenFoodFactsClient;
+  /** Indexed additive data, loaded once at boot. */
+  additives: AdditiveDatabase;
+  /** Whole-food reference used when a photo shows unlabelled food. */
+  wholeFoods: WholeFood[];
   ocr: OcrProvider;
   vision: VisionProvider;
   scans: ScanRepository;
@@ -74,7 +78,10 @@ export class AnalysisService {
       }
     }
 
-    const { result } = analyzeProduct({ source: 'barcode', locale, product, nutriments, warnings });
+    const { result } = analyzeProduct({
+      source: 'barcode', locale, product, nutriments, warnings,
+      additives: this.deps.additives, idFactory: randomUUID,
+    });
     return this.finish(result, deviceId, locale);
   }
 
@@ -125,6 +132,8 @@ export class AnalysisService {
       packText: rawText,
       warnings,
       inputConfidence: options.ocrConfidence ?? 0.85,
+      additives: this.deps.additives,
+      idFactory: randomUUID,
     });
     return this.finish(result, deviceId, locale);
   }
@@ -153,7 +162,7 @@ export class AnalysisService {
       return this.analyzeBarcode(vision.barcode, locale, deviceId);
     }
 
-    const match = matchWholeFood(vision.labels);
+    const match = matchWholeFood(vision.labels, this.deps.wholeFoods);
     if (match) {
       const product = toProductInfo(match.food, locale);
       const { result } = analyzeProduct({
@@ -163,6 +172,8 @@ export class AnalysisService {
         nutriments: match.food.nutriments,
         warnings,
         inputConfidence: match.confidence,
+        additives: this.deps.additives,
+        idFactory: randomUUID,
       });
       // A whole food has no additives to explain, so the food note carries the
       // explanation the user came for.
@@ -183,6 +194,8 @@ export class AnalysisService {
       nutriments: {},
       warnings: [...warnings, t(locale, 'warning.noIngredients')],
       inputConfidence: 0.2,
+      additives: this.deps.additives,
+      idFactory: randomUUID,
     });
     return this.finish(result, deviceId, locale);
   }
@@ -190,7 +203,9 @@ export class AnalysisService {
   /** Attaches alternatives and persists the scan. */
   private async finish(result: AnalysisResult, deviceId: string | null, locale: Locale): Promise<AnalysisResult> {
     if (result.verdict.light !== 'green' && result.product.categories.length > 0) {
-      result.alternatives = await findAlternatives(result.product, result.verdict.score, this.deps.off, locale);
+      result.alternatives = await findAlternatives(
+        result.product, result.verdict.score, this.deps.off, locale, this.deps.additives,
+      );
     }
     if (deviceId) {
       this.deps.scans.save(deviceId, result);

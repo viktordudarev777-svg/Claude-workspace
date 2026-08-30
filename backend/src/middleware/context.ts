@@ -1,6 +1,6 @@
 import type { NextFunction, Request, Response } from 'express';
-import type { Locale } from '../domain/types';
-import { isLocale, localeFromHeader } from '../util/i18n';
+import type { Locale } from '@foodlens/engine';
+import { isLocale, localeFromHeader } from '@foodlens/engine';
 import type { DeviceRepository } from '../db/repositories';
 
 declare global {

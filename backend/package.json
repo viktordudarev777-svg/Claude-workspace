@@ -14,10 +14,11 @@
     "start": "node dist/index.js",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "validate-data": "tsx scripts/validate-data.ts"
+    "test:watch": "vitest"
   },
   "dependencies": {
+    "@foodlens/data": "*",
+    "@foodlens/engine": "*",
     "better-sqlite3": "^11.7.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",

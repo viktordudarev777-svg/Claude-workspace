@@ -44,6 +44,7 @@ const STRINGS = {
     'result.saved': 'В избранном',
     'result.rescan': 'Сканировать ещё',
     'result.matchedAs': 'найдено как',
+    'result.offline': 'Разобрано на телефоне без сети',
 
     'history.title': 'История',
     'history.empty': 'Пока пусто. Отсканируйте первый продукт.',
@@ -73,6 +74,17 @@ const STRINGS = {
     'settings.disclaimerBody':
       'Приложение помогает разобраться в составе, но не заменяет врача и не ставит диагнозов. При аллергии, беременности и хронических заболеваниях ориентируйтесь на рекомендации своего врача.',
     'settings.deviceId': 'Идентификатор устройства',
+    'settings.offline': 'Работа без сети',
+    'settings.offlineBody':
+      'Справочник добавок хранится в приложении, поэтому состав по фотографии разбирается и без интернета. Недоступны только поиск по штрихкоду и подбор замены — они требуют базы продуктов.',
+    'settings.reference': 'Версия справочника',
+    'settings.referenceSnapshot': 'из установленной версии приложения',
+    'settings.referenceDownloaded': 'загружен с сервера',
+    'settings.refresh': 'Обновить справочник',
+    'settings.refreshing': 'Обновляем…',
+    'settings.refreshed': 'Справочник обновлён',
+    'settings.refreshFailed': 'Не удалось обновить — нет связи с сервером',
+    'settings.pending': 'Ждут отправки на сервер: {count}',
 
     'risk.none': 'Без вопросов',
     'risk.low': 'Низкий риск',
@@ -121,6 +133,7 @@ const STRINGS = {
     'result.saved': 'Saved',
     'result.rescan': 'Scan another',
     'result.matchedAs': 'matched as',
+    'result.offline': 'Analysed on the phone, offline',
 
     'history.title': 'History',
     'history.empty': 'Nothing yet. Scan your first product.',
@@ -150,6 +163,17 @@ const STRINGS = {
     'settings.disclaimerBody':
       'This app helps you understand an ingredient list. It does not replace a doctor and does not diagnose anything. With allergies, pregnancy or a chronic condition, follow your doctor’s advice.',
     'settings.deviceId': 'Device identifier',
+    'settings.offline': 'Working offline',
+    'settings.offlineBody':
+      'The additive reference lives inside the app, so a photographed ingredient list is analysed without a connection. Only the barcode lookup and the alternatives need the product database.',
+    'settings.reference': 'Reference version',
+    'settings.referenceSnapshot': 'from the installed app version',
+    'settings.referenceDownloaded': 'downloaded from the server',
+    'settings.refresh': 'Refresh the reference',
+    'settings.refreshing': 'Refreshing…',
+    'settings.refreshed': 'Reference updated',
+    'settings.refreshFailed': 'Could not refresh — no connection to the server',
+    'settings.pending': 'Waiting to sync: {count}',
 
     'risk.none': 'No concerns',
     'risk.low': 'Low risk',

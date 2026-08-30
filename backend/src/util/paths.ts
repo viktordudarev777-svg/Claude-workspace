@@ -21,9 +21,3 @@ export function packageRoot(): string {
   }
   return process.cwd();
 }
-
-/** Where `additives/`, `references.json` and `whole-foods.json` live. */
-export function dataDir(): string {
-  const override = process.env.FOODLENS_DATA_DIR;
-  return override ? path.resolve(override) : path.join(packageRoot(), 'data');
-}

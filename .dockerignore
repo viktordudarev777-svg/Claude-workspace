@@ -1,0 +1,13 @@
+**/node_modules
+**/dist
+**/.expo
+mobile
+backend/tests
+packages/*/tests
+coverage
+*.db
+*.db-*
+.env
+.git
+.github
+docs

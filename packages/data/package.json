@@ -1,0 +1,22 @@
+{
+  "name": "@foodlens/data",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FoodLens reference data — E-additives, sources and whole foods — with a Node loader",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "data"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "validate": "tsx scripts/validate.ts"
+  },
+  "dependencies": {
+    "@foodlens/engine": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.3"
+  }
+}

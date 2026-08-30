@@ -1,5 +1,5 @@
-import type { Nutriments, ProductInfo } from '../domain/types';
-import { round } from '../util/text';
+import type { Nutriments, ProductInfo } from '@foodlens/engine';
+import { round } from '@foodlens/engine';
 
 export interface OffConfig {
   baseUrl: string;

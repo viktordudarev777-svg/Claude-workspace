@@ -11,12 +11,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  backend:
-    name: Backend — tests and typecheck
+  build:
+    name: Typecheck, test and build
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: backend
     steps:
       - uses: actions/checkout@v4
 
@@ -24,62 +21,70 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: backend/package-lock.json
 
+      # One install for every workspace: the backend and the app share the
+      # engine, and installing them separately would let their copies drift.
       - run: npm ci
 
-      - name: Typecheck
+      # The backend imports the engine's build output, so it has to exist
+      # before anything is typechecked.
+      - name: Build the engine and the data package
+        run: |
+          npm run build --workspace @foodlens/engine
+          npm run build --workspace @foodlens/data
+
+      - name: Typecheck every workspace
         run: npm run typecheck
 
-      - name: Test
-        run: npm test
+      - name: Validate the shipped data files
+        run: npm run validate --workspace @foodlens/data
+
+      - name: Test the engine
+        run: npm test --workspace @foodlens/engine
+
+      - name: Test the backend
+        run: npm test --workspace @foodlens/backend
         env:
-          # The suite must never reach the network; a stub stands in for
-          # Open Food Facts. This makes an accidental live call fail loudly.
+          # The suite must never reach the network; a stub stands in for Open
+          # Food Facts, so an accidental live call fails loudly.
           OFF_ENABLED: '0'
 
-      - name: Build
-        run: npm run build
+      - name: Build the backend
+        run: npm run build --workspace @foodlens/backend
 
-  mobile:
-    name: Mobile — typecheck
+  bundle:
+    name: Mobile — Metro bundle
     runs-on: ubuntu-latest
-    defaults:
-      run:
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build the engine
+        run: npm run build --workspace @foodlens/engine
+
+      # A typecheck would not catch a broken Metro resolution, and the app
+      # resolves the engine across a workspace boundary — so the bundle is
+      # built for real.
+      - name: Bundle the app
+        run: npx expo export --platform android --output-dir /tmp/expo-export
         working-directory: mobile
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: mobile/package-lock.json
-
-      - run: npm ci
-
-      - name: Typecheck
-        run: npm run typecheck
-
-  data:
-    name: Additive data integrity
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: backend
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: backend/package-lock.json
-
-      - run: npm ci
-
-      # The loader validates required fields, code format, both languages and
-      # that every cited source resolves. Running it here means a bad data
-      # edit fails in CI rather than at a user's first scan.
-      - name: Validate the additive database
-        run: npm run validate-data
+      - name: Check the offline reference data made it into the bundle
+        run: |
+          node -e "
+            const fs = require('node:fs');
+            const dir = '/tmp/expo-export/_expo/static/js/android';
+            const file = fs.readdirSync(dir).find((f) => f.endsWith('.hbc'));
+            const data = fs.readFileSync(dir + '/' + file);
+            // Hermes stores non-ASCII strings as UTF-16, so probe both.
+            const present = ['Sodium nitrite', 'E621'].every((s) => data.includes(Buffer.from(s)))
+              && data.includes(Buffer.from('Нитрит натрия', 'utf16le'));
+            if (!present) throw new Error('additive reference data is missing from the bundle');
+            console.log('bundle', file, (data.length / 1024 / 1024).toFixed(1) + ' MB — reference data present');
+          "

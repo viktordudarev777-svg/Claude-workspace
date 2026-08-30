@@ -1,7 +1,9 @@
 services:
   api:
     build:
-      context: ./backend
+      # The repo root: the API is a workspace that depends on two sibling
+      # packages, so the build needs to see all of them.
+      context: .
     image: foodlens-api:latest
     restart: unless-stopped
     ports:

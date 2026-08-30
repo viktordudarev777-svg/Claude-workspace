@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { getAdditiveDatabase } from '../domain/additives/database';
-import { canonicalizeECode, normalize } from '../util/text';
+import { getAdditiveDatabase } from '@foodlens/data';
+import { canonicalizeECode, normalize } from '@foodlens/engine';
 
 /**
  * Read-only access to the additive dictionary, so the app can offer search and

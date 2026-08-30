@@ -8,8 +8,10 @@ import { manipulateAsync, SaveFormat } from 'expo-image-manipulator';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { api, ApiError } from '../api/client';
+import { ApiError } from '../api/client';
 import type { AnalysisResult } from '../api/types';
+import { analyzeBarcode, analyzeLabel, analyzePhoto } from '../services/analysis';
+import { flush } from '../offline/queue';
 import { useApp } from '../context/AppContext';
 import { useTheme } from '../theme';
 import { cacheResult } from '../state/resultCache';
@@ -35,6 +37,7 @@ export function ScanScreen(): React.JSX.Element {
   const [error, setError] = useState<string | null>(null);
   const [manualOpen, setManualOpen] = useState(false);
   const [manualCode, setManualCode] = useState('');
+  const [offline, setOffline] = useState(false);
 
   const cameraRef = useRef<CameraView>(null);
   const lastScan = useRef<{ code: string; at: number } | null>(null);
@@ -48,12 +51,17 @@ export function ScanScreen(): React.JSX.Element {
   );
 
   const analyze = useCallback(
-    async (work: () => Promise<AnalysisResult>) => {
+    async (work: () => Promise<{ result: AnalysisResult; offline: boolean }>) => {
       if (!context) return;
       setBusy(true);
       setError(null);
       try {
-        show(await work());
+        const outcome = await work();
+        setOffline(outcome.offline);
+        // A successful round trip means the connection is back: push anything
+        // that was analysed on the device while it was not.
+        if (!outcome.offline) void flush(context);
+        show(outcome.result);
       } catch (caught) {
         setError(caught instanceof ApiError ? caught.message : String(caught));
       } finally {
@@ -72,7 +80,7 @@ export function ScanScreen(): React.JSX.Element {
       if (!context) return;
 
       void Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-      void analyze(() => api.analyzeBarcode(data, context));
+      void analyze(() => analyzeBarcode(data, context));
     },
     [busy, context, analyze],
   );
@@ -95,7 +103,7 @@ export function ScanScreen(): React.JSX.Element {
 
       const ocr = await recognizeOnDevice(photo.uri);
       if (ocr.available && ocr.text.trim().length > 20) {
-        return api.analyzeLabel(ocr.text, context, { ocrConfidence: ocr.confidence });
+        return analyzeLabel(ocr.text, context, { ocrConfidence: ocr.confidence });
       }
 
       // Downscale before upload: a full-resolution photo is several megabytes
@@ -106,7 +114,7 @@ export function ScanScreen(): React.JSX.Element {
         base64: true,
       });
       if (!compressed.base64) throw new ApiError(0, 'camera_error', 'Не удалось подготовить снимок');
-      return api.analyzePhoto(compressed.base64, context);
+      return analyzePhoto(compressed.base64, context);
     });
   }, [context, analyze]);
 
@@ -115,7 +123,7 @@ export function ScanScreen(): React.JSX.Element {
     if (!code || !context) return;
     setManualOpen(false);
     setManualCode('');
-    void analyze(() => api.analyzeBarcode(code, context));
+    void analyze(() => analyzeBarcode(code, context));
   }, [manualCode, context, analyze]);
 
   if (!permission) {
@@ -158,6 +166,7 @@ export function ScanScreen(): React.JSX.Element {
 
           <View style={styles.controls}>
             {error ? <Text style={styles.error}>{error}</Text> : null}
+            {offline && !error ? <Text style={styles.offline}>{t('result.offline')}</Text> : null}
 
             <Pressable
               onPress={() => void shootLabel()}
@@ -228,6 +237,10 @@ const styles = StyleSheet.create({
   error: {
     color: '#FFFFFF', backgroundColor: 'rgba(196,43,28,0.9)',
     paddingHorizontal: 14, paddingVertical: 8, borderRadius: 10, fontSize: 13, textAlign: 'center',
+  },
+  offline: {
+    color: '#FFFFFF', backgroundColor: 'rgba(184,117,3,0.92)',
+    paddingHorizontal: 14, paddingVertical: 6, borderRadius: 10, fontSize: 12, textAlign: 'center',
   },
   shutter: {
     width: 74, height: 74, borderRadius: 37, backgroundColor: '#FFFFFF',

@@ -195,3 +195,33 @@ describe('/api/v1/history', () => {
     await request(app).get(`/api/v1/history/${created.body.id}`).set('X-Device-Id', 'someone-else-1').expect(404);
   });
 });
+
+describe('/api/v1/bundle', () => {
+  it('serves the data the app needs to analyse offline', async () => {
+    const response = await request(build(stubOff())).get('/api/v1/bundle').expect(200);
+
+    expect(response.body.version).toMatch(/^\d{4}-\d{2}-\d{2}-\d+$/);
+    expect(Object.keys(response.body.references).length).toBeGreaterThan(5);
+    expect(response.body.wholeFoods.length).toBeGreaterThan(20);
+
+    const additives = response.body.groups.flatMap((group: { additives: unknown[] }) => group.additives);
+    expect(additives.length).toBeGreaterThan(200);
+  });
+
+  it('offers a cheap version check before the download', async () => {
+    const app = build(stubOff());
+    const full = await request(app).get('/api/v1/bundle').expect(200);
+    const version = await request(app).get('/api/v1/bundle/version').expect(200);
+
+    expect(version.body.version).toBe(full.body.version);
+    expect(version.body.sizeBytes).toBeGreaterThan(10_000);
+  });
+
+  it('lets a client with the current version skip the download', async () => {
+    const app = build(stubOff());
+    const first = await request(app).get('/api/v1/bundle').expect(200);
+    const etag = first.headers.etag;
+
+    await request(app).get('/api/v1/bundle').set('If-None-Match', etag).expect(304);
+  });
+});

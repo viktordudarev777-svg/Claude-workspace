@@ -11,7 +11,8 @@ import { errorHandler } from './middleware/errors';
 import { analyzeRoutes } from './routes/analyze';
 import { additiveRoutes } from './routes/additives';
 import { historyRoutes } from './routes/history';
-import { getAdditiveDatabase } from './domain/additives/database';
+import { bundleRoutes } from './routes/bundle';
+import { getAdditiveDatabase, getWholeFoods } from '@foodlens/data';
 
 export interface AppOverrides {
   db?: Db;
@@ -47,17 +48,20 @@ export function createApp(config: Config, overrides: AppOverrides = {}): BuiltAp
       ...(overrides.fetchImpl ? { fetchImpl: overrides.fetchImpl } : {}),
     });
 
+  // Fail fast: a malformed data file should stop the process at boot, not on
+  // the first user request.
+  const additives = getAdditiveDatabase();
+  const wholeFoods = getWholeFoods();
+
   const service = new AnalysisService({
     off,
+    additives,
+    wholeFoods,
     ocr: createOcrProvider(config, overrides.fetchImpl ?? fetch),
     vision: createVisionProvider(config, overrides.fetchImpl ?? fetch),
     scans,
     cache,
   });
-
-  // Fail fast: a malformed data file should stop the process at boot, not on
-  // the first user request.
-  const additives = getAdditiveDatabase(config.dataDir);
 
   const app = express();
   app.use(express.json({ limit: '12mb' }));
@@ -75,6 +79,7 @@ export function createApp(config: Config, overrides: AppOverrides = {}): BuiltAp
       status: 'ok',
       version: '1.0.0',
       additives: additives.all.length,
+      dataVersion: additives.version,
       openFoodFacts: config.off.enabled ? 'enabled' : 'disabled',
       vision: config.vision.provider,
       ocr: config.ocr.provider,
@@ -84,6 +89,7 @@ export function createApp(config: Config, overrides: AppOverrides = {}): BuiltAp
   app.use('/api/v1/analyze', analyzeRoutes(service, config));
   app.use('/api/v1/additives', additiveRoutes());
   app.use('/api/v1/history', historyRoutes(scans));
+  app.use('/api/v1/bundle', bundleRoutes());
 
   app.use((_req, res) => {
     res.status(404).json({ error: 'not_found', message: 'Unknown endpoint' });
