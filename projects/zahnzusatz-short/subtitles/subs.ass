@@ -1,0 +1,111 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,MontserratX800,78,&H00FFFFFF,&H00FFFFFF,&H00060A12,&H96000000,0,0,0,0,100,100,0,0,1,7,5,2,64,64,400,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:02.36,0:00:02.40,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}ещё {\c&H00FFFFFF&}нет
+Dialogue: 0,0:00:02.40,0:00:02.72,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}ещё {\c&H00C0E03F&}нет
+Dialogue: 0,0:00:02.72,0:00:03.44,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}дополнительной
+Dialogue: 0,0:00:03.44,0:00:03.88,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}зубной {\c&H00FFFFFF&}страховки,
+Dialogue: 0,0:00:03.88,0:00:04.55,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}зубной {\c&H00C0E03F&}страховки,
+Dialogue: 0,0:00:04.55,0:00:05.18,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}досмотрите {\c&H00FFFFFF&}это
+Dialogue: 0,0:00:05.18,0:00:05.42,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}досмотрите {\c&H00C0E03F&}это
+Dialogue: 0,0:00:05.42,0:00:05.86,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}видео {\c&H00FFFFFF&}до {\c&H00FFFFFF&}конца.
+Dialogue: 0,0:00:05.86,0:00:06.06,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}видео {\c&H00C0E03F&}до {\c&H00FFFFFF&}конца.
+Dialogue: 0,0:00:06.06,0:00:06.50,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}видео {\c&H00FFFFFF&}до {\c&H00C0E03F&}конца.
+Dialogue: 0,0:00:06.50,0:00:07.46,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}Gesetzliche
+Dialogue: 0,0:00:07.46,0:00:08.42,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}Krankenkassen
+Dialogue: 0,0:00:08.42,0:00:09.14,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}урезают {\c&H00FFFFFF&}расходы
+Dialogue: 0,0:00:09.14,0:00:09.86,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}урезают {\c&H00C0E03F&}расходы
+Dialogue: 0,0:00:09.86,0:00:10.34,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}именно {\c&H00FFFFFF&}на
+Dialogue: 0,0:00:10.34,0:00:10.62,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}именно {\c&H00C0E03F&}на
+Dialogue: 0,0:00:10.62,0:00:11.32,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}стоматологию.
+Dialogue: 0,0:00:11.32,0:00:11.39,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}На {\c&H00FFFFFF&}данный {\c&H00FFFFFF&}момент
+Dialogue: 0,0:00:11.39,0:00:11.83,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}На {\c&H00C0E03F&}данный {\c&H00FFFFFF&}момент
+Dialogue: 0,0:00:11.83,0:00:12.23,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}На {\c&H00FFFFFF&}данный {\c&H00C0E03F&}момент
+Dialogue: 0,0:00:12.23,0:00:12.67,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}простое {\c&H00FFFFFF&}лечение
+Dialogue: 0,0:00:12.67,0:00:13.19,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}простое {\c&H00C0E03F&}лечение
+Dialogue: 0,0:00:13.19,0:00:13.67,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}одного {\c&H00FFFFFF&}зуба {\c&H00FFFFFF&}хорошим
+Dialogue: 0,0:00:13.67,0:00:14.31,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}одного {\c&H00C0E03F&}зуба {\c&H00FFFFFF&}хорошим
+Dialogue: 0,0:00:14.31,0:00:14.87,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}одного {\c&H00FFFFFF&}зуба {\c&H00C0E03F&}хорошим
+Dialogue: 0,0:00:14.87,0:00:15.57,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}материалом {\c&H00FFFFFF&}стоит
+Dialogue: 0,0:00:15.57,0:00:15.95,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}материалом {\c&H00C0E03F&}стоит
+Dialogue: 0,0:00:15.95,0:00:16.47,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}примерно {\c&H00FFFFFF&}от {\c&H005CC6FF&}500
+Dialogue: 0,0:00:16.47,0:00:16.71,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}примерно {\c&H00C0E03F&}от {\c&H005CC6FF&}500
+Dialogue: 0,0:00:16.71,0:00:17.27,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}примерно {\c&H00FFFFFF&}от {\c&H00C0E03F&}500
+Dialogue: 0,0:00:17.27,0:00:17.51,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}до {\c&H005CC6FF&}1000 {\c&H005CC6FF&}евро.
+Dialogue: 0,0:00:17.51,0:00:17.91,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}до {\c&H00C0E03F&}1000 {\c&H005CC6FF&}евро.
+Dialogue: 0,0:00:17.91,0:00:18.39,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}до {\c&H005CC6FF&}1000 {\c&H00C0E03F&}евро.
+Dialogue: 0,0:00:18.39,0:00:18.59,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Как {\c&H00FFFFFF&}же {\c&H00FFFFFF&}быть
+Dialogue: 0,0:00:18.59,0:00:18.71,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}Как {\c&H00C0E03F&}же {\c&H00FFFFFF&}быть
+Dialogue: 0,0:00:18.71,0:00:18.95,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}Как {\c&H00FFFFFF&}же {\c&H00C0E03F&}быть
+Dialogue: 0,0:00:18.95,0:00:19.39,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}дальше?
+Dialogue: 0,0:00:19.39,0:00:20.19,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}Дополнительная
+Dialogue: 0,0:00:20.19,0:00:20.63,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}зубная {\c&H00FFFFFF&}страховка
+Dialogue: 0,0:00:20.63,0:00:21.39,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}зубная {\c&H00C0E03F&}страховка
+Dialogue: 0,0:00:21.39,0:00:22.19,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}закрывает {\c&H00FFFFFF&}именно
+Dialogue: 0,0:00:22.19,0:00:22.79,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}закрывает {\c&H00C0E03F&}именно
+Dialogue: 0,0:00:22.79,0:00:23.15,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}эти {\c&H00FFFFFF&}пробелы.
+Dialogue: 0,0:00:23.15,0:00:23.57,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}эти {\c&H00C0E03F&}пробелы.
+Dialogue: 0,0:00:23.57,0:00:23.73,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Она {\c&H00FFFFFF&}покрывает
+Dialogue: 0,0:00:23.73,0:00:24.33,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}Она {\c&H00C0E03F&}покрывает
+Dialogue: 0,0:00:24.33,0:00:24.73,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}именно {\c&H00FFFFFF&}то, {\c&H00FFFFFF&}что
+Dialogue: 0,0:00:24.73,0:00:25.05,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}именно {\c&H00C0E03F&}то, {\c&H00FFFFFF&}что
+Dialogue: 0,0:00:25.05,0:00:25.45,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}именно {\c&H00FFFFFF&}то, {\c&H00C0E03F&}что
+Dialogue: 0,0:00:25.45,0:00:25.81,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}ваша {\c&H00FFB66F&}gesetzliche
+Dialogue: 0,0:00:25.81,0:00:26.65,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}ваша {\c&H00C0E03F&}gesetzliche
+Dialogue: 0,0:00:26.65,0:00:27.53,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}Krankenkasse
+Dialogue: 0,0:00:27.53,0:00:28.29,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}отказывается
+Dialogue: 0,0:00:28.29,0:00:28.87,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}выплачивать.
+Dialogue: 0,0:00:28.87,0:00:29.03,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}И {\c&H00FFFFFF&}чем {\c&H00FFFFFF&}раньше
+Dialogue: 0,0:00:29.03,0:00:29.31,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}И {\c&H00C0E03F&}чем {\c&H00FFFFFF&}раньше
+Dialogue: 0,0:00:29.31,0:00:29.75,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}И {\c&H00FFFFFF&}чем {\c&H00C0E03F&}раньше
+Dialogue: 0,0:00:29.75,0:00:29.95,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}вы {\c&H00FFFFFF&}задумаетесь {\c&H00FFFFFF&}о
+Dialogue: 0,0:00:29.95,0:00:30.67,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}вы {\c&H00C0E03F&}задумаетесь {\c&H00FFFFFF&}о
+Dialogue: 0,0:00:30.67,0:00:30.83,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}вы {\c&H00FFFFFF&}задумаетесь {\c&H00C0E03F&}о
+Dialogue: 0,0:00:30.83,0:00:31.23,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}данной {\c&H00FFFFFF&}страховке,
+Dialogue: 0,0:00:31.23,0:00:31.87,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}данной {\c&H00C0E03F&}страховке,
+Dialogue: 0,0:00:31.87,0:00:32.19,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}тем {\c&H00FFFFFF&}быстрее {\c&H00FFFFFF&}начнёт
+Dialogue: 0,0:00:32.19,0:00:32.59,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}тем {\c&H00C0E03F&}быстрее {\c&H00FFFFFF&}начнёт
+Dialogue: 0,0:00:32.59,0:00:33.07,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}тем {\c&H00FFFFFF&}быстрее {\c&H00C0E03F&}начнёт
+Dialogue: 0,0:00:33.07,0:00:33.63,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}действовать {\c&H00FFFFFF&}ваше
+Dialogue: 0,0:00:33.63,0:00:34.03,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}действовать {\c&H00C0E03F&}ваше
+Dialogue: 0,0:00:34.03,0:00:34.51,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}полное {\c&H00FFFFFF&}покрытие
+Dialogue: 0,0:00:34.51,0:00:35.15,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}полное {\c&H00C0E03F&}покрытие
+Dialogue: 0,0:00:35.15,0:00:35.55,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}данной {\c&H00FFFFFF&}страховки.
+Dialogue: 0,0:00:35.55,0:00:36.19,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}данной {\c&H00C0E03F&}страховки.
+Dialogue: 0,0:00:36.19,0:00:36.43,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Очень {\c&H00FFFFFF&}важно {\c&H00FFFFFF&}не
+Dialogue: 0,0:00:36.43,0:00:36.87,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}Очень {\c&H00C0E03F&}важно {\c&H00FFFFFF&}не
+Dialogue: 0,0:00:36.87,0:00:37.03,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}Очень {\c&H00FFFFFF&}важно {\c&H00C0E03F&}не
+Dialogue: 0,0:00:37.03,0:00:37.43,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}ждать, {\c&H00FFFFFF&}когда {\c&H00FFFFFF&}уже
+Dialogue: 0,0:00:37.43,0:00:37.67,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}ждать, {\c&H00C0E03F&}когда {\c&H00FFFFFF&}уже
+Dialogue: 0,0:00:37.67,0:00:37.87,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}ждать, {\c&H00FFFFFF&}когда {\c&H00C0E03F&}уже
+Dialogue: 0,0:00:37.87,0:00:38.35,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}начнут {\c&H00FFFFFF&}болеть {\c&H00FFFFFF&}зубы
+Dialogue: 0,0:00:38.35,0:00:38.71,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}начнут {\c&H00C0E03F&}болеть {\c&H00FFFFFF&}зубы
+Dialogue: 0,0:00:38.71,0:00:39.15,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}начнут {\c&H00FFFFFF&}болеть {\c&H00C0E03F&}зубы
+Dialogue: 0,0:00:39.15,0:00:39.31,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}и {\c&H00FFFFFF&}наступают
+Dialogue: 0,0:00:39.31,0:00:40.07,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}и {\c&H00C0E03F&}наступают
+Dialogue: 0,0:00:40.07,0:00:40.67,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}серьёзные {\c&H00FFFFFF&}проблемы,
+Dialogue: 0,0:00:40.67,0:00:41.15,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}серьёзные {\c&H00C0E03F&}проблемы,
+Dialogue: 0,0:00:41.15,0:00:41.27,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}а {\c&H00FFFFFF&}стоит {\c&H00FFFFFF&}задуматься
+Dialogue: 0,0:00:41.27,0:00:41.63,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}а {\c&H00C0E03F&}стоит {\c&H00FFFFFF&}задуматься
+Dialogue: 0,0:00:41.63,0:00:42.23,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}а {\c&H00FFFFFF&}стоит {\c&H00C0E03F&}задуматься
+Dialogue: 0,0:00:42.23,0:00:42.55,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}уже {\c&H00FFFFFF&}сейчас, {\c&H00FFFFFF&}когда
+Dialogue: 0,0:00:42.55,0:00:43.03,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}уже {\c&H00C0E03F&}сейчас, {\c&H00FFFFFF&}когда
+Dialogue: 0,0:00:43.03,0:00:43.35,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}уже {\c&H00FFFFFF&}сейчас, {\c&H00C0E03F&}когда
+Dialogue: 0,0:00:43.35,0:00:43.47,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}у {\c&H00FFFFFF&}вас {\c&H00FFFFFF&}всё
+Dialogue: 0,0:00:43.47,0:00:43.75,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}у {\c&H00C0E03F&}вас {\c&H00FFFFFF&}всё
+Dialogue: 0,0:00:43.75,0:00:43.99,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}у {\c&H00FFFFFF&}вас {\c&H00C0E03F&}всё
+Dialogue: 0,0:00:43.99,0:00:44.15,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}в {\c&H00FFFFFF&}порядке {\c&H00FFFFFF&}с зубами.
+Dialogue: 0,0:00:44.15,0:00:44.71,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}в {\c&H00C0E03F&}порядке {\c&H00FFFFFF&}с зубами.
+Dialogue: 0,0:00:44.71,0:00:45.17,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}в {\c&H00FFFFFF&}порядке {\c&H00C0E03F&}с зубами.
