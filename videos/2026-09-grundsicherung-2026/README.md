@@ -51,3 +51,9 @@
 Пересобрать: `python3 build/tts.py && python3 build/render_video.py && python3 build/audio.py && ./build/mux.sh && python3 build/cover.py`
 
 Заменить озвучку на студийную: положить `build/pro/s01.wav` … `s14.wav` (16-bit PCM) и запустить `./build/revoice.sh`.
+
+## Произношение
+
+Немецкие термины в поле `tts` записаны кириллицей со знаком ударения (U+0301) — без него espeak-ng
+ставит русское ударение на последний слог и `Pflegegrad` звучит как «пфлегеграˊд».
+Словарь терминов и способ проверки новых слов — в [`../PRONUNCIATION.md`](../PRONUNCIATION.md).
