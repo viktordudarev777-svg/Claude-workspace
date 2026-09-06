@@ -14,8 +14,9 @@ function build(line){
   const rows=line.sub.split('\n');
   const hlTok=new Set(); (line.hl||[]).forEach(h=>h.split(/\s+/).forEach(t=>hlTok.add(t.replace(/[.,!?»«"]+$/,''))));
   let n=0; rows.forEach(r=>n+=r.trim().split(/\s+/).length);
+  const Lmax=Math.max(...rows.map(r=>r.trim().length));
+  const fs = Lmax<=24?62 : Lmax<=32?55 : Lmax<=40?47 : Lmax<=48?42 : 38;
   let i=0; const html=rows.map(r=>{
-    const L=r.trim().length; const fs = L<=24?62 : L<=32?55 : L<=42?47 : 41;
     return '<div class="subline" style="font-size:'+fs+'px">'+r.trim().split(/\s+/).map(w=>{
       const bare=w.replace(/[.,!?»«"]+$/,'');
       let cls='w'; if(hlTok.has(bare)) cls+= LAT.test(bare)?' g':' k';
@@ -70,7 +71,7 @@ window.render=function(t){
     el.style.opacity=k; el.style.transform='translateY('+(26*(1-k))+'px) scale('+(0.95+0.05*k)+')'; };
 
   // три ошибки: сначала «ошибка», затем «как надо» — по репликам
-  const P=[['e1','e1b','s03','s04'],['e2','e2b','s05','s06'],['e3','e3b','s08','s09']];
+  const P=[['e1','e1b','s03','s04'],['e2','e2b','s05','s07'],['e3','e3b','s08','s09']];
   for(const [bad,good,la,lb] of P){
     show(q(bad),  at(la).start-0.20);
     show(q(good), at(lb).start-0.15);
