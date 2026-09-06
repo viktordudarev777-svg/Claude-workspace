@@ -222,7 +222,7 @@ body{font-family:Int,'DejaVu Sans',sans-serif;-webkit-font-smoothing:antialiased
 .mrow .n{width:72px;height:72px;border-radius:20px;display:flex;align-items:center;justify-content:center;
   font:900 40px Mont;background:rgba(255,90,95,.14);color:var(--red)}
 .mrow .t{font:800 38px Mont;color:#E2EAF7;line-height:1.16}
-.mrow .t small{display:block;font:600 30px Int;color:#9FB1CD;margin-top:8px;line-height:1.3}
+.mrow .t small{display:block;font:600 34px Int;color:#9FB1CD;margin-top:8px;line-height:1.3}
 .mrow.ok{border-color:rgba(53,208,127,.55);background:rgba(53,208,127,.07)}
 .mrow.ok .n{background:rgba(53,208,127,.16);color:var(--green)}
 .norm{margin-top:8px;display:inline-block;padding:16px 28px;border-radius:16px;border:2px solid var(--amber);

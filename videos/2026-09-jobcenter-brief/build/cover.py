@@ -14,6 +14,7 @@ with sync_playwright() as pw:
       c.style.opacity=1; c.style.transform='scale(1.06)';
       document.getElementById('art').style.top='420px';
       document.getElementById('art').style.height='1100px';
+      document.querySelector('.footer').style.top='auto';
       document.querySelector('.footer').style.bottom='120px';
       document.querySelector('.footer').style.justifyContent='center';
     }""")

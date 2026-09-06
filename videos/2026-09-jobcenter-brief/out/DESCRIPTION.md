@@ -31,7 +31,7 @@
 0:42 Beratungshilfeschein: ваша доля максимум 15 €
 0:50 Где консультируют бесплатно
 
-Основание: § 39 SGB II (Sofortige Vollziehbarkeit), § 86b Abs. 1 SGG, § 84 и § 66 SGG, Beratungshilfegesetz, BVerfG 1 BvR 1358/21. Stand: сентябрь 2026.
+Основание: § 39 SGB II (Sofortige Vollziehbarkeit), § 86b Abs. 1 SGG, § 84 и § 66 SGG, Beratungshilfegesetz, BVerfG 1 BvR 1370/21. Stand: сентябрь 2026.
 
 Это частный канал и не официальный источник. Автор — не юрист; ролик даёт общую информацию, а не юридическую консультацию. Вашу ситуацию оценит Beratungsstelle или адвокат. Индивидуальные случаи в комментариях не разбираем.
 Озвучка и графика созданы с помощью ИИ; факты проверены автором.
