@@ -1,0 +1,152 @@
+{
+ "sr": 22050,
+ "total": 59.812,
+ "lines": [
+  {
+   "id": "s01",
+   "scene": "cover",
+   "sub": "Письмо из Jobcenter?\n3 ошибки, которые стоят денег",
+   "hl": [
+    "Jobcenter"
+   ],
+   "start": 0.0,
+   "end": 3.913
+  },
+  {
+   "id": "s02",
+   "scene": "cover",
+   "sub": "С 01.07.2026 санкции жёстче.\nЦена ошибки выросла",
+   "hl": [
+    "01.07.2026"
+   ],
+   "start": 4.053,
+   "end": 7.756
+  },
+  {
+   "id": "s03",
+   "scene": "m1",
+   "sub": "Ошибка 1: промолчать",
+   "hl": [
+    "1"
+   ],
+   "start": 7.896,
+   "end": 10.141
+  },
+  {
+   "id": "s04",
+   "scene": "m1",
+   "sub": "Не можете прийти — сообщите\nи докажите: wichtiger Grund",
+   "hl": [
+    "wichtiger",
+    "Grund"
+   ],
+   "start": 10.281,
+   "end": 17.963
+  },
+  {
+   "id": "s05",
+   "scene": "m2",
+   "sub": "Ошибка 2: подать Widerspruch\nи спокойно ждать",
+   "hl": [
+    "2",
+    "Widerspruch"
+   ],
+   "start": 18.103,
+   "end": 21.772
+  },
+  {
+   "id": "s06",
+   "scene": "m2",
+   "sub": "§ 39 SGB II: Widerspruch\nне останавливает удержание",
+   "hl": [
+    "§ 39 SGB II"
+   ],
+   "start": 21.912,
+   "end": 25.564
+  },
+  {
+   "id": "s07",
+   "scene": "m2",
+   "sub": "Остановить может только\nEilantrag в Sozialgericht",
+   "hl": [
+    "Eilantrag",
+    "Sozialgericht"
+   ],
+   "start": 25.704,
+   "end": 28.802
+  },
+  {
+   "id": "s08",
+   "scene": "m3",
+   "sub": "Ошибка 3: пропустить срок",
+   "hl": [
+    "3"
+   ],
+   "start": 28.942,
+   "end": 31.495
+  },
+  {
+   "id": "s09",
+   "scene": "m3",
+   "sub": "Месяц с момента вручения.\nБез Rechtsbehelfsbelehrung — дольше",
+   "hl": [
+    "Месяц"
+   ],
+   "start": 31.635,
+   "end": 37.914
+  },
+  {
+   "id": "s10",
+   "scene": "help",
+   "sub": "Нет денег на адвоката —\nBeratungshilfeschein в Amtsgericht",
+   "hl": [
+    "Beratungshilfeschein",
+    "Amtsgericht"
+   ],
+   "start": 38.054,
+   "end": 42.516
+  },
+  {
+   "id": "s11",
+   "scene": "help",
+   "sub": "Ваша доля — максимум 15 €",
+   "hl": [
+    "15 €"
+   ],
+   "start": 42.656,
+   "end": 45.496
+  },
+  {
+   "id": "s12",
+   "scene": "orgs",
+   "sub": "Бесплатно: Caritas, Diakonie, AWO\nVdK и SoVD — для членов, взнос",
+   "hl": [
+    "Caritas",
+    "Diakonie",
+    "AWO"
+   ],
+   "start": 45.636,
+   "end": 53.471
+  },
+  {
+   "id": "s13",
+   "scene": "final",
+   "sub": "Не игнорируйте письма —\nэто дороже всего",
+   "hl": [
+    "дороже всего"
+   ],
+   "start": 53.611,
+   "end": 55.953
+  },
+  {
+   "id": "s14",
+   "scene": "outro",
+   "sub": "Я не юрист. Это общая информация\nПодписывайтесь",
+   "hl": [
+    "Подписывайтесь"
+   ],
+   "start": 56.093,
+   "end": 59.672
+  }
+ ]
+}
