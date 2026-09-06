@@ -10,7 +10,7 @@ segs, sr = [], None
 for l in d["lines"]:
     p = f"build/seg/{l['id']}.wav"
     with wave.open(p, "wb") as w:
-        voice.synthesize_wav(l["tts"], w, syn_config=SynthesisConfig(length_scale=0.85))
+        voice.synthesize_wav(l["tts"], w, syn_config=SynthesisConfig(length_scale=0.83))
     with wave.open(p, "rb") as w:
         sr = w.getframerate()
         a = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32)/32768.0

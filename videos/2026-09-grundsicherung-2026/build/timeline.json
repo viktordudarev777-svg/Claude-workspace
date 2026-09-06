@@ -1,0 +1,152 @@
+{
+ "sr": 22050,
+ "total": 60.906,
+ "lines": [
+  {
+   "id": "s01",
+   "scene": "cover",
+   "sub": "3 пропуска в Jobcenter —\nэто не только про деньги",
+   "hl": [
+    "Jobcenter"
+   ],
+   "start": 0.0,
+   "end": 4.051
+  },
+  {
+   "id": "s02",
+   "scene": "cover",
+   "sub": "Вы теряете и Krankenversicherung",
+   "hl": [
+    "Krankenversicherung"
+   ],
+   "start": 4.191,
+   "end": 6.018
+  },
+  {
+   "id": "s03",
+   "scene": "law",
+   "sub": "С 01.07.2026 Bürgergeld\nстал Neue Grundsicherung",
+   "hl": [
+    "01.07.2026",
+    "Bürgergeld",
+    "Neue",
+    "Grundsicherung"
+   ],
+   "start": 6.158,
+   "end": 10.292
+  },
+  {
+   "id": "s04",
+   "scene": "steps",
+   "sub": "1-й пропуск —\nбез санкции",
+   "hl": [
+    "1-й"
+   ],
+   "start": 10.432,
+   "end": 14.562
+  },
+  {
+   "id": "s05",
+   "scene": "steps",
+   "sub": "2-й — минус 30 %\n3 подряд — Regelsatz снимают",
+   "hl": [
+    "30 %",
+    "Regelsatz"
+   ],
+   "start": 14.702,
+   "end": 20.778
+  },
+  {
+   "id": "s06",
+   "scene": "rent",
+   "sub": "Аренду месяц платят\nнапрямую арендодателю",
+   "hl": [
+    "напрямую"
+   ],
+   "start": 20.918,
+   "end": 23.863
+  },
+  {
+   "id": "s07",
+   "scene": "lost",
+   "sub": "Не прийти лично за месяц —\nсчитаетесь «unerreichbar»",
+   "hl": [
+    "unerreichbar"
+   ],
+   "start": 24.003,
+   "end": 28.337
+  },
+  {
+   "id": "s08",
+   "scene": "lost",
+   "sub": "Отпадает всё: Regelsatz,\nжильё и Krankenversicherung",
+   "hl": [
+    "Regelsatz",
+    "Krankenversicherung"
+   ],
+   "start": 28.477,
+   "end": 33.042
+  },
+  {
+   "id": "s09",
+   "scene": "back",
+   "sub": "Пришли за месяц —\nвернут, но минус 30 %",
+   "hl": [
+    "30 %"
+   ],
+   "start": 33.182,
+   "end": 38.504
+  },
+  {
+   "id": "s10",
+   "scene": "vermoegen",
+   "sub": "Vermögen проверяют\nс первого дня — Karenzzeit нет",
+   "hl": [
+    "Vermögen",
+    "Karenzzeit"
+   ],
+   "start": 38.644,
+   "end": 43.742
+  },
+  {
+   "id": "s11",
+   "scene": "wohnen",
+   "sub": "Жильё: максимум 1,5×\nместной нормы. Разницу — сами",
+   "hl": [
+    "1,5×"
+   ],
+   "start": 43.882,
+   "end": 48.275
+  },
+  {
+   "id": "s12",
+   "scene": "reset",
+   "sub": "Старые нарушения\nBürgergeld не переносятся",
+   "hl": [
+    "Bürgergeld"
+   ],
+   "start": 48.415,
+   "end": 52.402
+  },
+  {
+   "id": "s13",
+   "scene": "action",
+   "sub": "Не можете прийти —\nсообщите заранее, возьмите Nachweis",
+   "hl": [
+    "Nachweis"
+   ],
+   "start": 52.542,
+   "end": 56.536
+  },
+  {
+   "id": "s14",
+   "scene": "outro",
+   "sub": "Не заменяет консультацию\nПодписывайтесь",
+   "hl": [
+    "Подписывайтесь"
+   ],
+   "start": 56.676,
+   "end": 60.766
+  }
+ ]
+}

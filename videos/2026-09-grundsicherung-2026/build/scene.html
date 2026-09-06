@@ -1,0 +1,116 @@
+<link rel="stylesheet" href="fonts.css"><link rel="stylesheet" href="scene.css">
+<div id="stage">
+  <div class="grain"></div>
+  <div class="flag"><i></i><i></i><i></i></div>
+  <div class="topchip"><span class="dot"></span><span>Германия · страховки</span></div>
+  <div class="prog"><i id="pg"></i></div>
+
+  <div id="art">
+    <div class="scene" data-s="cover">
+      <div class="kicker">Grundsicherung · с 01.07.2026</div>
+      <div class="h1">3 пропуска<br><span class="am">в Jobcenter</span></div>
+      <div class="h2">и вы теряете<br>не только деньги</div>
+      <div class="badge">Regelsatz · жильё · Krankenversicherung</div>
+    </div>
+
+    <div class="scene" data-s="law">
+      <div class="swap">
+        <div class="swapcard old"><u>до 30.06.2026</u><div class="nm">Bürgergeld</div><div class="dt">SGB II</div></div>
+        <div class="swaparr">→</div>
+        <div class="swapcard new"><u>с 01.07.2026</u><div class="nm">Neue<br>Grundsicherung</div><div class="dt">Grundsicherungsgeld</div></div>
+      </div>
+    </div>
+
+    <div class="scene" data-s="steps">
+      <div class="lad">
+        <div class="step s1" id="st1"><span class="no">1</span><span class="tx">первый пропуск приёма</span><span class="val">без санкции</span></div>
+        <div class="step s2" id="st2"><span class="no">2</span><span class="tx">второй пропуск</span><span class="val">−30 %</span></div>
+        <div class="step s3" id="st3"><span class="no">3</span><span class="tx">три подряд · §&nbsp;32a SGB II</span><span class="val">Regelsatz 0 €</span></div>
+      </div>
+    </div>
+
+    <div class="scene" data-s="rent">
+      <div class="rent">
+        <div class="rentflow">
+          <div class="rentbox mut">Jobcenter&nbsp;→&nbsp;вам</div>
+          <div class="rentarr">→</div>
+          <div class="rentbox on">Jobcenter&nbsp;→&nbsp;Vermieter</div>
+        </div>
+        <div class="rentnote">Аренду один месяц платят напрямую арендодателю</div>
+      </div>
+    </div>
+
+    <div class="scene" data-s="lost">
+      <div class="lost">
+        <div class="losthd">не прийти лично за месяц = «unerreichbar»</div>
+        <div class="lostrow"><span class="x">✕</span><span class="t">Regelsatz</span></div>
+        <div class="lostrow"><span class="x">✕</span><span class="t">Kosten der Unterkunft</span></div>
+        <div class="lostrow"><span class="x">✕</span><span class="t">Krankenversicherung</span></div>
+      </div>
+    </div>
+
+    <div class="scene" data-s="back">
+      <div class="back">
+        <div class="gauge"><i style="width:70%"></i><b>выплаты вернут · 70 %</b></div>
+        <div class="backnote">Пришли лично в течение месяца —<br>деньги начислят задним числом, но <b>минус 30 %</b></div>
+      </div>
+    </div>
+
+    <div class="scene" data-s="vermoegen">
+      <div class="duo">
+        <h3>Vermögen</h3>
+        <div class="kv"><span>Karenzzeit (12 месяцев)</span><b class="bad">отменена</b></div>
+        <div class="kv"><span>проверка имущества</span><b>с 1-го дня</b></div>
+        <div class="kv"><span>Freibetrag</span><b>зависит от возраста</b></div>
+        <div class="warnl">Нижняя ступень — от 5 000 € на человека. Точную сумму по вашему возрасту уточняйте в Jobcenter.</div>
+      </div>
+    </div>
+
+    <div class="scene" data-s="wohnen">
+      <div class="duo">
+        <h3>Kosten der Unterkunft</h3>
+        <div class="bars">
+          <div class="bar norm"><i style="height:150px"></i><u>норма</u><span>100 %</span></div>
+          <div class="bar cap"><i style="height:225px"></i><u>потолок</u><span>150 %</span></div>
+          <div class="bar real"><i style="height:290px"></i><u>ваша аренда</u><span>сами</span></div>
+        </div>
+        <div class="warnl">Karenzzeit по жилью осталась, но Jobcenter считает максимум 1,5× местной нормы. Разницу доплачиваете сами.</div>
+      </div>
+    </div>
+
+    <div class="scene" data-s="reset">
+      <div class="reset">
+        <div class="zero">0</div>
+        <div class="resettx">Старые нарушения времён Bürgergeld<br>не переносятся</div>
+        <div class="resetsub">Счётчик пропусков начинается заново с 01.07.2026</div>
+      </div>
+    </div>
+
+    <div class="scene" data-s="action">
+      <div class="act">
+        <div class="hd"><svg width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="#FFC244" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/><path d="M9 15l2 2 4-4"/></svg><h3>Что делать</h3></div>
+        <div class="steps">
+          <div class="st"><i>1</i><p>Пришло письмо с приглашением — <b>не игнорируйте</b></p></div>
+          <div class="st"><i>2</i><p>Не можете прийти — сообщите <b>заранее</b> и возьмите Nachweis (справку)</p></div>
+          <div class="st"><i>3</i><p>Уже есть Bescheid о санкции — <b>Widerspruch</b>, срок один месяц</p></div>
+        </div>
+        <div class="quote"><p>Бесплатная помощь: Sozialverband VdK, SoVD, Beratungsstelle</p>
+          <span>Не оставайтесь один на один с Jobcenter</span></div>
+      </div>
+    </div>
+
+    <div class="scene" data-s="outro">
+      <div class="outro">
+        <div class="src"><u>Источник</u><p>§ 31, § 32, § 32a SGB II · 13. SGB-II-Änderungsgesetz<br>в силе с 01.07.2026 · Bundesagentur für Arbeit</p></div>
+        <div class="disc">Информация носит общий характер и не заменяет индивидуальную консультацию.</div>
+        <div class="cta">Подписывайтесь</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="subs" id="subs"></div>
+  <div class="footer"><b>Источник:</b> § 32 / § 32a SGB II — в силе с 01.07.2026</div>
+  <div class="vig"></div>
+</div>
+<script src="timeline.js"></script>
+<script src="render.js"></script>

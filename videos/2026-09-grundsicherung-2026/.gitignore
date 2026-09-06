@@ -1,0 +1,8 @@
+build/seg/
+build/preview/
+build/voice.npy
+build/audio.wav
+build/video_silent.mp4
+build/fonts.css
+build/pro/
+node_modules/
