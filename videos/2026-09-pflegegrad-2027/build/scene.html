@@ -1,0 +1,98 @@
+<link rel="stylesheet" href="fonts.css"><link rel="stylesheet" href="scene.css">
+<div id="stage">
+  <div class="grain"></div>
+  <div class="flag"><i></i><i></i><i></i></div>
+  <div class="topchip"><span class="dot"></span><span>Германия · страховки</span></div>
+  <div class="prog"><i id="pg"></i></div>
+
+  <div id="art">
+    <div class="scene" data-s="cover">
+      <div class="kicker">Pflegeversicherung · 2027</div>
+      <div class="h1"><span class="am">Pflegegrad</span><br>получить<br>станет сложнее</div>
+      <div class="badge">Подайте заявление до 31.12.2026</div>
+    </div>
+
+    <div class="scene" data-s="law">
+      <div class="doc">
+        <div class="par">§</div>
+        <h3>Pflegeneuordnungs&shy;gesetz<br>(PNOG)</h3>
+        <div class="sm">Referentenentwurf · Bundesministerium für Gesundheit · 05.06.2026</div>
+        <div class="rows"><i style="width:100%"></i><i style="width:88%"></i><i style="width:94%"></i><i style="width:62%"></i></div>
+        <div class="stamp">ПРОЕКТ</div>
+      </div>
+    </div>
+
+    <div class="scene" data-s="points">
+      <div class="tbl">
+        <div class="hd"><u>Pflegegrad</u><u>сейчас</u><u class="n" id="hdnew">по проекту</u></div>
+        <div class="row"><span class="nm">PG 1</span><span class="old">12,5</span><span class="new nc">15 <small>▲</small></span></div>
+        <div class="row"><span class="nm">PG 2</span><span class="old">27</span><span class="new nc">30 <small>▲</small></span></div>
+        <div class="row"><span class="nm">PG 3</span><span class="old">47,5</span><span class="new nc">50 <small>▲</small></span></div>
+        <div class="note">PG 4 и PG 5 — <b>без изменений</b></div>
+      </div>
+    </div>
+
+    <div class="scene" data-s="money">
+      <div class="money">
+        <div class="mcard good"><u>Pflegegrad 2</u><div class="big">347 €</div><p>Pflegegeld<br>каждый месяц</p></div>
+        <div class="mvs">или</div>
+        <div class="mcard bad"><u>Pflegegrad 1</u><div class="big">0 €</div><p>Pflegegeld не платят<br><span style="color:#8FA1BE">(есть Entlastungsbetrag 131 €)</span></p></div>
+      </div>
+    </div>
+
+    <div class="scene" data-s="shield">
+      <svg width="240" height="270" viewBox="0 0 100 112">
+        <path d="M50 4 L92 20 V56 C92 84 72 100 50 108 C28 100 8 84 8 56 V20 Z" fill="rgba(53,208,127,.12)" stroke="#35D07F" stroke-width="4"/>
+        <path d="M30 56 L44 70 L72 40" fill="none" stroke="#35D07F" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div class="shield"><div class="ttl">Bestandsschutz</div>
+        <div class="sub">Уже признанный Pflegegrad не понизят только из-за новых баллов</div></div>
+    </div>
+
+    <div class="scene" data-s="date">
+      <div class="chain" id="chain">
+        <div class="ch">Заявление подано</div><div class="ar">→</div><div class="ch">право того же дня</div>
+      </div>
+      <div class="cal" id="cal">
+        <div class="top">СРОК ПОДАЧИ</div>
+        <div class="big">31.12.2026</div>
+        <div class="sm">подать Antrag в Pflegekasse</div>
+      </div>
+    </div>
+
+    <div class="scene" data-s="action">
+      <div class="act">
+        <div class="hd"><svg width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="#FFC244" stroke-width="2" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg><h3>Как подать</h3></div>
+        <div class="steps">
+          <div class="st"><i>1</i><p>Звонок или письмо в <b>Pflegekasse</b> — она при вашей <b>Krankenkasse</b></p></div>
+          <div class="st"><i>2</i><p>Дата подачи фиксируется <b>сразу</b>, форму пришлют потом</p></div>
+          <div class="st"><i>3</i><p>Begutachtung MD может быть уже в 2027 — это нормально</p></div>
+        </div>
+        <div class="quote"><p>«Ich beantrage Leistungen der Pflegeversicherung.»</p>
+          <span>Этой фразы по телефону достаточно</span></div>
+      </div>
+    </div>
+
+    <div class="scene" data-s="warn">
+      <svg width="180" height="160" viewBox="0 0 24 22" fill="none" stroke="#FFC244" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10.3 2.3 1.8 17a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 2.3a2 2 0 0 0-3.4 0Z"/><path d="M12 8v5"/><path d="M12 17h.01"/></svg>
+      <div class="warn"><div class="ttl">Это ещё проект</div>
+        <div class="sub">Referentenentwurf опубликован, но кабинет министров закон пока не принял</div>
+        <div class="stat"><b class="on">Referentenentwurf</b><b>Kabinett</b><b>Bundestag</b><b>в силе</b></div></div>
+    </div>
+
+    <div class="scene" data-s="outro">
+      <div class="outro">
+        <div class="src"><u>Источник</u><p>Referentenentwurf PNOG · Bundesministerium für Gesundheit · 05.06.2026<br>Рекомендация подать заявление: Sozialverband VdK</p></div>
+        <div class="disc">Информация носит общий характер и не заменяет индивидуальную консультацию.</div>
+        <div class="cta">Подписывайтесь</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="subs" id="subs"></div>
+  <div class="footer"><b>Источник:</b> Referentenentwurf PNOG (BMG), 05.06.2026 — статус: проект</div>
+  <div class="vig"></div>
+</div>
+<script src="timeline.js"></script>
+<script src="render.js"></script>
