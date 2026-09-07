@@ -1,0 +1,243 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,MontserratX800,78,&H00FFFFFF,&H00FFFFFF,&H00060A12,&H96000000,0,0,0,0,100,100,0,0,1,7,5,2,60,60,320,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.30,0:00:03.48,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}всего {\c&H00C0E03F&}продали {\c&H00FFFFFF&}зря.
+Dialogue: 0,0:00:03.48,0:00:04.12,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}всего {\c&H00FFFFFF&}продали {\c&H00C0E03F&}зря.
+Dialogue: 0,0:00:04.12,0:00:04.68,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Досмотри {\c&H00FFFFFF&}это {\c&H00FFFFFF&}видео
+Dialogue: 0,0:00:04.68,0:00:04.92,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}Досмотри {\c&H00C0E03F&}это {\c&H00FFFFFF&}видео
+Dialogue: 0,0:00:04.92,0:00:05.32,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}Досмотри {\c&H00FFFFFF&}это {\c&H00C0E03F&}видео
+Dialogue: 0,0:00:05.32,0:00:05.52,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}до {\c&H00FFFFFF&}конца — {\c&H00FFFFFF&}возможно
+Dialogue: 0,0:00:05.52,0:00:06.04,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}до {\c&H00C0E03F&}конца — {\c&H00FFFFFF&}возможно
+Dialogue: 0,0:00:06.04,0:00:06.64,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}до {\c&H00FFFFFF&}конца — {\c&H00C0E03F&}возможно
+Dialogue: 0,0:00:06.64,0:00:06.88,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}ты {\c&H00FFFFFF&}как {\c&H00FFFFFF&}раз
+Dialogue: 0,0:00:06.88,0:00:07.12,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}ты {\c&H00C0E03F&}как {\c&H00FFFFFF&}раз
+Dialogue: 0,0:00:07.12,0:00:07.36,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}ты {\c&H00FFFFFF&}как {\c&H00C0E03F&}раз
+Dialogue: 0,0:00:07.36,0:00:08.04,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}платишь {\c&H00FFFFFF&}ту {\c&H00FFFFFF&}самую
+Dialogue: 0,0:00:08.04,0:00:08.32,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}платишь {\c&H00C0E03F&}ту {\c&H00FFFFFF&}самую
+Dialogue: 0,0:00:08.32,0:00:08.72,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}платишь {\c&H00FFFFFF&}ту {\c&H00C0E03F&}самую
+Dialogue: 0,0:00:08.72,0:00:09.15,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}страховку.
+Dialogue: 0,0:00:09.15,0:00:09.61,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Страховка {\c&H00FFFFFF&}номер
+Dialogue: 0,0:00:09.61,0:00:10.01,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}Страховка {\c&H00C0E03F&}номер
+Dialogue: 0,0:00:10.01,0:00:10.41,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}один — {\c&H00FFFFFF&}так
+Dialogue: 0,0:00:10.41,0:00:10.65,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}один — {\c&H00C0E03F&}так
+Dialogue: 0,0:00:10.65,0:00:11.41,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}называемая
+Dialogue: 0,0:00:11.41,0:00:12.69,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}Handyversicherung.
+Dialogue: 0,0:00:12.69,0:00:13.49,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Условия {\c&H00FFFFFF&}часто
+Dialogue: 0,0:00:13.49,0:00:14.01,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}Условия {\c&H00C0E03F&}часто
+Dialogue: 0,0:00:14.01,0:00:14.93,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}жёсткие, {\c&H00FFFFFF&}большая
+Dialogue: 0,0:00:14.93,0:00:15.45,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}жёсткие, {\c&H00C0E03F&}большая
+Dialogue: 0,0:00:15.45,0:00:16.37,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}франшиза {\c&H00FFFFFF&}и
+Dialogue: 0,0:00:16.37,0:00:16.65,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}франшиза {\c&H00C0E03F&}и
+Dialogue: 0,0:00:16.65,0:00:17.49,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}ограниченный {\c&H00FFFFFF&}список
+Dialogue: 0,0:00:17.49,0:00:18.13,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}ограниченный {\c&H00C0E03F&}список
+Dialogue: 0,0:00:18.13,0:00:18.75,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}случаев.
+Dialogue: 0,0:00:18.75,0:00:19.26,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Дешевле {\c&H00FFFFFF&}просто
+Dialogue: 0,0:00:19.26,0:00:19.50,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}Дешевле {\c&H00C0E03F&}просто
+Dialogue: 0,0:00:19.50,0:00:19.98,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}отложить {\c&H00FFFFFF&}деньги {\c&H00FFFFFF&}на
+Dialogue: 0,0:00:19.98,0:00:20.26,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}отложить {\c&H00C0E03F&}деньги {\c&H00FFFFFF&}на
+Dialogue: 0,0:00:20.26,0:00:20.46,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}отложить {\c&H00FFFFFF&}деньги {\c&H00C0E03F&}на
+Dialogue: 0,0:00:20.46,0:00:20.82,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}новый {\c&H00FFFFFF&}телефон, {\c&H00FFFFFF&}либо
+Dialogue: 0,0:00:20.82,0:00:21.30,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}новый {\c&H00C0E03F&}телефон, {\c&H00FFFFFF&}либо
+Dialogue: 0,0:00:21.30,0:00:21.58,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}новый {\c&H00FFFFFF&}телефон, {\c&H00C0E03F&}либо
+Dialogue: 0,0:00:21.58,0:00:21.86,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}взять {\c&H00FFFFFF&}новый {\c&H00FFFFFF&}телефон
+Dialogue: 0,0:00:21.86,0:00:22.22,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}взять {\c&H00C0E03F&}новый {\c&H00FFFFFF&}телефон
+Dialogue: 0,0:00:22.22,0:00:22.58,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}взять {\c&H00FFFFFF&}новый {\c&H00C0E03F&}телефон
+Dialogue: 0,0:00:22.58,0:00:22.66,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}в {\c&H00FFFFFF&}рассрочку.
+Dialogue: 0,0:00:22.66,0:00:23.38,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}в {\c&H00C0E03F&}рассрочку.
+Dialogue: 0,0:00:23.38,0:00:23.78,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Вторая {\c&H00FFFFFF&}страховка —
+Dialogue: 0,0:00:23.78,0:00:24.70,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}Вторая {\c&H00C0E03F&}страховка —
+Dialogue: 0,0:00:24.70,0:00:24.94,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}так {\c&H00FFFFFF&}называемая
+Dialogue: 0,0:00:24.94,0:00:25.66,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}так {\c&H00C0E03F&}называемая
+Dialogue: 0,0:00:25.66,0:00:27.54,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4\fs58}{\c&H00C0E03F&}Reiserücktrittsversicherung
+Dialogue: 0,0:00:27.54,0:00:27.78,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}на {\c&H00FFFFFF&}каждую {\c&H00FFFFFF&}поездку
+Dialogue: 0,0:00:27.78,0:00:28.34,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}на {\c&H00C0E03F&}каждую {\c&H00FFFFFF&}поездку
+Dialogue: 0,0:00:28.34,0:00:28.94,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}на {\c&H00FFFFFF&}каждую {\c&H00C0E03F&}поездку
+Dialogue: 0,0:00:28.94,0:00:29.14,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}по {\c&H00FFFFFF&}отдельности.
+Dialogue: 0,0:00:29.14,0:00:30.02,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}по {\c&H00C0E03F&}отдельности.
+Dialogue: 0,0:00:30.02,0:00:30.26,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}При {\c&H00FFFFFF&}каждом
+Dialogue: 0,0:00:30.26,0:00:30.74,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}При {\c&H00C0E03F&}каждом
+Dialogue: 0,0:00:30.74,0:00:31.51,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}заключении {\c&H00FFFFFF&}такой
+Dialogue: 0,0:00:31.51,0:00:31.82,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}заключении {\c&H00C0E03F&}такой
+Dialogue: 0,0:00:31.82,0:00:32.46,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}страховки {\c&H00FFFFFF&}на {\c&H00FFFFFF&}каждую
+Dialogue: 0,0:00:32.46,0:00:32.66,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}страховки {\c&H00C0E03F&}на {\c&H00FFFFFF&}каждую
+Dialogue: 0,0:00:32.66,0:00:33.30,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}страховки {\c&H00FFFFFF&}на {\c&H00C0E03F&}каждую
+Dialogue: 0,0:00:33.30,0:00:33.98,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}поездку {\c&H00FFFFFF&}вы {\c&H00FFFFFF&}платите
+Dialogue: 0,0:00:33.98,0:00:34.18,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}поездку {\c&H00C0E03F&}вы {\c&H00FFFFFF&}платите
+Dialogue: 0,0:00:34.18,0:00:34.78,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}поездку {\c&H00FFFFFF&}вы {\c&H00C0E03F&}платите
+Dialogue: 0,0:00:34.78,0:00:35.54,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}дополнительные
+Dialogue: 0,0:00:35.54,0:00:36.30,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}Gebühren.
+Dialogue: 0,0:00:36.30,0:00:37.02,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Заключите {\c&H00FFFFFF&}лучше
+Dialogue: 0,0:00:37.02,0:00:37.38,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}Заключите {\c&H00C0E03F&}лучше
+Dialogue: 0,0:00:37.38,0:00:37.82,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}сразу {\c&H00FFFFFF&}годовую
+Dialogue: 0,0:00:37.82,0:00:38.42,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}сразу {\c&H00C0E03F&}годовую
+Dialogue: 0,0:00:38.42,0:00:39.30,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}страховку {\c&H00FFFFFF&}и
+Dialogue: 0,0:00:39.30,0:00:39.65,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}страховку {\c&H00C0E03F&}и
+Dialogue: 0,0:00:39.65,0:00:40.51,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}путешествуйте {\c&H00FFFFFF&}себе
+Dialogue: 0,0:00:40.51,0:00:40.83,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}путешествуйте {\c&H00C0E03F&}себе
+Dialogue: 0,0:00:40.83,0:00:41.55,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}спокойно, {\c&H00FFFFFF&}сколько
+Dialogue: 0,0:00:41.55,0:00:41.99,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}спокойно, {\c&H00C0E03F&}сколько
+Dialogue: 0,0:00:41.99,0:00:42.39,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}душе {\c&H00FFFFFF&}угодно.
+Dialogue: 0,0:00:42.39,0:00:42.91,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}душе {\c&H00C0E03F&}угодно.
+Dialogue: 0,0:00:42.91,0:00:43.35,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Третья {\c&H00FFFFFF&}страховка —
+Dialogue: 0,0:00:43.35,0:00:43.82,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}Третья {\c&H00C0E03F&}страховка —
+Dialogue: 0,0:00:43.82,0:00:46.27,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4\fs58}{\c&H00C0E03F&}Insassenunfallversicherung,
+Dialogue: 0,0:00:46.27,0:00:46.47,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}так {\c&H00FFFFFF&}называемая
+Dialogue: 0,0:00:46.47,0:00:47.03,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}так {\c&H00C0E03F&}называемая
+Dialogue: 0,0:00:47.03,0:00:47.83,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}страховка
+Dialogue: 0,0:00:47.83,0:00:48.55,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}пассажиров
+Dialogue: 0,0:00:48.55,0:00:49.07,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}в машине.
+Dialogue: 0,0:00:49.07,0:00:49.75,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}В большинстве
+Dialogue: 0,0:00:49.75,0:00:50.15,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}случаев {\c&H00FFFFFF&}она {\c&H00FFFFFF&}просто
+Dialogue: 0,0:00:50.15,0:00:50.43,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}случаев {\c&H00C0E03F&}она {\c&H00FFFFFF&}просто
+Dialogue: 0,0:00:50.43,0:00:50.79,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}случаев {\c&H00FFFFFF&}она {\c&H00C0E03F&}просто
+Dialogue: 0,0:00:50.79,0:00:51.55,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}дублирует {\c&H00FFFFFF&}то, {\c&H00FFFFFF&}что
+Dialogue: 0,0:00:51.55,0:00:51.71,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}дублирует {\c&H00C0E03F&}то, {\c&H00FFFFFF&}что
+Dialogue: 0,0:00:51.71,0:00:51.95,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}дублирует {\c&H00FFFFFF&}то, {\c&H00C0E03F&}что
+Dialogue: 0,0:00:51.95,0:00:52.23,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}уже {\c&H00FFFFFF&}покрывает
+Dialogue: 0,0:00:52.23,0:00:53.07,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}уже {\c&H00C0E03F&}покрывает
+Dialogue: 0,0:00:53.07,0:00:54.39,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4\fs68}{\c&H00C0E03F&}Haftpflichtversicherung
+Dialogue: 0,0:00:54.39,0:00:55.11,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}виновника {\c&H00FFFFFF&}ДТП, {\c&H00FFFFFF&}либо
+Dialogue: 0,0:00:55.11,0:00:55.69,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}виновника {\c&H00C0E03F&}ДТП, {\c&H00FFFFFF&}либо
+Dialogue: 0,0:00:55.69,0:00:56.07,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}виновника {\c&H00FFFFFF&}ДТП, {\c&H00C0E03F&}либо
+Dialogue: 0,0:00:56.07,0:00:56.47,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}ваша {\c&H00FFFFFF&}больничная
+Dialogue: 0,0:00:56.47,0:00:57.03,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}ваша {\c&H00C0E03F&}больничная
+Dialogue: 0,0:00:57.03,0:00:57.35,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}касса.
+Dialogue: 0,0:00:57.35,0:00:57.99,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}Четвёртая
+Dialogue: 0,0:00:57.99,0:00:58.67,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}страховка — {\c&H00FFFFFF&}это
+Dialogue: 0,0:00:58.67,0:00:58.99,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}страховка — {\c&H00C0E03F&}это
+Dialogue: 0,0:00:58.99,0:01:00.63,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4\fs71}{\c&H00C0E03F&}Zahnzusatzversicherung
+Dialogue: 0,0:01:00.63,0:01:00.75,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}в {\c&H00FFFFFF&}эконом-пакете.
+Dialogue: 0,0:01:00.75,0:01:01.89,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}в {\c&H00C0E03F&}эконом-пакете.
+Dialogue: 0,0:01:01.89,0:01:02.51,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Дешёвые {\c&H00FFFFFF&}тарифы, {\c&H00FFFFFF&}как
+Dialogue: 0,0:01:02.51,0:01:03.03,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}Дешёвые {\c&H00C0E03F&}тарифы, {\c&H00FFFFFF&}как
+Dialogue: 0,0:01:03.03,0:01:03.27,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}Дешёвые {\c&H00FFFFFF&}тарифы, {\c&H00C0E03F&}как
+Dialogue: 0,0:01:03.27,0:01:03.71,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}правило, {\c&H00FFFFFF&}возвращают
+Dialogue: 0,0:01:03.71,0:01:04.47,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}правило, {\c&H00C0E03F&}возвращают
+Dialogue: 0,0:01:04.47,0:01:04.87,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}всего {\c&H00FFFFFF&}лишь {\c&H00FFFFFF&}около
+Dialogue: 0,0:01:04.87,0:01:05.15,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}всего {\c&H00C0E03F&}лишь {\c&H00FFFFFF&}около
+Dialogue: 0,0:01:05.15,0:01:05.59,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}всего {\c&H00FFFFFF&}лишь {\c&H00C0E03F&}около
+Dialogue: 0,0:01:05.59,0:01:06.89,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}20–30 {\c&H005CC6FF&}процентов {\c&H00FFFFFF&}от
+Dialogue: 0,0:01:06.89,0:01:07.69,Sub,,0,0,0,,{\blur1.4}{\c&H005CC6FF&}20–30 {\c&H00C0E03F&}процентов {\c&H00FFFFFF&}от
+Dialogue: 0,0:01:07.69,0:01:08.01,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H005CC6FF&}20–30 {\c&H005CC6FF&}процентов {\c&H00C0E03F&}от
+Dialogue: 0,0:01:08.01,0:01:08.73,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}стоимости {\c&H00FFFFFF&}лечения.
+Dialogue: 0,0:01:08.73,0:01:09.33,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}стоимости {\c&H00C0E03F&}лечения.
+Dialogue: 0,0:01:09.33,0:01:09.57,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}По {\c&H00FFFFFF&}факту {\c&H00FFFFFF&}стоят
+Dialogue: 0,0:01:09.57,0:01:10.05,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}По {\c&H00C0E03F&}факту {\c&H00FFFFFF&}стоят
+Dialogue: 0,0:01:10.05,0:01:10.57,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}По {\c&H00FFFFFF&}факту {\c&H00C0E03F&}стоят
+Dialogue: 0,0:01:10.57,0:01:11.01,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}каждый {\c&H00FFFFFF&}месяц {\c&H00FFFFFF&}денег
+Dialogue: 0,0:01:11.01,0:01:11.53,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}каждый {\c&H00C0E03F&}месяц {\c&H00FFFFFF&}денег
+Dialogue: 0,0:01:11.53,0:01:11.89,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}каждый {\c&H00FFFFFF&}месяц {\c&H00C0E03F&}денег
+Dialogue: 0,0:01:11.89,0:01:12.05,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}и {\c&H00FFFFFF&}почти {\c&H00FFFFFF&}бесполезны.
+Dialogue: 0,0:01:12.05,0:01:12.49,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}и {\c&H00C0E03F&}почти {\c&H00FFFFFF&}бесполезны.
+Dialogue: 0,0:01:12.49,0:01:13.21,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}и {\c&H00FFFFFF&}почти {\c&H00C0E03F&}бесполезны.
+Dialogue: 0,0:01:13.21,0:01:13.37,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}И {\c&H00FFFFFF&}пятая {\c&H00FFFFFF&}страховка —
+Dialogue: 0,0:01:13.37,0:01:13.81,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}И {\c&H00C0E03F&}пятая {\c&H00FFFFFF&}страховка —
+Dialogue: 0,0:01:13.81,0:01:14.57,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}И {\c&H00FFFFFF&}пятая {\c&H00C0E03F&}страховка —
+Dialogue: 0,0:01:14.57,0:01:14.85,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}это {\c&H00FFFFFF&}так {\c&H00FFFFFF&}называемая
+Dialogue: 0,0:01:14.85,0:01:15.09,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}это {\c&H00C0E03F&}так {\c&H00FFFFFF&}называемая
+Dialogue: 0,0:01:15.09,0:01:15.47,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}это {\c&H00FFFFFF&}так {\c&H00C0E03F&}называемая
+Dialogue: 0,0:01:15.47,0:01:17.13,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}Unfallversicherung,
+Dialogue: 0,0:01:17.13,0:01:18.11,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}заключённая {\c&H00FFFFFF&}по
+Dialogue: 0,0:01:18.11,0:01:18.23,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}заключённая {\c&H00C0E03F&}по
+Dialogue: 0,0:01:18.23,0:01:19.07,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Angebot, {\c&H00FFFFFF&}по {\c&H00FFFFFF&}скидке
+Dialogue: 0,0:01:19.07,0:01:19.27,Sub,,0,0,0,,{\blur1.4}{\c&H00FFB66F&}Angebot, {\c&H00C0E03F&}по {\c&H00FFFFFF&}скидке
+Dialogue: 0,0:01:19.27,0:01:19.91,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFB66F&}Angebot, {\c&H00FFFFFF&}по {\c&H00C0E03F&}скидке
+Dialogue: 0,0:01:19.91,0:01:20.11,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}в {\c&H00FFFFFF&}интернете {\c&H00FFFFFF&}общим
+Dialogue: 0,0:01:20.11,0:01:20.83,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}в {\c&H00C0E03F&}интернете {\c&H00FFFFFF&}общим
+Dialogue: 0,0:01:20.83,0:01:21.31,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}в {\c&H00FFFFFF&}интернете {\c&H00C0E03F&}общим
+Dialogue: 0,0:01:21.31,0:01:21.71,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}пакетом.
+Dialogue: 0,0:01:21.71,0:01:21.88,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}При {\c&H00FFFFFF&}заключении
+Dialogue: 0,0:01:21.88,0:01:22.60,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}При {\c&H00C0E03F&}заключении
+Dialogue: 0,0:01:22.60,0:01:23.20,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}данной {\c&H00FFFFFF&}страховки
+Dialogue: 0,0:01:23.20,0:01:23.76,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}данной {\c&H00C0E03F&}страховки
+Dialogue: 0,0:01:23.76,0:01:24.00,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}вас {\c&H00FFFFFF&}никто {\c&H00FFFFFF&}не
+Dialogue: 0,0:01:24.00,0:01:24.32,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}вас {\c&H00C0E03F&}никто {\c&H00FFFFFF&}не
+Dialogue: 0,0:01:24.32,0:01:24.48,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}вас {\c&H00FFFFFF&}никто {\c&H00C0E03F&}не
+Dialogue: 0,0:01:24.48,0:01:25.08,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}спрашивает {\c&H00FFFFFF&}о {\c&H00FFFFFF&}ваших
+Dialogue: 0,0:01:25.08,0:01:25.32,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}спрашивает {\c&H00C0E03F&}о {\c&H00FFFFFF&}ваших
+Dialogue: 0,0:01:25.32,0:01:25.92,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}спрашивает {\c&H00FFFFFF&}о {\c&H00C0E03F&}ваших
+Dialogue: 0,0:01:25.92,0:01:26.76,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}дополнительных
+Dialogue: 0,0:01:26.76,0:01:27.16,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}данных, {\c&H00FFFFFF&}никто {\c&H00FFFFFF&}не
+Dialogue: 0,0:01:27.16,0:01:27.52,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}данных, {\c&H00C0E03F&}никто {\c&H00FFFFFF&}не
+Dialogue: 0,0:01:27.52,0:01:27.68,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}данных, {\c&H00FFFFFF&}никто {\c&H00C0E03F&}не
+Dialogue: 0,0:01:27.68,0:01:28.28,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}учитывает {\c&H00FFFFFF&}все {\c&H00FFFFFF&}ваши
+Dialogue: 0,0:01:28.28,0:01:28.48,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}учитывает {\c&H00C0E03F&}все {\c&H00FFFFFF&}ваши
+Dialogue: 0,0:01:28.48,0:01:28.72,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}учитывает {\c&H00FFFFFF&}все {\c&H00C0E03F&}ваши
+Dialogue: 0,0:01:28.72,0:01:29.40,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}нюансы {\c&H00FFFFFF&}и {\c&H00FFFFFF&}в
+Dialogue: 0,0:01:29.40,0:01:29.52,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}нюансы {\c&H00C0E03F&}и {\c&H00FFFFFF&}в
+Dialogue: 0,0:01:29.52,0:01:29.60,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}нюансы {\c&H00FFFFFF&}и {\c&H00C0E03F&}в
+Dialogue: 0,0:01:29.60,0:01:30.00,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}итоге {\c&H00FFFFFF&}при {\c&H00FFFFFF&}небольших
+Dialogue: 0,0:01:30.00,0:01:30.20,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}итоге {\c&H00C0E03F&}при {\c&H00FFFFFF&}небольших
+Dialogue: 0,0:01:30.20,0:01:30.76,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}итоге {\c&H00FFFFFF&}при {\c&H00C0E03F&}небольших
+Dialogue: 0,0:01:30.76,0:01:31.72,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}происшествиях {\c&H00FFFFFF&}вы,
+Dialogue: 0,0:01:31.72,0:01:31.96,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}происшествиях {\c&H00C0E03F&}вы,
+Dialogue: 0,0:01:31.96,0:01:32.12,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}как {\c&H00FFFFFF&}правило, {\c&H00FFFFFF&}ничего
+Dialogue: 0,0:01:32.12,0:01:32.60,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}как {\c&H00C0E03F&}правило, {\c&H00FFFFFF&}ничего
+Dialogue: 0,0:01:32.60,0:01:33.00,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}как {\c&H00FFFFFF&}правило, {\c&H00C0E03F&}ничего
+Dialogue: 0,0:01:33.00,0:01:33.20,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}не {\c&H00FFFFFF&}получаете.
+Dialogue: 0,0:01:33.20,0:01:33.92,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}не {\c&H00C0E03F&}получаете.
+Dialogue: 0,0:01:33.92,0:01:34.40,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Данную {\c&H00FFFFFF&}страховку
+Dialogue: 0,0:01:34.40,0:01:35.04,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}Данную {\c&H00C0E03F&}страховку
+Dialogue: 0,0:01:35.04,0:01:35.80,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}рекомендуется
+Dialogue: 0,0:01:35.80,0:01:36.56,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}заключать {\c&H00FFFFFF&}только
+Dialogue: 0,0:01:36.56,0:01:37.04,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}заключать {\c&H00C0E03F&}только
+Dialogue: 0,0:01:37.04,0:01:37.44,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}после {\c&H00FFFFFF&}консультации.
+Dialogue: 0,0:01:37.44,0:01:38.36,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}после {\c&H00C0E03F&}консультации.
+Dialogue: 0,0:01:38.36,0:01:38.64,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Если {\c&H00FFFFFF&}у {\c&H00FFFFFF&}вас
+Dialogue: 0,0:01:38.64,0:01:38.72,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}Если {\c&H00C0E03F&}у {\c&H00FFFFFF&}вас
+Dialogue: 0,0:01:38.72,0:01:38.88,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}Если {\c&H00FFFFFF&}у {\c&H00C0E03F&}вас
+Dialogue: 0,0:01:38.88,0:01:39.44,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}появились {\c&H00FFFFFF&}вопросы,
+Dialogue: 0,0:01:39.44,0:01:39.88,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}появились {\c&H00C0E03F&}вопросы,
+Dialogue: 0,0:01:39.88,0:01:40.12,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}либо {\c&H00FFFFFF&}вам {\c&H00FFFFFF&}есть
+Dialogue: 0,0:01:40.12,0:01:40.36,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}либо {\c&H00C0E03F&}вам {\c&H00FFFFFF&}есть
+Dialogue: 0,0:01:40.36,0:01:40.56,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}либо {\c&H00FFFFFF&}вам {\c&H00C0E03F&}есть
+Dialogue: 0,0:01:40.56,0:01:40.76,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}что {\c&H00FFFFFF&}добавить —
+Dialogue: 0,0:01:40.76,0:01:41.36,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}что {\c&H00C0E03F&}добавить —
+Dialogue: 0,0:01:41.36,0:01:41.76,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}пишите {\c&H00FFFFFF&}в
+Dialogue: 0,0:01:41.76,0:01:41.88,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}пишите {\c&H00C0E03F&}в
+Dialogue: 0,0:01:41.88,0:01:42.44,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}комментариях {\c&H00FFFFFF&}под
+Dialogue: 0,0:01:42.44,0:01:42.64,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}комментариях {\c&H00C0E03F&}под
+Dialogue: 0,0:01:42.64,0:01:42.92,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}этим {\c&H00FFFFFF&}видео.
+Dialogue: 0,0:01:42.92,0:01:43.24,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}этим {\c&H00C0E03F&}видео.
+Dialogue: 0,0:01:43.24,0:01:44.00,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}Делитесь {\c&H00FFFFFF&}вашим
+Dialogue: 0,0:01:44.00,0:01:44.48,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}Делитесь {\c&H00C0E03F&}вашим
+Dialogue: 0,0:01:44.48,0:01:45.12,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}опытом, {\c&H00FFFFFF&}насколько
+Dialogue: 0,0:01:45.12,0:01:45.64,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}опытом, {\c&H00C0E03F&}насколько
+Dialogue: 0,0:01:45.64,0:01:45.84,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}вам {\c&H00FFFFFF&}помогла
+Dialogue: 0,0:01:45.84,0:01:46.32,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}вам {\c&H00C0E03F&}помогла
+Dialogue: 0,0:01:46.32,0:01:47.00,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}страховка {\c&H00FFFFFF&}и {\c&H00FFFFFF&}какие
+Dialogue: 0,0:01:47.00,0:01:47.12,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}страховка {\c&H00C0E03F&}и {\c&H00FFFFFF&}какие
+Dialogue: 0,0:01:47.12,0:01:47.44,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}страховка {\c&H00FFFFFF&}и {\c&H00C0E03F&}какие
+Dialogue: 0,0:01:47.44,0:01:47.56,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}бы {\c&H00FFFFFF&}страховки {\c&H00FFFFFF&}вы
+Dialogue: 0,0:01:47.56,0:01:48.16,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}бы {\c&H00C0E03F&}страховки {\c&H00FFFFFF&}вы
+Dialogue: 0,0:01:48.16,0:01:48.40,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}бы {\c&H00FFFFFF&}страховки {\c&H00C0E03F&}вы
+Dialogue: 0,0:01:48.40,0:01:48.68,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}ни {\c&H00FFFFFF&}заключали.
+Dialogue: 0,0:01:48.68,0:01:49.58,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}ни {\c&H00C0E03F&}заключали.
+Dialogue: 0,0:01:49.58,0:01:49.68,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}За {\c&H00FFFFFF&}бесплатной
+Dialogue: 0,0:01:49.68,0:01:50.24,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}За {\c&H00C0E03F&}бесплатной
+Dialogue: 0,0:01:50.24,0:01:50.96,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}консультацией
+Dialogue: 0,0:01:50.96,0:01:51.64,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}обращайтесь {\c&H00FFFFFF&}по
+Dialogue: 0,0:01:51.64,0:01:51.84,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}обращайтесь {\c&H00C0E03F&}по
+Dialogue: 0,0:01:51.84,0:01:52.54,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}телефону {\c&H00FFFFFF&}в шапке
+Dialogue: 0,0:01:52.54,0:01:53.07,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}телефону {\c&H00C0E03F&}в шапке
+Dialogue: 0,0:01:53.07,0:01:53.59,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}профиля.
+Dialogue: 0,0:01:53.59,0:01:53.71,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}С {\c&H00FFFFFF&}вами {\c&H00FFFFFF&}была
+Dialogue: 0,0:01:53.71,0:01:53.95,Sub,,0,0,0,,{\blur1.4}{\c&H00FFFFFF&}С {\c&H00C0E03F&}вами {\c&H00FFFFFF&}была
+Dialogue: 0,0:01:53.95,0:01:54.19,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}С {\c&H00FFFFFF&}вами {\c&H00C0E03F&}была
+Dialogue: 0,0:01:54.19,0:01:55.03,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}Анастасия,
+Dialogue: 0,0:01:55.03,0:01:55.85,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\blur1.4}{\c&H00C0E03F&}страховой {\c&H00FFFFFF&}и
+Dialogue: 0,0:01:55.85,0:01:55.90,Sub,,0,0,0,,{\fad(0,70)}{\blur1.4}{\c&H00FFFFFF&}страховой {\c&H00C0E03F&}и
+Dialogue: 0,0:01:55.85,0:01:56.47,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}финансовый
+Dialogue: 0,0:01:56.47,0:01:57.03,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}консультант
+Dialogue: 0,0:01:57.03,0:01:57.39,Sub,,0,0,0,,{\fad(80,0)\t(0,110,\fscx106\fscy106)\t(110,220,\fscx100\fscy100)}{\fad(0,70)}{\blur1.4}{\c&H00C0E03F&}в Германии.
