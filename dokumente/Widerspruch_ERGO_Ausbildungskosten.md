@@ -9,7 +9,7 @@ Stresemannstr. 111
 10963 Berlin
 HSBAOAnfragen@ergo.de
 
-Neukirchen, [Datum]
+Neukirchen, 14. September 2026
 
 **Widerspruch gegen die Rückforderung der Ausbildungskosten**
 Ihr Schreiben vom 04. September 2026, Zeichen P189767 – 317
@@ -24,8 +24,9 @@ angekündigten Verrechnung mit der Abrechnung 09/2026 ausdrücklich und in volle
 
 Sie stützen die Rückforderung auf einen „vorzeitigen Abbruch Ihrer Ausbildung“. Das ist
 sachlich falsch. Ich habe die Ausbildung zur Versicherungsfachfrau (IHK) vollständig
-absolviert und bereits im Jahr [2025] abgeschlossen; die IHK-Prüfung habe ich am
-[Datum] [bestanden / abgelegt]. Ein Abbruch hat zu keinem Zeitpunkt stattgefunden.
+absolviert und bereits im Jahr 2025 abgeschlossen: Die IHK-Prüfung habe ich am
+13. November 2025 abgelegt und bestanden. Ein Abbruch hat zu keinem Zeitpunkt
+stattgefunden – der Ausbildungsgang ist seit über zehn Monaten regulär beendet.
 
 Damit entfällt die von Ihnen selbst angegebene Anspruchsgrundlage. Auch die Aufstellung
 im Schreiben ist in sich widersprüchlich: Sie berechnen mir eine Prüfungsgebühr von
@@ -48,7 +49,8 @@ fällig. Vorsorglich weise ich darauf hin, dass Rückzahlungsklauseln für Fortb
 nach der Rechtsprechung des Bundesarbeitsgerichts nur wirksam sind, wenn sie eine
 angemessene, monatlich anteilige Reduzierung des Rückzahlungsbetrags vorsehen und den
 Arbeitnehmer nicht unangemessen benachteiligen. Eine Rückforderung in voller Höhe nach
-abgeschlossener Ausbildung und mehr als [X] Monaten anschließender Tätigkeit erfüllt
+abgeschlossener Ausbildung und rund elf Monaten anschließender Tätigkeit (13.11.2025
+bis 31.10.2026) erfüllt
 diese Anforderungen nach meiner Auffassung nicht.
 
 **2. Die Verrechnung in der Abrechnung 09/2026 ist verfrüht und unzulässig**
@@ -70,7 +72,7 @@ Auszahlung zurück.
 
 **3. Frist**
 
-Bitte bestätigen Sie mir bis zum [Datum, ca. 14 Tage], dass
+Bitte bestätigen Sie mir bis zum 28. September 2026, dass
 - die Forderung wegen des unzutreffenden Sachverhalts nicht weiterverfolgt bzw. korrigiert
   wird und
 - keine Verrechnung mit meinen Abrechnungen 09/2026 und 10/2026 erfolgt.
@@ -82,4 +84,4 @@ Mit freundlichen Grüßen
 
 Anastasia Dudarev
 
-Anlagen: [Prüfungszeugnis/IHK-Bescheinigung], [Kündigungsschreiben/Aufhebungsvertrag]
+Anlagen: Kopie des IHK-Prüfungszeugnisses vom 13.11.2025, [Kündigungsschreiben/Aufhebungsvertrag]
